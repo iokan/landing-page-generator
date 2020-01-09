@@ -82,34 +82,56 @@ footer .row .col {
     background: #e7e7e7;
     padding: 15px; }
     .gallery_10 .row div {
-      height: 200px; }
+      height: 200px;
+      background-image: url(../img/noimg.png);
+      background-size: auto 75%;
+      background-position: 50% 50%;
+      background-repeat: no-repeat; }
     .gallery_10 .row div:nth-child(1) {
-      background: #ababab; }
+      background-color: #ababab; }
     .gallery_10 .row div:nth-child(2) {
-      background: #cbcbcb; }
+      background-color: #cbcbcb; }
     .gallery_10 .row div:nth-child(3) {
-      background: #ababab; }
+      background-color: #ababab; }
     .gallery_10 .row div:nth-child(4) {
-      background: #cbcbcb; }
+      background-color: #cbcbcb; }
     .gallery_10 .row div:nth-child(5) {
-      background: #cbcbcb; }
+      background-color: #cbcbcb; }
     .gallery_10 .row div:nth-child(6) {
-      background: #ababab; }
+      background-color: #ababab; }
     .gallery_10 .row div:nth-child(7) {
-      background: #cbcbcb; }
+      background-color: #cbcbcb; }
     .gallery_10 .row div:nth-child(8) {
-      background: #ababab; }
+      background-color: #ababab; }
 
 .advantages_10 {
   background: #e7e7e7; }
   .advantages_10 .row {
     background: #e7e7e7;
     padding: 15px; }
-    .advantages_10 .row > div {
-      height: 200px; }
     .advantages_10 .row > div:nth-child(1) {
-      background: #ffffff;
-      height: 500px; }
+      background-color: #ffffff;
+      background-image: url(../img/noimg.png);
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-size: auto 75%;
+      height: 500px;
+      margin-bottom: 30px; }
+    .advantages_10 .row .img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      background-color: #ababab;
+      background-image: url(../img/noimg.png);
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-size: auto 75%;
+      margin-bottom: 15px; }
+    .advantages_10 .row h6 {
+      font-size: 1.8rem;
+      font-weight: 600; }
+    .advantages_10 .row p {
+      font-size: 1.4rem; }
 
 * {
   font-family: 'Roboto', sans-serif;

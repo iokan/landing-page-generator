@@ -1,4 +1,4 @@
-$img_advantages_1: #ffffff;
+$img_advantages_1: url(../img/noimg.png);
 $img_advantages_2: #cbcbcb;
 $img_advantages_3: #ababab;
 $img_advantages_4: #cbcbcb;
@@ -10,12 +10,32 @@ $bg_advantages_color: #e7e7e7;
   .row{
     background: $bg_advantages_color;
     padding: 15px;
-    > div {
-      height: 200px;
-    }
     > div:nth-child(1) {
-      background: $img_advantages_1;
+      background-color: #ffffff;
+      background-image: $img_advantages_1;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-size: auto 75%;
       height: 500px;
+      margin-bottom: 30px;
+    }
+    .img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      background-color: #ababab;
+      background-image: $img_advantages_1;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-size: auto 75%;
+      margin-bottom: 15px;
+    }
+    h6 {
+      font-size: 1.8rem;
+      font-weight: 600;
+    }
+    p {
+      font-size: 1.4rem;
     }
   }
 }

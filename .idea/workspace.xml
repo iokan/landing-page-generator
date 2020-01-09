@@ -1,50 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77919e11-94ca-40e8-bb4d-b73e037cb340" name="Default" comment="add lp generator">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sites.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/firstscreen/1/_firstview1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/firstscreen/1/_firstview1.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/template/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/template/css/main.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/template/fonts/Roboto.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/template/fonts/Roboto.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/template/fonts/Roboto.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/template/include/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/template/include/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/template/include/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/template/include/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/template/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/template/js/vendor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/template/js/vendor.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/_advantages_10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/_footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/_gallery_10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/_header_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/fonts/Roboto.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/fonts/Roboto.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/fonts/Roboto.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/include/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/include/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/include/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/include/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/js/scroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/js/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/sass/_advantages_10.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/sass/_fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/sass/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/sass/_gallery_10.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/sass/_header_1.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/sass/main.scss" afterDir="false" />
+    <list default="true" id="77919e11-94ca-40e8-bb4d-b73e037cb340" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/template/img/noimg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/template/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/template/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/template/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/template/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/template/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/template/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/_advantages_10.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/_advantages_10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/sass/_advantages_10.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/sass/_advantages_10.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/sass/_gallery_10.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/sass/_gallery_10.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,11 +20,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+            <state relative-caret-position="255">
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_advantages_10.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/template/_advantages_10.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_advantages_10.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/template/sass/_advantages_10.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_gallery_10.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/template/sass/_gallery_10.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -68,6 +60,15 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/template/_advantages_10.html" />
+        <option value="$PROJECT_DIR$/src/template/sass/_advantages_10.scss" />
+        <option value="$PROJECT_DIR$/src/template/sass/_gallery_10.scss" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
@@ -109,6 +110,31 @@
               <item name="sites" type="b2602c69:ProjectViewProjectNode" />
               <item name="sites" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sites" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sites" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sites" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sites" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sites" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sites" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sites" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sites" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -120,6 +146,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\lpgenerator\sites\src\template\img" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -145,12 +176,20 @@
       <updated>1578569495219</updated>
       <workItem from="1578569497401" duration="22000" />
       <workItem from="1578569527214" duration="216000" />
-      <workItem from="1578569749359" duration="245000" />
+      <workItem from="1578569749359" duration="2662000" />
     </task>
+    <task id="LOCAL-00001" summary="add lp generator">
+      <created>1578570005147</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578570005147</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="483000" />
+    <option name="totallyTimeSpent" value="2900000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -194,10 +233,50 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/dist/template/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        <state relative-caret-position="255">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template/js/vue.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template/js/scroll.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template/js/main.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template/_advantages_10.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template/sass/_advantages_10.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template/sass/_gallery_10.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
         </state>
       </provider>
     </entry>
