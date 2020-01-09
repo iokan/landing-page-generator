@@ -1,0 +1,56 @@
+@import "_fonts.scss";
+@import "header_1";
+@import "_footer.scss";
+@import "_gallery_10.scss";
+@import "_advantages_10.scss";
+
+$txt-color: #000000;
+$bg-body-color: #ffffff;
+$bg-header-color: #cbcbcb;
+$bg-footer-color: #e2e2e2;
+
+* {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  color: #000000;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: $bg-body-color;
+}
+
+html {
+
+}
+
+body {
+
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: $txt-color;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: $bg-header-color;
+  z-index: 9;
+}
+
+main {
+  width: 100%;
+  min-height: 100vh;
+}
+
+footer {
+  background: $bg-footer-color;
+}

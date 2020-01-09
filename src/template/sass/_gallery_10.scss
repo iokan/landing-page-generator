@@ -1,0 +1,44 @@
+$img_gallery_1: #ababab;
+$img_gallery_2: #cbcbcb;
+$img_gallery_3: #ababab;
+$img_gallery_4: #cbcbcb;
+$img_gallery_5: #cbcbcb;
+$img_gallery_6: #ababab;
+$img_gallery_7: #cbcbcb;
+$img_gallery_8: #ababab;
+$bg_gallery_color: #e7e7e7;
+
+.gallery_10 {
+  background: $bg_gallery_color;
+  .row{
+    background: $bg_gallery_color;
+    padding: 15px;
+    div {
+      height: 200px;
+    }
+    div:nth-child(1) {
+      background: $img_gallery_1;
+    }
+    div:nth-child(2) {
+      background: $img_gallery_2;
+    }
+    div:nth-child(3) {
+      background: $img_gallery_3;
+    }
+    div:nth-child(4) {
+      background: $img_gallery_4;
+    }
+    div:nth-child(5) {
+      background: $img_gallery_5;
+    }
+    div:nth-child(6) {
+      background: $img_gallery_6;
+    }
+    div:nth-child(7) {
+      background: $img_gallery_7;
+    }
+    div:nth-child(8) {
+      background: $img_gallery_8;
+    }
+  }
+}
