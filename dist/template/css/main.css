@@ -80,7 +80,7 @@ footer .row .col {
   background: #e7e7e7; }
   .gallery_10 .row {
     background: #e7e7e7;
-    padding: 15px; }
+    padding: 15px 10px; }
     .gallery_10 .row div {
       height: 200px;
       background-image: url(../img/noimg.png);
@@ -108,7 +108,7 @@ footer .row .col {
   background: #e7e7e7; }
   .advantages_10 .row {
     background: #e7e7e7;
-    padding: 15px; }
+    padding: 30px 10px; }
     .advantages_10 .row > div:nth-child(1) {
       background-color: #ffffff;
       background-image: url(../img/noimg.png);
@@ -132,6 +132,42 @@ footer .row .col {
       font-weight: 600; }
     .advantages_10 .row p {
       font-size: 1.4rem; }
+
+.catalog_2 {
+  background: #cbcbcb; }
+  .catalog_2 .row {
+    background: #cbcbcb;
+    padding: 30px 10px; }
+    .catalog_2 .row .img {
+      width: 200px;
+      height: 200px;
+      border-radius: 10px;
+      background-color: #ababab;
+      background-image: url(../img/noimg.png);
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-size: auto 75%;
+      margin-top: 15px;
+      margin-bottom: 15px; }
+    .catalog_2 .row h2 {
+      font-size: 2.2rem;
+      font-weight: 600; }
+    .catalog_2 .row h3 {
+      font-size: 1.8rem; }
+    .catalog_2 .row h6 {
+      font-size: 1.8rem;
+      font-weight: 600; }
+    .catalog_2 .row p {
+      font-size: 1.4rem; }
+    .catalog_2 .row button {
+      font-size: 1.6rem;
+      width: 200px;
+      height: 50px;
+      margin-top: 15px;
+      border: none;
+      border-radius: 10px; }
+      .catalog_2 .row button:hover {
+        background-color: #ababab; }
 
 * {
   font-family: 'Roboto', sans-serif;

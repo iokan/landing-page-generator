@@ -1,0 +1,50 @@
+//catalog
+$catalog_img_1: url(../img/noimg.png);
+$catalog_bg_color: #cbcbcb;
+$catalog_product_width: 200px;
+$catalog_product_border-radius: 10px;
+
+.catalog_2 {
+  background: $catalog_bg_color;
+  .row{
+    background: $catalog_bg_color;
+    padding: 30px 10px;
+    .img {
+      width: $catalog_product_width;
+      height: $catalog_product_width;
+      border-radius: $catalog_product_border-radius;
+      background-color: #ababab;
+      background-image: $catalog_img_1;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-size: auto 75%;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+    h2 {
+      font-size: 2.2rem;
+      font-weight: 600;
+    }
+    h3{
+      font-size: 1.8rem;
+    }
+    h6 {
+      font-size: 1.8rem;
+      font-weight: 600;
+    }
+    p {
+      font-size: 1.4rem;
+    }
+    button {
+      font-size: 1.6rem;
+      width: $catalog_product_width;
+      height: 50px;
+      margin-top: 15px;
+      border: none;
+      border-radius: $catalog_product_border-radius;
+      &:hover {
+        background-color: #ababab;
+      }
+    }
+  }
+}

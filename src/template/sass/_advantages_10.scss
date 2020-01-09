@@ -1,21 +1,21 @@
-$img_advantages_1: url(../img/noimg.png);
-$img_advantages_2: #cbcbcb;
-$img_advantages_3: #ababab;
-$img_advantages_4: #cbcbcb;
-$img_advantages_5: #ababab;
-$bg_advantages_color: #e7e7e7;
+//advantages
+$advantages_bg_img: url(../img/noimg.png);
+$advantages_bg_size: auto 75%;
+$advantages_bg_position: 50% 50%;
+$advantages_bg_repeat:  no-repeat;
+$advantages_bg_color: #e7e7e7;
 
 .advantages_10 {
-  background: $bg_advantages_color;
+  background: $advantages_bg_color;
   .row{
-    background: $bg_advantages_color;
-    padding: 15px;
+    background: $advantages_bg_color;
+    padding: 30px 10px;
     > div:nth-child(1) {
       background-color: #ffffff;
-      background-image: $img_advantages_1;
-      background-position: 50% 50%;
-      background-repeat: no-repeat;
-      background-size: auto 75%;
+      background-image: $advantages_bg_img;
+      background-position: $advantages_bg_position;
+      background-repeat: $advantages_bg_repeat;
+      background-size: $advantages_bg_size;
       height: 500px;
       margin-bottom: 30px;
     }
@@ -24,10 +24,10 @@ $bg_advantages_color: #e7e7e7;
       height: 180px;
       border-radius: 50%;
       background-color: #ababab;
-      background-image: $img_advantages_1;
-      background-position: 50% 50%;
-      background-repeat: no-repeat;
-      background-size: auto 75%;
+      background-image: $advantages_bg_img;
+      background-position: $advantages_bg_position;
+      background-repeat: $advantages_bg_repeat;
+      background-size: $advantages_bg_size;
       margin-bottom: 15px;
     }
     h6 {
