@@ -2,14 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77919e11-94ca-40e8-bb4d-b73e037cb340" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/template/_catalog_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/sass/_catalog_2.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/1_firstscreen/1/_firstwiev_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/1_firstscreen/1/_firstwiev_1.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/2_header/1/_header_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/2_header/1/_header_1.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/3_advantages/10/_advantages_10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/3_advantages/10/_advantages_10.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/4_ command/1/_command_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/4_ command/1/_command_1.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/4_ command/3/_command_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/4_ command/3/_command_3.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/4_ command/5/_command_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/4_ command/5/_command_5.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/4_ command/6/_command_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/4_ command/6/_command_6.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/5_catalog/2/_catalog_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/5_catalog/2/_catalog_2.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/9_gallery/10/_gallery_10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/9_gallery/10/_gallery_10.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/template/_command_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/template/_firstwiev_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/template/img/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/template/sass/_blog_1.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/template/sass/_command_6.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/template/sass/_firstwiev_1.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/firstscreen/1/_firstview1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/_blog_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/firstscreen/1/_firstview1.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/template/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/template/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/template/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/template/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/template/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/template/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/template/js/vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/template/js/vendor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/template/js/vendor.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/template/js/vendor.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/_advantages_10.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/_advantages_10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/_catalog_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/_catalog_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/_gallery_10.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/_gallery_10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/_header_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/_header_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/img/noimg.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/img/noimg.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/template/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/js/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/js/comment.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/template/sass/_advantages_10.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/sass/_advantages_10.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/sass/_catalog_2.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/sass/_catalog_2.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/template/sass/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/sass/_footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/template/sass/_gallery_10.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/sass/_gallery_10.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/template/sass/_header_1.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/sass/_header_1.scss" afterDir="false" />
@@ -23,23 +56,41 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.43435583">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/gulpfile.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="11" column="45" lean-forward="true" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+                <state relative-caret-position="177">
+                  <caret line="82" column="48" lean-forward="true" selection-start-line="82" selection-start-column="48" selection-end-line="82" selection-end-column="48" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_catalog_2.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/template/_catalog_2.html">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/template/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="221">
+                  <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/template/sass/_footer.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="136">
+                  <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_gallery_10.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/template/sass/_gallery_10.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="374">
-                  <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+                  <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
                 </state>
               </provider>
             </entry>
@@ -47,12 +98,21 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file leaf-file-name="_catalog_2.scss" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/template/sass/_catalog_2.scss">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/template/sass/main.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="442">
-                  <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+                <state relative-caret-position="242">
+                  <caret line="140" column="18" lean-forward="true" selection-start-line="140" selection-start-column="18" selection-end-line="140" selection-end-column="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_advantages_10.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/template/sass/_advantages_10.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="170">
+                  <caret line="10" selection-start-line="10" selection-end-line="11" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
@@ -64,9 +124,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Vue Single File Component" />
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>#menu</find>
+      <find>menu</find>
+      <find>line</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,15 +142,44 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/template/_header_1.html" />
+        <option value="$PROJECT_DIR$/dist/template/js/vendor.js" />
+        <option value="$PROJECT_DIR$/src/template/js/vue.js" />
+        <option value="$PROJECT_DIR$/src/template/js/comment.js" />
+        <option value="$PROJECT_DIR$/src/template/js/carusel.vue" />
+        <option value="$PROJECT_DIR$/src/template/_command_3.html" />
+        <option value="$PROJECT_DIR$/src/template/sass/_command_3.scss" />
+        <option value="$PROJECT_DIR$/src/template/_command_1.html" />
+        <option value="$PROJECT_DIR$/src/template/sass/_command_1.scss" />
+        <option value="$PROJECT_DIR$/blocks/4_ command/1/_command_1.html" />
+        <option value="$PROJECT_DIR$/src/template/sass/_command_5.scss" />
+        <option value="$PROJECT_DIR$/src/template/_command_5.html" />
         <option value="$PROJECT_DIR$/src/template/index.html" />
-        <option value="$PROJECT_DIR$/src/template/sass/main.scss" />
-        <option value="$PROJECT_DIR$/src/template/_advantages_10.html" />
+        <option value="$PROJECT_DIR$/blocks/5_catalog/2/_catalog_2.html" />
+        <option value="$PROJECT_DIR$/blocks/3_advantages/10/_advantages_10.html" />
+        <option value="$PROJECT_DIR$/blocks/9_gallery/10/_gallery_10.html" />
+        <option value="$PROJECT_DIR$/src/template/_gallery_10.html" />
+        <option value="$PROJECT_DIR$/src/template/sass/_blog_1.html" />
+        <option value="$PROJECT_DIR$/blocks/1_firstscreen/1/_firstwiev_1.scss" />
+        <option value="$PROJECT_DIR$/src/template/_blog_1.html" />
         <option value="$PROJECT_DIR$/src/template/sass/_header_1.scss" />
-        <option value="$PROJECT_DIR$/src/template/sass/_footer.scss" />
-        <option value="$PROJECT_DIR$/src/template/sass/_advantages_10.scss" />
-        <option value="$PROJECT_DIR$/src/template/sass/_gallery_10.scss" />
-        <option value="$PROJECT_DIR$/src/template/sass/_catalog_2.scss" />
+        <option value="$PROJECT_DIR$/blocks/3_advantages/10/_advantages_10.scss" />
+        <option value="$PROJECT_DIR$/src/template/_firstwiev_1.html" />
+        <option value="$PROJECT_DIR$/src/template/_command_6.html" />
+        <option value="$PROJECT_DIR$/blocks/4_ command/1/_command_1.scss" />
+        <option value="$PROJECT_DIR$/blocks/4_ command/3/_command_3.scss" />
+        <option value="$PROJECT_DIR$/blocks/4_ command/5/_command_5.scss" />
+        <option value="$PROJECT_DIR$/blocks/4_ command/6/_command_6.scss" />
+        <option value="$PROJECT_DIR$/src/template/_advantages_10.html" />
         <option value="$PROJECT_DIR$/src/template/_catalog_2.html" />
+        <option value="$PROJECT_DIR$/src/template/sass/main.scss" />
+        <option value="$PROJECT_DIR$/src/template/sass/_advantages_10.scss" />
+        <option value="$PROJECT_DIR$/src/template/sass/_blog_1.scss" />
+        <option value="$PROJECT_DIR$/src/template/sass/_catalog_2.scss" />
+        <option value="$PROJECT_DIR$/src/template/sass/_command_6.scss" />
+        <option value="$PROJECT_DIR$/src/template/sass/_firstwiev_1.scss" />
+        <option value="$PROJECT_DIR$/src/template/sass/_footer.scss" />
+        <option value="$PROJECT_DIR$/src/template/sass/_gallery_10.scss" />
       </list>
     </option>
   </component>
@@ -134,6 +231,12 @@
             <path>
               <item name="sites" type="b2602c69:ProjectViewProjectNode" />
               <item name="sites" type="462c0819:PsiDirectoryNode" />
+              <item name="blocks" type="462c0819:PsiDirectoryNode" />
+              <item name="4_ command" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sites" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sites" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -141,6 +244,13 @@
               <item name="sites" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="template" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sites" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sites" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sites" type="b2602c69:ProjectViewProjectNode" />
@@ -164,10 +274,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\lpgenerator\sites\blocks\3_advantages\10" />
       <recent name="E:\lpgenerator\sites\src\template\sass" />
+      <recent name="E:\lpgenerator\sites\blocks\4_ command\6" />
+      <recent name="E:\lpgenerator\sites\blocks\4_ command\5" />
+      <recent name="E:\lpgenerator\sites\blocks\4_ command\1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\lpgenerator\sites\src\template\img" />
+      <recent name="E:\lpgenerator\sites\src\template" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -194,7 +309,8 @@
       <updated>1578569495219</updated>
       <workItem from="1578569497401" duration="22000" />
       <workItem from="1578569527214" duration="216000" />
-      <workItem from="1578569749359" duration="7325000" />
+      <workItem from="1578569749359" duration="39510000" />
+      <workItem from="1578917632052" duration="7074000" />
     </task>
     <task id="LOCAL-00001" summary="add lp generator">
       <created>1578570005147</created>
@@ -210,11 +326,18 @@
       <option name="project" value="LOCAL" />
       <updated>1578573086003</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="rework">
+      <created>1578581160800</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578581160800</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7563000" />
+    <option name="totallyTimeSpent" value="46822000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -223,13 +346,13 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32897604" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32897604" />
-      <window_info id="Gulp" order="2" side_tool="true" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.332244" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13113007" />
+      <window_info id="Gulp" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13219616" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -241,31 +364,32 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
+      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
     <layout-to-restore>
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="npm" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32897604" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32897604" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13113007" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,24 +404,47 @@
     <option name="LAST_COMMIT_MESSAGE" value="rework" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/template/index.html">
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        <state relative-caret-position="1139">
+          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/template/js/vue.js">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/template/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/template/js/scroll.js">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/template/_command_6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/template/js/main.js">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/template/sass/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" column="1" lean-forward="true" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template/sass/_advantages_10.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template/sass/_command_6.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/template/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -306,76 +453,266 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/template/sass/main.scss">
+    <entry file="file://$PROJECT_DIR$/src/template/js/scroll.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        <state relative-caret-position="221">
+          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/template/_advantages_10.html">
+    <entry file="file://$PROJECT_DIR$/src/template/js/carusel.vue" />
+    <entry file="file://$PROJECT_DIR$/blocks/2_header/1/_header_1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        <state relative-caret-position="374">
+          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/template/index.html">
+    <entry file="file://$PROJECT_DIR$/src/template/js/comment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/4_ command/1/_command_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/4_ command/3/_command_3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="51" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/5_catalog/2/_catalog_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/3_advantages/10/_advantages_10.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="27" lean-forward="true" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/9_gallery/10/_gallery_10.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template/_gallery_10.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/template/js/vendor.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+    <entry file="file://$PROJECT_DIR$/blocks/1_firstscreen/1/_firstwiev_1.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="45" lean-forward="true" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        <state relative-caret-position="286">
+          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/5_catalog/2/_catalog_2.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/9_gallery/10/_gallery_10.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template/_header_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="14" column="52" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/template/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/3_advantages/10/_advantages_10.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="45" lean-forward="true" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template/_blog_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template/_firstwiev_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/4_ command/1/_command_1.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/4_ command/3/_command_3.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/4_ command/6/_command_6.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/4_ command/5/_command_5.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/4_ command/6/_command_6.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/template/sass/_header_1.scss">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template/_advantages_10.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/template/sass/_footer.scss">
+    <entry file="file://$PROJECT_DIR$/src/template/_command_6.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/template/sass/_fonts.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/template/sass/_gallery_10.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/template/sass/_advantages_10.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        <state relative-caret-position="17">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/template/_catalog_2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        <state relative-caret-position="102">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template/sass/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="140" column="18" lean-forward="true" selection-start-line="140" selection-start-column="18" selection-end-line="140" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template/sass/_blog_1.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/template/sass/_catalog_2.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="238">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template/sass/_command_6.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="82" column="48" lean-forward="true" selection-start-line="82" selection-start-column="48" selection-end-line="82" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template/sass/_firstwiev_1.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template/sass/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template/sass/_advantages_10.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template/sass/_gallery_10.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,43 @@
+//command
+.command_6 {
+  $command_width: 180px;
+  $command_border-radius: 50%;
+  $command_img_1: url(../img/noimg.png);
+  $command_img_2: url(../img/noimg.png);
+  $command_img_3: url(../img/noimg.png);
+  $command_img_4: url(../img/noimg.png);
+  $command_bg_position: 50% 50%;
+  $command_bg_repeat: no-repeat;
+  $command_bg_size: auto 75%;
+  @extend .border-box;
+
+  background: #ffffff;
+  .row{
+    padding: 3rem 1rem 0 1rem;
+    div{
+      margin-bottom: 3rem;
+      .img {
+        width: $command_width;
+        height: $command_width;
+        border-radius: $command_border-radius;
+        background-color: #3ec6ff;
+        margin-bottom: 1.5rem;
+        background-position: $command_bg_position;
+        background-repeat: $command_bg_repeat;
+        background-size: $command_bg_size;
+      }
+    }
+    div:nth-child(2) .img {
+      background-image: $command_img_1;
+    }
+    div:nth-child(3) .img {
+      background-image: $command_img_2;
+    }
+    div:nth-child(4) .img {
+      background-image: $command_img_3;
+    }
+    div:last-child .img {
+      background-image: $command_img_4;
+    }
+  }
+}

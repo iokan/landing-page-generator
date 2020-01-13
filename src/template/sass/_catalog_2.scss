@@ -1,49 +1,66 @@
 //catalog
-$catalog_img_1: url(../img/noimg.png);
-$catalog_bg_color: #cbcbcb;
-$catalog_product_width: 200px;
-$catalog_product_border-radius: 10px;
-
 .catalog_2 {
-  background: $catalog_bg_color;
+  $catalog_bg_img_1: url(../img/noimg.png);
+  $catalog_bg_img_2: url(../img/noimg.png);
+  $catalog_bg_img_3: url(../img/noimg.png);
+  $catalog_bg_img_4: url(../img/noimg.png);
+  $catalog_bg_size: auto 75%;
+  $catalog_bg_position: 50% 50%;
+  $catalog_bg_repeat: no-repeat;
+  $catalog_width: 200px;
+  $catalog_border_radius: 10px;
+  @extend .border-box;
+  @extend .catalog;
+
+  background: #ffffff;
   .row{
-    background: $catalog_bg_color;
-    padding: 30px 10px;
-    .img {
-      width: $catalog_product_width;
-      height: $catalog_product_width;
-      border-radius: $catalog_product_border-radius;
-      background-color: #ababab;
-      background-image: $catalog_img_1;
-      background-position: 50% 50%;
-      background-repeat: no-repeat;
-      background-size: auto 75%;
-      margin-top: 15px;
-      margin-bottom: 15px;
+    padding: 30px 10px 0 10px;
+    > div{
+      margin-bottom: 30px;
+      .img {
+        width: $catalog_width;
+        height: $catalog_width;
+        border-radius: $catalog_border_radius;
+        background-color: #3ec6ff;
+        margin-bottom: 15px;
+      }
+      button {
+        max-width: $catalog_width;
+      }
     }
-    h2 {
-      font-size: 2.2rem;
-      font-weight: 600;
+    > div:nth-child(2) {
+      .img {
+        background-image: $catalog_bg_img_1;
+        background-size: $catalog_bg_size;
+        background-position: $catalog_bg_position;
+        background-repeat: $catalog_bg_repeat;
+      }
     }
-    h3{
-      font-size: 1.8rem;
+
+    > div:nth-child(3) {
+      .img {
+        background-image: $catalog_bg_img_2;
+        background-size: $catalog_bg_size;
+        background-position: $catalog_bg_position;
+        background-repeat: $catalog_bg_repeat;
+      }
     }
-    h6 {
-      font-size: 1.8rem;
-      font-weight: 600;
+
+    > div:nth-child(4) {
+      .img {
+        background-image: $catalog_bg_img_3;
+        background-size: $catalog_bg_size;
+        background-position: $catalog_bg_position;
+        background-repeat: $catalog_bg_repeat;
+      }
     }
-    p {
-      font-size: 1.4rem;
-    }
-    button {
-      font-size: 1.6rem;
-      width: $catalog_product_width;
-      height: 50px;
-      margin-top: 15px;
-      border: none;
-      border-radius: $catalog_product_border-radius;
-      &:hover {
-        background-color: #ababab;
+
+    > div:nth-child(5) {
+      .img {
+        background-image: $catalog_bg_img_4;
+        background-size: $catalog_bg_size;
+        background-position: $catalog_bg_position;
+        background-repeat: $catalog_bg_repeat;
       }
     }
   }

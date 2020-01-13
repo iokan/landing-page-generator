@@ -1,4 +1,4 @@
-new Vue ({
+var comment = new Vue ({
     el: '#app',
     data: {
         title: 'hello'
@@ -7,3 +7,4 @@ new Vue ({
 
     }
 });
+

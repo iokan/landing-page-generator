@@ -18,11 +18,3 @@ $(window).scroll(function () {
         $('.button-up').removeClass('visible');
     }
 });
-
-new Vue({
-    el: '#app',
-    data: {
-        title: 'hello'
-    },
-    methods: {}
-});

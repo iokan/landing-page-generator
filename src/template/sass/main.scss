@@ -1,14 +1,40 @@
 @import "_fonts.scss";
-@import "_header_1";
-@import "_footer.scss";
-@import "_gallery_10.scss";
+
+@import "_header_1.scss";
+@import "_firstwiev_1.scss";
+@import "_command_6.scss";
+@import "_blog_1.scss";
 @import "_advantages_10.scss";
 @import "_catalog_2.scss";
+@import "_gallery_10.scss";
+@import "_footer.scss";
 
-$txt-color: #000000;
-$bg-body-color: #ffffff;
-$bg-header-color: #cbcbcb;
-$bg-footer-color: #e2e2e2;
+$bg_body: #ffffff;
+$bg_header: #ffffff;
+$bg_firstwiev: #ffffff;
+$bg_advantages: #ffffff;
+$bg_command: #ffffff;
+$bg_catalog: #ffffff;
+$bg_blog: #ffffff;
+$bg_comment: #ffffff;
+$bg_form: #ffffff;
+$bg_gallery: #ffffff;
+$bg_info: #ffffff;
+$bg_footer: #ffffff;
+
+$txt_color: #000000;
+
+$btn_color: #ffffff;
+$btn_bg: #3ec6ff;
+$btn_color_hover: #ffffff;
+$btn_bg_hover: #65d1ff;
+$btn_color_active: #ffffff;
+$btn_bg_active: #65d1ff;
+$btn_outline: 2px solid #3ec6ff;
+$btn_radius: 10px;
+
+$a_color_hover: #3ec6ff;
+$a_color_active: #3ec6ff;
 
 * {
   font-family: 'Roboto', sans-serif;
@@ -19,7 +45,7 @@ $bg-footer-color: #e2e2e2;
 html, body {
   margin: 0;
   padding: 0;
-  background: $bg-body-color;
+  background: $bg_body;
 }
 
 html {
@@ -30,12 +56,85 @@ body {
 
 }
 
-p {
+h1, h2, h3, h4, h5, h6, p, a, span {
+  color: $txt_color;
   margin: 0;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
+h1 {
+
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+h5 {
+
+}
+
+h6{
+
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+span {
+  font-size: 1.5rem;
 }
 
 a {
-  color: $txt-color;
+  font-size: 1.5rem;
+  &:hover, &:focus {
+    color: $a_color_hover;
+    outline: 0;
+    text-decoration: none;
+  }
+
+  &:active {
+    color: $a_color_active;
+  }
+}
+
+button {
+  font-size: 1.6rem;
+  width: 100%;
+  max-width: 300px;
+  height: 50px;
+  margin-top: 1.5rem;
+  color: $btn_color;
+  background-color: $btn_bg;
+  border: none;
+  border-radius: $btn_radius;
+  text-transform: uppercase;
+  &:hover, &:focus {
+    color: $btn_color_hover;
+    background-color: $btn_bg_hover;
+    outline: 0;
+  }
+
+  &:focus {
+    border: $btn_outline;
+  }
+
+  &:active {
+    color: $btn_color_active;
+    background-color: $btn_bg_active;
+  }
 }
 
 header {
@@ -43,15 +142,52 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background: $bg-header-color;
+  background: $bg_header;
   z-index: 9;
+  border-bottom: 4px solid #dddddd;
 }
 
-main {
-  width: 100%;
-  min-height: 100vh;
+.firstwiev {
+  background-color: $bg_firstwiev;
+}
+
+.advantages {
+  background-color: $bg_advantages;
+}
+
+.command {
+  background-color: $bg_command;
+}
+
+.catalog {
+  background-color: $bg_catalog;
+}
+
+.blog {
+  background-color: $bg_blog;
+}
+
+.comment {
+  background-color: $bg_comment;
+}
+
+.form {
+  background-color: $bg_form;
+}
+
+.gallery {
+  background-color: $bg_gallery;
+}
+
+.info {
+  background-color: $bg_info;
 }
 
 footer {
-  background: $bg-footer-color;
+  background: $bg_footer;
+}
+
+.border-box { //для видимости границ основных блоков
+  border: 4px solid #dddddd;
+  border-top: none;
 }
