@@ -1,85 +1,79 @@
 //gallery
-.gallery_10 {
-  $gallery_bg_img_1: #65d1ff;
-  $gallery_bg_img_2: #3ec6ff;
-  $gallery_bg_img_3: #65d1ff;
-  $gallery_bg_img_4: #3ec6ff;
-  $gallery_bg_img_5: #3ec6ff;
-  $gallery_bg_img_6: #65d1ff;
-  $gallery_bg_img_7: #3ec6ff;
-  $gallery_bg_img_8: #65d1ff;
-  $gallery_bg_img: url(../img/noimg.png);
+.gallery_11 {
+  $gallery_bg_img_1: url(../img/noimg.png);
+  $gallery_bg_img_2: url(../img/noimg.png);
+  $gallery_bg_img_3: url(../img/noimg.png);
+  $gallery_bg_img_4: url(../img/noimg.png);
+  $gallery_bg_img_5: url(../img/noimg.png);
+  $gallery_bg_img_6: url(../img/noimg.png);
+  $gallery_bg_img_7: url(../img/noimg.png);
+  $gallery_bg_img_8: url(../img/noimg.png);
   $gallery_bg_size: auto 60%;
   $gallery_bg_position: 50% 50%;
   $gallery_bg_repeat: no-repeat;
+  $gallery_padding: 5px;
   @extend .border-box;
   @extend .gallery;
 
   .row {
+    padding: $gallery_padding;
     > div {
       position: relative;
       height: 0;
       padding-bottom: 25%;
       .gallery_img {
         position: absolute;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
+        left: $gallery_padding;
+        right: $gallery_padding;
+        top: $gallery_padding;
+        bottom: $gallery_padding;
+        background-color: #3ec6ff;
       }
     }
-    > div:nth-child(1)  {
-      background-color: $gallery_bg_img_1;
-      background-image: $gallery_bg_img;
+    > div:nth-child(1) .gallery_img {
+      background-image: $gallery_bg_img_1;
       background-size: $gallery_bg_size;
       background-position: $gallery_bg_position;
       background-repeat: $gallery_bg_repeat;
     }
-    > div:nth-child(2) {
-      background-color: $gallery_bg_img_2;
-      background-image: $gallery_bg_img;
+    > div:nth-child(2) .gallery_img {
+      background-image: $gallery_bg_img_2;
       background-size: $gallery_bg_size;
       background-position: $gallery_bg_position;
       background-repeat: $gallery_bg_repeat;
     }
-    > div:nth-child(3) {
-      background-color: $gallery_bg_img_3;
-      background-image: $gallery_bg_img;
+    > div:nth-child(3) .gallery_img{
+      background-image: $gallery_bg_img_3;
       background-size: $gallery_bg_size;
       background-position: $gallery_bg_position;
       background-repeat: $gallery_bg_repeat;
     }
-    > div:nth-child(4) {
-      background-color: $gallery_bg_img_4;
-      background-image: $gallery_bg_img;
+    > div:nth-child(4) .gallery_img{
+      background-image: $gallery_bg_img_4;
       background-size: $gallery_bg_size;
       background-position: $gallery_bg_position;
       background-repeat: $gallery_bg_repeat;
     }
-    > div:nth-child(5) {
-      background-color: $gallery_bg_img_5;
-      background-image: $gallery_bg_img;
+    > div:nth-child(5) .gallery_img{
+      background-image: $gallery_bg_img_5;
       background-size: $gallery_bg_size;
       background-position: $gallery_bg_position;
       background-repeat: $gallery_bg_repeat;
     }
-    > div:nth-child(6) {
-      background-color: $gallery_bg_img_6;
-      background-image: $gallery_bg_img;
+    > div:nth-child(6) .gallery_img{
+      background-image: $gallery_bg_img_6;
       background-size: $gallery_bg_size;
       background-position: $gallery_bg_position;
       background-repeat: $gallery_bg_repeat;
     }
-    > div:nth-child(7) {
-      background-color: $gallery_bg_img_7;
-      background-image: $gallery_bg_img;
+    > div:nth-child(7) .gallery_img{
+      background-image: $gallery_bg_img_7;
       background-size: $gallery_bg_size;
       background-position: $gallery_bg_position;
       background-repeat: $gallery_bg_repeat;
     }
-    > div:nth-child(8) {
-      background-color: $gallery_bg_img_8;
-      background-image: $gallery_bg_img;
+    > div:nth-child(8) .gallery_img{
+      background-image: $gallery_bg_img_8;
       background-size: $gallery_bg_size;
       background-position: $gallery_bg_position;
       background-repeat: $gallery_bg_repeat;
@@ -88,7 +82,7 @@
 }
 
 @media only screen  and ( max-width: 767px ) {
-  .gallery_10 {
+  .gallery_11 {
     .row {
       > div {
         padding-bottom: 50%;
