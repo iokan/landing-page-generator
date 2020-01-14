@@ -1,0 +1,23 @@
+//footer
+.footer-1{
+  $footer_map_width: 100%;
+  $footer_map_height: 400px;
+  @extend .border-box;
+  @extend footer;
+
+  .row{
+    .map {
+      padding: 0;
+      *{
+        width: $footer_map_width;
+        height: $footer_map_height;
+      }
+    }
+    .contact {
+      padding: 15px 0;
+      *{
+        text-align: center;
+      }
+    }
+  }
+}

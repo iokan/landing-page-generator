@@ -1,0 +1,66 @@
+//info
+.comment_2 {
+  $comment_bg_img_1: url(../img/noimg.png);
+  $comment_bg_img_2: url(../img/noimg.png);
+  $comment_bg_img_3: url(../img/noimg.png);
+  $comment_bg_img_4: url(../img/noimg.png);
+  $comment_bg_img_5: url(../img/noimg.png);
+  $comment_bg_img_6: url(../img/noimg.png);
+  $comment_bg_position: 50% 50%;
+  $comment_bg_repeat: no-repeat;
+  $comment_bg_size: auto 75%;
+  $comment_width: 150px;
+  $comment_border_radius: 50%;
+  @extend .border-box;
+  @extend .comment;
+
+  .row{
+    padding: 30px 0 0 0;
+    div{
+      margin-bottom: 30px;
+      .img {
+        width: $comment_width;
+        height: $comment_width;
+        border-radius: $comment_border_radius;
+        background-color: #3ec6ff;
+        margin-bottom: 15px;
+      }
+    }
+    div:nth-child(2) .img {
+      background-image: $comment_bg_img_1;
+      background-size: $comment_bg_size;
+      background-position: $comment_bg_position;
+      background-repeat: $comment_bg_repeat;
+    }
+    div:nth-child(3) .img {
+      background-image: $comment_bg_img_2;
+      background-size: $comment_bg_size;
+      background-position: $comment_bg_position;
+      background-repeat: $comment_bg_repeat;
+    }
+    div:nth-child(4) .img {
+      background-image: $comment_bg_img_3;
+      background-size: $comment_bg_size;
+      background-position: $comment_bg_position;
+      background-repeat: $comment_bg_repeat;
+    }
+    div:nth-child(5) .img {
+      background-image: $comment_bg_img_4;
+      background-size: $comment_bg_size;
+      background-position: $comment_bg_position;
+      background-repeat: $comment_bg_repeat;
+    }
+    div:nth-child(6) .img {
+      background-image: $comment_bg_img_5;
+      background-size: $comment_bg_size;
+      background-position: $comment_bg_position;
+      background-repeat: $comment_bg_repeat;
+    }
+    div:nth-child(7) .img {
+      background-image: $comment_bg_img_6;
+      background-size: $comment_bg_size;
+      background-position: $comment_bg_position;
+      background-repeat: $comment_bg_repeat;
+    }
+  }
+}

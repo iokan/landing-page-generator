@@ -1,5 +1,5 @@
 //command
-.command_6 {
+.command_3 {
   $command_bg_img_1: url(../img/noimg.png);
   $command_bg_img_2: url(../img/noimg.png);
   $command_bg_img_3: url(../img/noimg.png);
@@ -8,13 +8,12 @@
   $command_bg_repeat: no-repeat;
   $command_bg_size: auto 75%;
   $command_width: 180px;
-  $command_border_radius: 50%;
+  $command_border_radius: 10px;
   @extend .border-box;
   @extend .command;
 
-  background: #ffffff;
   .row{
-    padding: 30px 1px 0 1px;
+    padding: 30px 0 0 0;
     div{
       margin-bottom: 30px;
       .img {
