@@ -1,52 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77919e11-94ca-40e8-bb4d-b73e037cb340" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/blocks/1_firstscreen/1/_firstwiev_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/1_firstscreen/1/_firstwiev_1.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/2_header/1/_header_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/2_header/1/_header_1.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/3_advantages/10/_advantages_10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/3_advantages/10/_advantages_10.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/4_ command/1/_command_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/4_ command/1/_command_1.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/4_ command/3/_command_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/4_ command/3/_command_3.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/4_ command/5/_command_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/4_ command/5/_command_5.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/4_ command/6/_command_6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/4_ command/6/_command_6.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/5_catalog/2/_catalog_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/5_catalog/2/_catalog_2.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/9_gallery/10/_gallery_10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/9_gallery/10/_gallery_10.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/_command_6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/_firstwiev_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/img/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/sass/_blog_1.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/sass/_command_6.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template/sass/_firstwiev_1.scss" afterDir="false" />
+    <list default="true" id="77919e11-94ca-40e8-bb4d-b73e037cb340" name="Default" comment="fixed">
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sites.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/firstscreen/1/_firstview1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/_blog_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/firstscreen/1/_firstview1.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/template/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/template/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/template/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/template/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/template/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/template/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/template/js/vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/template/js/vendor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/template/js/vendor.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/template/js/vendor.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/template/_advantages_10.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/_advantages_10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/template/_catalog_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/_catalog_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/template/_gallery_10.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/_gallery_10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/template/_header_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/_header_1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/template/img/noimg.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/img/noimg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/template/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/template/js/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/js/comment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/template/sass/_advantages_10.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/sass/_advantages_10.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/template/sass/_catalog_2.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/sass/_catalog_2.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/template/sass/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/sass/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/template/sass/_gallery_10.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/sass/_gallery_10.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/template/sass/_header_1.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/sass/_header_1.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/template/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/sass/main.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -62,8 +23,8 @@
           <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/gulpfile.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="177">
-                  <caret line="82" column="48" lean-forward="true" selection-start-line="82" selection-start-column="48" selection-end-line="82" selection-end-column="48" />
+                <state relative-caret-position="364">
+                  <caret line="66" column="16" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -71,26 +32,17 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/template/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+                <state relative-caret-position="255">
+                  <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/template/sass/_footer.scss">
+          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_gallery_10.scss" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/template/sass/_gallery_10.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+                <state relative-caret-position="51">
+                  <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
                 </state>
               </provider>
             </entry>
@@ -98,21 +50,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
+        <leaf>
+          <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/template/sass/main.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="242">
-                  <caret line="140" column="18" lean-forward="true" selection-start-line="140" selection-start-column="18" selection-end-line="140" selection-end-column="18" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_advantages_10.scss" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/template/sass/_advantages_10.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="10" selection-start-line="10" selection-end-line="11" selection-end-column="22" />
+                  <caret line="140" column="18" selection-start-line="140" selection-start-column="18" selection-end-line="140" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -223,42 +166,6 @@
               <item name="sites" type="b2602c69:ProjectViewProjectNode" />
               <item name="sites" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="sites" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sites" type="462c0819:PsiDirectoryNode" />
-              <item name="blocks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sites" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sites" type="462c0819:PsiDirectoryNode" />
-              <item name="blocks" type="462c0819:PsiDirectoryNode" />
-              <item name="4_ command" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sites" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sites" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sites" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sites" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sites" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sites" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sites" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sites" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -273,16 +180,16 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\lpgenerator\sites\src\template\img" />
+      <recent name="E:\lpgenerator\sites\src\template" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\lpgenerator\sites\blocks\3_advantages\10" />
       <recent name="E:\lpgenerator\sites\src\template\sass" />
       <recent name="E:\lpgenerator\sites\blocks\4_ command\6" />
       <recent name="E:\lpgenerator\sites\blocks\4_ command\5" />
       <recent name="E:\lpgenerator\sites\blocks\4_ command\1" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\lpgenerator\sites\src\template\img" />
-      <recent name="E:\lpgenerator\sites\src\template" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -337,13 +244,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46822000" />
+    <option name="totallyTimeSpent" value="46971000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32897604" />
@@ -365,7 +273,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
-      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
     <layout-to-restore>
       <window_info id="Gulp" order="2" side_tool="true" />
@@ -401,9 +308,45 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add lp generator" />
     <MESSAGE value="rework" />
-    <option name="LAST_COMMIT_MESSAGE" value="rework" />
+    <MESSAGE value="fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/blocks/4_ command/5/_command_5.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/4_ command/3/_command_3.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/4_ command/1/_command_1.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/4_ command/6/_command_6.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="35" column="40" lean-forward="true" selection-end-line="52" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="88" column="2" lean-forward="true" selection-start-line="88" selection-start-column="2" selection-end-line="88" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1139">
@@ -601,16 +544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blocks/4_ command/6/_command_6.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blocks/4_ command/5/_command_5.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blocks/4_ command/6/_command_6.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
@@ -646,13 +579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/template/sass/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="140" column="18" lean-forward="true" selection-start-line="140" selection-start-column="18" selection-end-line="140" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/template/sass/_blog_1.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -674,13 +600,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="82" column="48" lean-forward="true" selection-start-line="82" selection-start-column="48" selection-end-line="82" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/template/sass/_firstwiev_1.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -695,13 +614,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/template/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/template/sass/_advantages_10.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -713,6 +625,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blocks/4_ command/5/_command_5.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template/sass/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="140" column="18" selection-start-line="140" selection-start-column="18" selection-end-line="140" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="66" column="16" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
         </state>
       </provider>
     </entry>
