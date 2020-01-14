@@ -1,3 +1,14 @@
+var comment = new Vue ({
+    el: '#app',
+    data: {
+        title: 'hello'
+    },
+    methods:{
+
+    }
+});
+
+
 //Плавный скролл по якорям
 $("body").on('click', '[href*="#"]', function (e) {
     var fixed_offset = 50;

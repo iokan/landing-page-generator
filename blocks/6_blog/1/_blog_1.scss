@@ -1,0 +1,45 @@
+//blog
+.blog_1 {
+  $blog_bg_img_1: url(../img/noimg.png);
+  $blog_bg_img_2: url(../img/noimg.png);
+  $blog_bg_bg_size: auto 75%;
+  $blog_bg_bg_position: 50% 50%;
+  $blog_bg_bg_repeat: no-repeat;
+  $blog_width: 300px;
+  $blog_border_radius: 10px;
+  @extend .border-box;
+  @extend .blog;
+
+  background: #ffffff;
+  .row{
+    padding: 30px 0;
+    > div{
+      margin-bottom: 3px;
+      .img {
+        width: $blog_width;
+        height: $blog_width;
+        border-radius: $blog_border_radius;
+        background-color: #3ec6ff;
+        margin-top: 30px;
+        margin-bottom: 15px;
+      }
+    }
+    > div:nth-child(2) {
+      .img {
+        background-image: $blog_bg_img_1;
+        background-size: $blog_bg_bg_size;
+        background-position: $blog_bg_bg_position;
+        background-repeat: $blog_bg_bg_repeat;
+      }
+    }
+
+    > div:nth-child(3) {
+      .img {
+        background-image: $blog_bg_img_2;
+        background-size: $blog_bg_bg_size;
+        background-position: $blog_bg_bg_position;
+        background-repeat: $blog_bg_bg_repeat;
+      }
+    }
+  }
+}

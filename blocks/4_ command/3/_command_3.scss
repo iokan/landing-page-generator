@@ -1,43 +1,53 @@
 //command
 .command_6 {
-  $command_width: 180px;
-  $command_border-radius: 50%;
-  $command_img_1: url(../img/noimg.png);
-  $command_img_2: url(../img/noimg.png);
-  $command_img_3: url(../img/noimg.png);
-  $command_img_4: url(../img/noimg.png);
+  $command_bg_img_1: url(../img/noimg.png);
+  $command_bg_img_2: url(../img/noimg.png);
+  $command_bg_img_3: url(../img/noimg.png);
+  $command_bg_img_4: url(../img/noimg.png);
   $command_bg_position: 50% 50%;
   $command_bg_repeat: no-repeat;
   $command_bg_size: auto 75%;
+  $command_width: 180px;
+  $command_border_radius: 50%;
   @extend .border-box;
+  @extend .command;
 
   background: #ffffff;
   .row{
-    padding: 3rem 1rem 0 1rem;
+    padding: 30px 1px 0 1px;
     div{
-      margin-bottom: 3rem;
+      margin-bottom: 30px;
       .img {
         width: $command_width;
         height: $command_width;
-        border-radius: $command_border-radius;
+        border-radius: $command_border_radius;
         background-color: #3ec6ff;
-        margin-bottom: 1.5rem;
-        background-position: $command_bg_position;
-        background-repeat: $command_bg_repeat;
-        background-size: $command_bg_size;
+        margin-bottom: 15px;
       }
     }
     div:nth-child(2) .img {
-      background-image: $command_img_1;
+      background-image: $command_bg_img_1;
+      background-size: $command_bg_size;
+      background-position: $command_bg_position;
+      background-repeat: $command_bg_repeat;
     }
     div:nth-child(3) .img {
-      background-image: $command_img_2;
+      background-image: $command_bg_img_2;
+      background-size: $command_bg_size;
+      background-position: $command_bg_position;
+      background-repeat: $command_bg_repeat;
     }
     div:nth-child(4) .img {
-      background-image: $command_img_3;
+      background-image: $command_bg_img_3;
+      background-size: $command_bg_size;
+      background-position: $command_bg_position;
+      background-repeat: $command_bg_repeat;
     }
     div:last-child .img {
-      background-image: $command_img_4;
+      background-image: $command_bg_img_4;
+      background-size: $command_bg_size;
+      background-position: $command_bg_position;
+      background-repeat: $command_bg_repeat;
     }
   }
 }

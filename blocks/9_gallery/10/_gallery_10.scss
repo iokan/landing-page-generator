@@ -1,23 +1,21 @@
 //gallery
-$gallery_bg_color_1: #ababab;
-$gallery_bg_color_2: #cbcbcb;
-$gallery_bg_color_3: #ababab;
-$gallery_bg_color_4: #cbcbcb;
-$gallery_bg_color_5: #cbcbcb;
-$gallery_bg_color_6: #ababab;
-$gallery_bg_color_7: #cbcbcb;
-$gallery_bg_color_8: #ababab;
-$gallery_bg_color: #e7e7e7;
-$gallery_bg_img: url(../img/noimg.png);
-$gallery_bg_size: auto 60%;
-$gallery_bg_position: 50% 50%;
-$gallery_bg_repeat: no-repeat;
-
 .gallery_10 {
-  background: $gallery_bg_color;
+  $gallery_bg_img_1: #65d1ff;
+  $gallery_bg_img_2: #3ec6ff;
+  $gallery_bg_img_3: #65d1ff;
+  $gallery_bg_img_4: #3ec6ff;
+  $gallery_bg_img_5: #3ec6ff;
+  $gallery_bg_img_6: #65d1ff;
+  $gallery_bg_img_7: #3ec6ff;
+  $gallery_bg_img_8: #65d1ff;
+  $gallery_bg_img: url(../img/noimg.png);
+  $gallery_bg_size: auto 60%;
+  $gallery_bg_position: 50% 50%;
+  $gallery_bg_repeat: no-repeat;
+  @extend .border-box;
+  @extend .gallery;
+
   .row {
-    background: $gallery_bg_color;
-    padding: 1.5rem 1rem;
     > div {
       position: relative;
       height: 0;
@@ -28,35 +26,63 @@ $gallery_bg_repeat: no-repeat;
         top: 0;
         width: 100%;
         height: 100%;
-        background-image: $gallery_bg_img;
-        background-size: $gallery_bg_size;
-        background-position: $gallery_bg_position;
-        background-repeat: $gallery_bg_repeat;
       }
     }
     > div:nth-child(1)  {
-      background-color: $gallery_bg_color_1;
+      background-color: $gallery_bg_img_1;
+      background-image: $gallery_bg_img;
+      background-size: $gallery_bg_size;
+      background-position: $gallery_bg_position;
+      background-repeat: $gallery_bg_repeat;
     }
     > div:nth-child(2) {
-      background-color: $gallery_bg_color_2;
+      background-color: $gallery_bg_img_2;
+      background-image: $gallery_bg_img;
+      background-size: $gallery_bg_size;
+      background-position: $gallery_bg_position;
+      background-repeat: $gallery_bg_repeat;
     }
     > div:nth-child(3) {
-      background-color: $gallery_bg_color_3;
+      background-color: $gallery_bg_img_3;
+      background-image: $gallery_bg_img;
+      background-size: $gallery_bg_size;
+      background-position: $gallery_bg_position;
+      background-repeat: $gallery_bg_repeat;
     }
     > div:nth-child(4) {
-      background-color: $gallery_bg_color_4;
+      background-color: $gallery_bg_img_4;
+      background-image: $gallery_bg_img;
+      background-size: $gallery_bg_size;
+      background-position: $gallery_bg_position;
+      background-repeat: $gallery_bg_repeat;
     }
     > div:nth-child(5) {
-      background-color: $gallery_bg_color_5;
+      background-color: $gallery_bg_img_5;
+      background-image: $gallery_bg_img;
+      background-size: $gallery_bg_size;
+      background-position: $gallery_bg_position;
+      background-repeat: $gallery_bg_repeat;
     }
     > div:nth-child(6) {
-      background-color: $gallery_bg_color_6;
+      background-color: $gallery_bg_img_6;
+      background-image: $gallery_bg_img;
+      background-size: $gallery_bg_size;
+      background-position: $gallery_bg_position;
+      background-repeat: $gallery_bg_repeat;
     }
     > div:nth-child(7) {
-      background-color: $gallery_bg_color_7;
+      background-color: $gallery_bg_img_7;
+      background-image: $gallery_bg_img;
+      background-size: $gallery_bg_size;
+      background-position: $gallery_bg_position;
+      background-repeat: $gallery_bg_repeat;
     }
     > div:nth-child(8) {
-      background-color: $gallery_bg_color_8;
+      background-color: $gallery_bg_img_8;
+      background-image: $gallery_bg_img;
+      background-size: $gallery_bg_size;
+      background-position: $gallery_bg_position;
+      background-repeat: $gallery_bg_repeat;
     }
   }
 }

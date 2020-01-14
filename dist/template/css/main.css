@@ -224,35 +224,63 @@
     left: 0;
     top: 0;
     width: 100%;
-    height: 100%;
-    background-image: url(../img/noimg.png);
-    background-size: auto 60%;
-    background-position: 50% 50%;
-    background-repeat: no-repeat; }
+    height: 100%; }
 
 .gallery_10 .row > div:nth-child(1) {
-  background-color: #65d1ff; }
+  background-color: #65d1ff;
+  background-image: url(../img/noimg.png);
+  background-size: auto 60%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat; }
 
 .gallery_10 .row > div:nth-child(2) {
-  background-color: #3ec6ff; }
+  background-color: #3ec6ff;
+  background-image: url(../img/noimg.png);
+  background-size: auto 60%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat; }
 
 .gallery_10 .row > div:nth-child(3) {
-  background-color: #65d1ff; }
+  background-color: #65d1ff;
+  background-image: url(../img/noimg.png);
+  background-size: auto 60%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat; }
 
 .gallery_10 .row > div:nth-child(4) {
-  background-color: #3ec6ff; }
+  background-color: #3ec6ff;
+  background-image: url(../img/noimg.png);
+  background-size: auto 60%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat; }
 
 .gallery_10 .row > div:nth-child(5) {
-  background-color: #3ec6ff; }
+  background-color: #3ec6ff;
+  background-image: url(../img/noimg.png);
+  background-size: auto 60%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat; }
 
 .gallery_10 .row > div:nth-child(6) {
-  background-color: #65d1ff; }
+  background-color: #65d1ff;
+  background-image: url(../img/noimg.png);
+  background-size: auto 60%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat; }
 
 .gallery_10 .row > div:nth-child(7) {
-  background-color: #3ec6ff; }
+  background-color: #3ec6ff;
+  background-image: url(../img/noimg.png);
+  background-size: auto 60%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat; }
 
 .gallery_10 .row > div:nth-child(8) {
-  background-color: #65d1ff; }
+  background-color: #65d1ff;
+  background-image: url(../img/noimg.png);
+  background-size: auto 60%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat; }
 
 @media only screen and (max-width: 767px) {
   .gallery_10 .row > div {
