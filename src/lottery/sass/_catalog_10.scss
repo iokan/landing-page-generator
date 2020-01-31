@@ -1,0 +1,76 @@
+//catalog
+.catalog_10 {
+  $catalog_bg_img_1: url(../img/phone-2.png);
+  $catalog_bg_img_2: url(../img/phone-3.png);
+  $catalog_bg_img_3: url(../img/phone-4.png);
+  $catalog_bg_size: contain;
+  $catalog_bg_position: 50% 50%;
+  $catalog_bg_repeat: no-repeat;
+  $catalog_width: 100%;
+  @extend .catalog;
+
+  .row {
+    position: relative;
+    padding: 0 10px;
+    &:after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+      width: 100vw;
+      height: 1px;
+      background: linear-gradient(to right, transparent, #E7E7E7, #E7E7E7, transparent);
+      opacity: 0.5;
+    }
+    &:last-of-type:after {
+      display: none;
+    }
+
+    .blue {
+      color: #0BEDFF;
+    }
+
+    .orange {
+      color: #ff9213;
+    }
+
+    .red {
+      color: #f81b52;
+    }
+
+    .img {
+      width: $catalog_width;
+      height: 500px;
+    }
+
+    &:nth-child(1) {
+      .img {
+        background-image: $catalog_bg_img_1;
+        background-size: $catalog_bg_size;
+        background-position: $catalog_bg_position;
+        background-repeat: $catalog_bg_repeat;
+      }
+    }
+
+    &:nth-child(2) {
+      .img {
+        background-image: $catalog_bg_img_2;
+        background-size: $catalog_bg_size;
+        background-position: $catalog_bg_position;
+        background-repeat: $catalog_bg_repeat;
+        margin-top: -50px;
+      }
+    }
+
+    &:nth-child(3) {
+      .img {
+        background-image: $catalog_bg_img_3;
+        background-size: $catalog_bg_size;
+        background-position: $catalog_bg_position;
+        background-repeat: $catalog_bg_repeat;
+        margin-top: -80px;
+      }
+    }
+  }
+}

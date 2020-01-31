@@ -1,0 +1,353 @@
+@import "fonts";
+
+@import "firstwiev_2";
+@import "catalog_10";
+
+//bg main block
+$bg_body: #000000;
+$bg_header: #000000;
+$bg_firstwiev: #080808;
+$bg_advantages: #ffffff;
+$bg_command: #ffffff;
+$bg_catalog: #080808;
+$bg_blog: #ffffff;
+$bg_comment: #ffffff;
+$bg_form: #ffffff;
+$bg_gallery: #ffffff;
+$bg_info: #ffffff;
+$bg_footer: #ffffff;
+
+//text
+$txt_color: #000000;
+
+//button
+$btn_color: #ffffff;
+$btn_bg: #3ec6ff;
+$btn_color_hover: #ffffff;
+$btn_bg_hover: #65d1ff;
+$btn_color_active: #ffffff;
+$btn_bg_active: #65d1ff;
+$btn_outline: 2px solid #3ec6ff;
+$btn_radius: 10px;
+
+//input
+$inp_color: #ffffff;
+$inp_bg: #3ec6ff;
+$inp_color_hover: #ffffff;
+$inp_bg_hover: #65d1ff;
+$inp_color_focus: #ffffff;
+$inp_bg_focus: #65d1ff;
+$inp_border: 1px solid #dddddd;
+$inp_outline: 2px solid #3ec6ff;
+$inp_radius: 0px;
+
+//link
+$a_color_hover: #3ec6ff;
+$a_color_active: #3ec6ff;
+
+* {
+  font-family: 'MontExtraLight', sans-serif;
+  font-size: 10px;
+  color: $txt_color;
+  transition: 100ms;
+  box-sizing: border-box;
+}
+
+*:hover, *:focus, *:active {
+  transition: 100ms;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: $bg_body;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, span {
+  color: $txt_color;
+  margin: 0;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
+h1 {
+  position: relative;
+  font-size: 7.4rem;
+  font-family: "MontHeavy", sans-serif;
+  text-transform: uppercase;
+  background: radial-gradient(55.61% 937.5% at 45.7% 121.63%, #03DCFE 0%, #8B94FF 13.62%, #ECB1FF 33.33%, #00EFFE 45.31%, #009AF3 61.46%, #FF6E13 74.48%, #A0000B 81.77%, #FF1573 89.58%, #8C2981 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  white-space: nowrap;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+}
+
+h1:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 50%;
+  bottom: 0;
+  height: 15px;
+  background: linear-gradient(to left, #03DCFE 0.13%, #8B94FF 13.75%, #ECB1FF 33.47%, #00EFFE 45.45%, #009AF3 61.6%, #FF6E13 74.62%, #A0000B 81.92%, #FF1573 89.73%, #8C2981 100.15%);
+}
+
+h1:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  right: 0;
+  bottom: 0;
+  height: 15px;
+  background: linear-gradient(to right, #03DCFE 0.13%, #8A94FF 13.74%, #8B94FF 13.75%, #ECB1FF 33.47%, #00EFFE 45.45%, #009AF3 61.6%, #FF6E13 74.62%, #A0000B 81.92%, #FF1573 89.73%, #8C2981 100.15%);
+}
+
+h2 {
+
+}
+
+h3 {
+  font-size: 2.4rem;
+  color: #687066;
+  line-height: 31px;
+}
+
+h4 {
+  font-size: 2.4rem;
+  color: #ffffff;
+}
+
+h4 span {
+  position: relative;
+  font-family: "MontHeavy", sans-serif;
+  font-size: 2.6rem;
+  color: rgba(255, 146, 19, 0.6);
+  text-shadow: 0 -7px 0 rgba(11, 237, 255, 0.3);
+  margin-left: 25px;
+  white-space: nowrap;
+}
+
+h4 span:after {
+  content: "IPHONE 11 PRO";
+  color: #F81B52;
+  position: absolute;
+  left: 0;
+  top: 7px;
+  text-shadow: none;
+}
+
+h5 {
+  font-size: 2.4rem;
+  color: #ffffff;
+}
+
+h6{
+  font-family: "OswaldRegular", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  color: #13AEBA;
+  line-height: 1.1;
+}
+
+p {
+
+}
+
+span {
+  font-size: 1em;
+}
+
+a {
+  font-size: 1.5rem;
+  &:hover, &:focus {
+    color: $a_color_hover;
+    outline: 0;
+    text-decoration: none;
+  }
+
+  &:active {
+    color: $a_color_active;
+  }
+}
+
+button {
+  font-size: 1.6rem;
+  width: 100%;
+  height: 50px;
+  margin-top: 15px;
+  color: $btn_color;
+  background-color: $btn_bg;
+  border: none;
+  border-radius: $btn_radius;
+  text-transform: uppercase;
+  outline: 0;
+
+  &:hover, &:focus {
+    color: $btn_color_hover;
+    background-color: $btn_bg_hover;
+  }
+
+  &:focus {
+    border: $btn_outline;
+    outline: none;
+  }
+
+  &:active {
+    color: $btn_color_active;
+    background-color: $btn_bg_active;
+  }
+}
+
+input {
+  font-size: 1.6rem;
+  width: 100%;
+  height: 50px;
+  margin-top: 30px;
+  padding: 0 1.5rem;
+  border: $inp_border;
+  border-radius: $inp_radius;
+  &::placeholder{
+    color: $inp_border;
+  }
+
+  &:hover {
+    color: $inp_color_hover;
+    background-color: $inp_bg_hover;
+    border: $inp_outline;
+    &::placeholder{
+      color: #ffffff;
+    }
+  }
+
+  &:focus {
+    color: $inp_color_focus;
+    background-color: $inp_bg_focus;
+    border: $inp_outline;
+    outline: 0;
+    &::placeholder{
+      color: #ffffff;
+    }
+  }
+}
+
+textarea {
+  font-size: 1.6rem;
+  width: 100%;
+  height: 150px;
+  margin-top: 30px;
+  padding: 1rem 1.5rem;
+  border: $inp_border;
+  border-radius: $inp_radius;
+  margin-bottom: -4px;
+  &::placeholder{
+    color: $inp_border;
+  }
+
+  &:hover {
+    color: $inp_color_hover;
+    background-color: $inp_bg_hover;
+    border: $inp_outline;
+    &::placeholder{
+      color: #ffffff;
+    }
+  }
+
+  &:focus {
+    color: $inp_color_focus;
+    background-color: $inp_bg_focus;
+    border: $inp_outline;
+    outline: 0;
+    &::placeholder{
+      color: #ffffff;
+    }
+  }
+}
+
+header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: $bg_header;
+  z-index: 9;
+  width: 100px;
+  box-shadow: 0px 0px 10px rgba(11, 237, 255, 0.2);
+  border-radius: 10px 0px 0px 10px;
+  padding: 10px;
+}
+
+.winner {
+  margin-top: 15px;
+}
+
+.winner p {
+  font-family: "OswaldLight", sans-serif;
+  font-style: normal;
+  font-size: 1.3rem;
+  line-height: 18px;
+  color: #FFFFFF;
+  opacity: 0.5;
+  margin-top: 5px;
+}
+
+.firstwiev {
+  background-color: $bg_firstwiev;
+  background-image: url("../img/bg-top.png");
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.advantages {
+  background-color: $bg_advantages;
+}
+
+.command {
+  background-color: $bg_command;
+}
+
+.catalog {
+  background-color: $bg_catalog;
+  background-image: url("../img/bg-catalog.png");
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.blog {
+  background-color: $bg_blog;
+}
+
+.comment {
+  background-color: $bg_comment;
+}
+
+.form {
+  background-color: $bg_form;
+}
+
+.gallery {
+  background-color: $bg_gallery;
+}
+
+.info {
+  background-color: $bg_info;
+}
+
+footer {
+  background: $bg_footer;
+}
+
+.border-box { //для видимости границ основных блоков
+  border: 4px solid #dddddd;
+  border-top: none;
+}
+
+@media only screen and (min-width: 1440px) {
+  .container {
+    max-width: 1380px;
+  }
+}

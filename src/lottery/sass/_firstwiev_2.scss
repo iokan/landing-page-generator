@@ -1,0 +1,26 @@
+//firstwiev
+.firstwiev_2 {
+  $firstwiev_bg_img: url(../img/phone-1.png);
+  $firstwiev_bg_size: contain;
+  $firstwiev_bg_position: 50% 50%;
+  $firstwiev_bg_repeat: no-repeat;
+  @extend .firstwiev;
+
+  padding-top: 50px;
+
+  img {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 40px;
+  }
+
+  .img{
+    width: 500px;
+    height: 500px;
+    background-image: $firstwiev_bg_img;
+    background-size: $firstwiev_bg_size;
+    background-position: $firstwiev_bg_position;
+    background-repeat: $firstwiev_bg_repeat;
+  }
+}
+
