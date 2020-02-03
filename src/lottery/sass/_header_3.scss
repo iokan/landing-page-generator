@@ -1,0 +1,85 @@
+//header
+.header_2 {
+  $brand_color: #3ec6ff;
+
+  .navbar-brand {
+    font-size: 2rem;
+  }
+
+  .nav-item {
+    margin-right: 10px;
+    &:last-child {
+      margin-right: 0;
+    }
+    a {
+      font-size: 1.6rem;
+    }
+  }
+
+  .navbar {
+    padding: 1rem;
+
+    .navbar-brand {
+      color: $brand_color;
+    }
+
+    .navbar-toggler {
+      position: relative;
+      border: none;
+      width: 25px;
+      height: 25px;
+      margin: 0;
+      &:hover, &:focus, &:active{
+        background: none;
+      }
+
+      .navbar-icon {
+        width: 100%;
+        height: 2px;
+        background: #000000;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform-origin: 50% 50%;
+        transition: 250ms;
+        &:first-child {
+          transform: translate(-50%, -50%) rotate(135deg);
+        }
+
+        &:nth-child(2) {
+          display: none;
+        }
+
+        &:last-child {
+          transform: translate(-50%, -50%) rotate(-135deg);
+        }
+      }
+
+      &.collapsed {
+        .navbar-icon {
+          width: 100%;
+          height: 2px;
+          background: #000000;
+          position: absolute;
+          left: 0;
+          transform: none;
+          &:first-child {
+            top: 2px;
+            bottom: auto;
+          }
+
+          &:nth-child(2) {
+            top: 50%;
+            transform: translateY(-50%);
+            display: block;
+          }
+
+          &:last-child {
+            top: auto;
+            bottom: 2px;
+          }
+        }
+      }
+    }
+  }
+}

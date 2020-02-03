@@ -18,65 +18,88 @@
 
 </head>
 <body>
-<header class="d-flex flex-column align-items-center text-center">
-    <h6>Победители прошлых месяцев</h6>
-    <div class="winner">
-        <img src="img/ava-1.png" alt="">
-        <p>Yelena</p>
-    </div>
-    <div class="winner">
-        <img src="img/ava-2.png" alt="">
-        <p>Rtes</p>
-    </div>
-    <div class="winner">
-        <img src="img/ava-3.png" alt="">
-        <p>Jasa</p>
-    </div>
-    <div class="winner">
-        <img src="img/ava-4.png" alt="">
-        <p>Pearana</p>
-    </div>
-    <div class="winner">
-        <img src="img/ava-5.png" alt="">
-        <p>Quirira</p>
-    </div>
-    <div class="winner">
-        <img src="img/ava-6.png" alt="">
-        <p>Hahe</p>
-    </div>
-    <div class="winner">
-        <img src="img/ava-7.png" alt="">
-        <p>Nnagrb</p>
-    </div>
-    <div class="winner">
-        <img src="img/ava-8.png" alt="">
-        <p>Zaralmayn</p>
-    </div>
-    <div class="winner">
-        <img src="img/ava-9.png" alt="">
-        <p>Llvale</p>
-    </div>
-    <div class="winner">
-        <img src="img/ava-10.png" alt="">
-        <p>Esa</p>
+<header>
+    <div class="header d-flex flex-column align-items-center text-center">
+        <h6>Победители прошлых месяцев</h6>
+        <div class="winner">
+            <img src="img/ava-1.png" alt="">
+            <p>Yelena</p>
+        </div>
+        <div class="winner">
+            <img src="img/ava-2.png" alt="">
+            <p>Rtes</p>
+        </div>
+        <div class="winner">
+            <img src="img/ava-3.png" alt="">
+            <p>Jasa</p>
+        </div>
+        <div class="winner">
+            <img src="img/ava-4.png" alt="">
+            <p>Pearana</p>
+        </div>
+        <div class="winner">
+            <img src="img/ava-5.png" alt="">
+            <p>Quirira</p>
+        </div>
+        <div class="winner">
+            <img src="img/ava-6.png" alt="">
+            <p>Hahe</p>
+        </div>
+        <div class="winner">
+            <img src="img/ava-7.png" alt="">
+            <p>Nnagrb</p>
+        </div>
+        <div class="winner">
+            <img src="img/ava-8.png" alt="">
+            <p>Zaralmayn</p>
+        </div>
+        <div class="winner">
+            <img src="img/ava-9.png" alt="">
+            <p>Llvale</p>
+        </div>
+        <div class="winner">
+            <img src="img/ava-10.png" alt="">
+            <p>Esa</p>
+        </div>
     </div>
 </header>
 <main>
     <section class="firstwiev_2">
         <div class="container d-flex flex-column align-items-center justify-content-center">
-            <div class="row">
+            <div class="row justify-content-center align-items-center">
     
                 <div class="col-12 text-center">
-                    <img src="img/congratulations.png" alt=""/>
+                    <img class="congratulations" src="img/congratulations.png" alt=""/>
                 </div>
     
                 <div class="col-12 text-center">
                     <h4>Вы принимаете участие в розыгрыше<span>IPHONE 11 PRO</span></h4>
                 </div>
     
-                <div class="col-12 d-flex align-items-center justify-content-center">
+                <div class="col-12">
+                    <h5>Розыгрыш состоиться через</h5>
+                    <ul class="countdown d-flex align-items-center justify-content-center">
+                        <li> <span class="days">00</span>
+                            <p class="days_ref">дней</p>
+                        </li>
+                        <li class="seperator"></li>
+                        <li> <span class="hours">00</span>
+                            <p class="hours_ref">часов</p>
+                        </li>
+                        <li class="seperator"></li>
+                        <li> <span class="minutes">00</span>
+                            <p class="minutes_ref">минут</p>
+                        </li>
+                        <li class="seperator"></li>
+                        <li> <span class="seconds">00</span>
+                            <p class="seconds_ref">секунд</p>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="d-flex align-items-center justify-content-center position-relative">
                     <h1>СУПЕР ПРИЗ</h1>
-                    <div class="img"></div>
+                    <img class="img" src="img/phone-1.png" alt=""/>
                 </div>
     
             </div>
@@ -112,34 +135,68 @@
             </div>
         </div>
     </section>
+    <div class="popup">
+        <div class="popup-block row d-flex align-items-center justify-content-center">
+            <h4 class="col-12">Ваш уникальный id участника</h4>
+            <div class="id col-12">0123456789</div>
+            <p class="col-12">Сохраните этот номер, он используется для получения приза</p>
+            <p class="col-12">В случае победы Вас проинформируют по СМС</p>
+            <form class="d-flex flex-wrap justify-content-between align-items-end mt-5" action="">
+                <div>
+                    <label>Ваш никнейм</label>
+                    <input type="text" id="name">
+                </div>
+                <div>
+                    <div class="ava-block d-flex align-items-center justify-content-between">
+                        <img class="ava" src="" alt="">
+                        <div class="select-ava d-flex flex-wrap justify-content-between">
+                            <img src="img/ava-1.png" alt=""/>
+                            <img src="img/ava-2.png" alt=""/>
+                            <img src="img/ava-3.png" alt=""/>
+                            <img src="img/ava-4.png" alt=""/>
+                            <img src="img/ava-5.png" alt=""/>
+                            <img src="img/ava-6.png" alt=""/>
+                            <br>
+                            <img src="img/ava-7.png" alt=""/>
+                            <img src="img/ava-8.png" alt=""/>
+                            <img src="img/ava-9.png" alt=""/>
+                            <img src="img/ava-10.png" alt=""/>
+                            <img src="img/ava-11.png" alt=""/>
+                            <img src="img/ava-1.png" alt=""/>
+                        </div>
+                    </div>
+                </div>
+                    <button class="continue">Продолжить</button>
+            </form>
+        </div>
+    </div>
 </main>
 <footer>
-    <div class="container-fluid">
-
-        <h4><span>©</span> domain.com 2019</h4>
-        <p>Специально для Вас мы собрали множество отборного контента! Вам доступны материалы разных категорий, но это
-            далеко не все! Мы стараемся предлагать только самую лучшую и качественную информацию, переодически добавляем
-            новые материалы. Пользоваться нашим сайтом с мобильного устройства удобно и безопасно. Вам у нас обязательно
-            понравится, добавляйте сайт в закладки, это будет полезно когда в следующий раз Вы захотите посетить
-            его.</p>
-        <a href="/">Главная</a>
-        <a href="/site/offer">Правила предоставления подписки на контент</a>
-        <a href="/site/unsubscribe">Условия разовой покупки доступа</a>
-        <a href="/login">Управление подпиской на кронтент</a>
-        <p>Cтоимость доступа по подписке составляет 35 рублей с НДС в сутки для абонентов ПАО «МегаФон; по разовой
-            оплате - 150 рублей (включая НДС) за 30 дней для абонентов ПАО «МегаФон»; Продление доступа по подписке
-            происходит автоматически. Для отказа от предоставления Подписки на услугу отправьте SMS-сообщение со словом
-            СТОП1436 на номер 5151 для абонентов ПАО «МегаФон». Cообщение бесплатно в домашнем регионе. Служба
-            технической поддержки ООО «Информпартнер»: 8 800 500-25-43 (звонок бесплатный), e-mail:
-            helpdesk@informpartner.com</p>
+    <div class="footer-2">
+        <div class="container-fluid text-center">
+            <p><span>©</span> domain.com 2019</p>
+            <p>Специально для Вас мы собрали множество отборного контента! Вам доступны материалы разных категорий, но это
+                далеко не все! Мы стараемся предлагать только самую лучшую и качественную информацию, переодически добавляем
+                новые материалы. Пользоваться нашим сайтом с мобильного устройства удобно и безопасно. Вам у нас обязательно
+                понравится, добавляйте сайт в закладки, это будет полезно когда в следующий раз Вы захотите посетить
+                его.</p>
+            <a href="/">Главная</a>
+            <a href="/site/offer">Правила предоставления подписки на контент</a>
+            <a href="/site/unsubscribe">Условия разовой покупки доступа</a>
+            <a href="/login">Управление подпиской на кронтент</a>
+            <p>Cтоимость доступа по подписке составляет 35 рублей с НДС в сутки для абонентов ПАО «МегаФон; по разовой
+                оплате - 150 рублей (включая НДС) за 30 дней для абонентов ПАО «МегаФон»; Продление доступа по подписке
+                происходит автоматически. Для отказа от предоставления Подписки на услугу отправьте SMS-сообщение со словом
+                СТОП1436 на номер 5151 для абонентов ПАО «МегаФон». Cообщение бесплатно в домашнем регионе. Служба
+                технической поддержки ООО «Информпартнер»: 8 800 500-25-43 (звонок бесплатный), e-mail:
+                helpdesk@informpartner.com</p>
+        </div>
     </div>
 </footer>
-<!-- development version, includes helpful console warnings -->
-<!--<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>-->
-<!-- production version, optimized for size and speed -->
-<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
 <script src="include/jquery-3.3.1.min.js"></script>
 <script src="include/bootstrap.min.js"></script>
+<script src="include/jquery.downCount.js"></script>
 <script src="js/vendor.js"></script>
 </body>
 </html>

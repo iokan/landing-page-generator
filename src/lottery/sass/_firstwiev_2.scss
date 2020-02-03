@@ -8,19 +8,47 @@
 
   padding-top: 50px;
 
-  img {
+  .congratulations {
     width: 100%;
-    max-width: 500px;
-    margin-bottom: 40px;
+    max-width: 550px;
   }
 
   .img{
-    width: 500px;
-    height: 500px;
-    background-image: $firstwiev_bg_img;
-    background-size: $firstwiev_bg_size;
-    background-position: $firstwiev_bg_position;
-    background-repeat: $firstwiev_bg_repeat;
+    width: auto;
+    height: 850px;
+    margin-left: 150px;
+  }
+
+  ul.countdown {
+    list-style: none;
+    margin: 25px 0;
+    padding: 0;
+    display: block;
+    text-align: center;
+  }
+  ul.countdown li {
+    position: relative;
+  }
+  ul.countdown li span {
+    font-size: 7.0rem;
+    font-weight: 300;
+    line-height: 80px;
+    font-family: "MontHeavy", sans-serif;
+    color: #ffffff;
+  }
+  ul.countdown li.seperator {
+    width: 15px;
+    height: 5px;
+    border-radius: 3px;
+    background: #ffffff;
+    margin: 0 25px;
+  }
+  ul.countdown li p {
+    color: rgba(255,255,255,0.5);
+    font-size: 1.5rem;
+    position: absolute;
+    right: 5px;
+    top: 100%;
   }
 }
 

@@ -15,7 +15,7 @@ var project = 'lottery', //project name
     rigger = require('gulp-rigger'),
     watch = require('gulp-watch');
 
-// Clean
+// Cleangulp
 gulp.task('clean', function () {
     return gulp.src('dist/' + project , {read: false})
         .pipe(clean());

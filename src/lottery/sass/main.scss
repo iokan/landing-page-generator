@@ -1,7 +1,8 @@
 @import "fonts";
-
+@import "header_3";
 @import "firstwiev_2";
 @import "catalog_10";
+@import "footer_2";
 
 //bg main block
 $bg_body: #000000;
@@ -15,35 +16,35 @@ $bg_comment: #ffffff;
 $bg_form: #ffffff;
 $bg_gallery: #ffffff;
 $bg_info: #ffffff;
-$bg_footer: #ffffff;
+$bg_footer: #080808;
 
 //text
-$txt_color: #000000;
+$txt_color: #9b9b9b;
 
 //button
 $btn_color: #ffffff;
-$btn_bg: #3ec6ff;
+$btn_bg: #0ae980;
 $btn_color_hover: #ffffff;
-$btn_bg_hover: #65d1ff;
+$btn_bg_hover: #0adc7f;
 $btn_color_active: #ffffff;
-$btn_bg_active: #65d1ff;
-$btn_outline: 2px solid #3ec6ff;
+$btn_bg_active: #0adc7f;
+$btn_outline: 2px solid #0adc7f;
 $btn_radius: 10px;
 
 //input
 $inp_color: #ffffff;
-$inp_bg: #3ec6ff;
+$inp_bg: #0ae980;
 $inp_color_hover: #ffffff;
-$inp_bg_hover: #65d1ff;
+$inp_bg_hover: #0ae980;
 $inp_color_focus: #ffffff;
-$inp_bg_focus: #65d1ff;
-$inp_border: 1px solid #dddddd;
-$inp_outline: 2px solid #3ec6ff;
-$inp_radius: 0px;
+$inp_bg_focus: #0ae980;
+$inp_border: 1px solid #b2b2b2;
+$inp_outline: 2px solid #0ae980;
+$inp_radius: 10px;
 
 //link
-$a_color_hover: #3ec6ff;
-$a_color_active: #3ec6ff;
+$a_color_hover: #ffffff;
+$a_color_active: #ffffff;
 
 * {
   font-family: 'MontExtraLight', sans-serif;
@@ -74,16 +75,19 @@ h1, h2, h3, h4, h5, h6, p, a, span {
 }
 
 h1 {
-  position: relative;
-  font-size: 7.4rem;
+  position: absolute;
+  left: -200px;
+  top: 50%;
+  font-size: 8rem;
   font-family: "MontHeavy", sans-serif;
   text-transform: uppercase;
   background: radial-gradient(55.61% 937.5% at 45.7% 121.63%, #03DCFE 0%, #8B94FF 13.62%, #ECB1FF 33.33%, #00EFFE 45.31%, #009AF3 61.46%, #FF6E13 74.48%, #A0000B 81.77%, #FF1573 89.58%, #8C2981 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   white-space: nowrap;
-  transform: rotate(-90deg);
+  transform: translateY(-50%) rotate(-90deg);
   transform-origin: 50% 50%;
+  letter-spacing: 5px;
 }
 
 h1:before {
@@ -111,14 +115,15 @@ h2 {
 }
 
 h3 {
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   color: #687066;
   line-height: 31px;
 }
 
 h4 {
-  font-size: 2.4rem;
+  font-size: 2.6rem;
   color: #ffffff;
+  line-height: 120px;
 }
 
 h4 span {
@@ -141,20 +146,21 @@ h4 span:after {
 }
 
 h5 {
-  font-size: 2.4rem;
-  color: #ffffff;
+  font-size: 2rem;
+  color: rgba(255, 255, 252, 0.7);
+  text-align: center;
 }
 
-h6{
+h6 {
   font-family: "OswaldRegular", sans-serif;
-  font-size: 14px;
+  font-size: 1.4rem;
   letter-spacing: 0.05em;
   color: #13AEBA;
   line-height: 1.1;
 }
 
 p {
-
+  font-size: 1.1rem;
 }
 
 span {
@@ -162,7 +168,7 @@ span {
 }
 
 a {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   &:hover, &:focus {
     color: $a_color_hover;
     outline: 0;
@@ -175,10 +181,11 @@ a {
 }
 
 button {
-  font-size: 1.6rem;
+  font-family: "MontHeavy", sans-serif;
+  font-size: 1.9rem;
   width: 100%;
-  height: 50px;
-  margin-top: 15px;
+  height: 60px;
+  margin-top: 30px;
   color: $btn_color;
   background-color: $btn_bg;
   border: none;
@@ -202,15 +209,27 @@ button {
   }
 }
 
+button:after {
+  content: "";
+  background: url("../img/arrow.png") 50% 50% no-repeat;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: sub;
+  margin-left: 20px;
+}
+
 input {
-  font-size: 1.6rem;
+  color: #000000;
+  font-size: 1.8rem;
   width: 100%;
-  height: 50px;
-  margin-top: 30px;
-  padding: 0 1.5rem;
+  height: 60px;
+  padding: 0 2rem;
   border: $inp_border;
   border-radius: $inp_radius;
-  &::placeholder{
+  letter-spacing: 1px;
+  &::placeholder {
     color: $inp_border;
   }
 
@@ -218,7 +237,7 @@ input {
     color: $inp_color_hover;
     background-color: $inp_bg_hover;
     border: $inp_outline;
-    &::placeholder{
+    &::placeholder {
       color: #ffffff;
     }
   }
@@ -228,7 +247,7 @@ input {
     background-color: $inp_bg_focus;
     border: $inp_outline;
     outline: 0;
-    &::placeholder{
+    &::placeholder {
       color: #ffffff;
     }
   }
@@ -243,7 +262,7 @@ textarea {
   border: $inp_border;
   border-radius: $inp_radius;
   margin-bottom: -4px;
-  &::placeholder{
+  &::placeholder {
     color: $inp_border;
   }
 
@@ -251,7 +270,7 @@ textarea {
     color: $inp_color_hover;
     background-color: $inp_bg_hover;
     border: $inp_outline;
-    &::placeholder{
+    &::placeholder {
       color: #ffffff;
     }
   }
@@ -261,7 +280,7 @@ textarea {
     background-color: $inp_bg_focus;
     border: $inp_outline;
     outline: 0;
-    &::placeholder{
+    &::placeholder {
       color: #ffffff;
     }
   }
@@ -339,6 +358,172 @@ header {
 
 footer {
   background: $bg_footer;
+}
+
+.popup {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  transition: 1s;
+  z-index: 9;
+}
+
+.popup.visible {
+  opacity: 1;
+  transition: 1s;
+}
+
+.popup-block {
+  width: 100%;
+  max-width: 540px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: #ffffff;
+  padding: 40px 50px;
+  border: 2px solid #f81b52;
+  border-radius: 24px;
+}
+
+.popup-block h4 {
+  font-family: "MontHeavy", sans-serif;
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  color: #000000;
+  line-height: 100%;
+  letter-spacing: 0;
+  text-align: center;
+  padding: 0;
+}
+
+.popup-block p {
+  font-family: "MontExtraLight", sans-serif;
+  font-size: 1.6rem;
+  color: #000000;
+  text-align: center;
+  padding: 0;
+}
+
+.popup-block .id {
+  font-family: "MontHeavy", sans-serif;
+  font-size: 4rem;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #ff9213;
+  text-align: center;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.popup-block label {
+  font-family: "MontHeavy", sans-serif;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.popup-block > form > div:first-of-type {
+  flex: 1;
+  margin-right: 30px;
+}
+
+.popup-block .ava-block {
+  position: relative;
+  width: 95px;
+  height: 60px;
+  border: $inp_border;
+  border-radius: $inp_radius;
+  cursor: pointer;
+  overflow: hidden;
+  padding: 10px 15px 10px 10px;
+  background-image: url("../img/ava-default-gray.png");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  background-size: 39px 39px;
+}
+
+.popup-block .ava-block:before {
+  content: "";
+  width: 14px;
+  height: 12px;
+  background: #393939;
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+  position: absolute;
+  right: 15px;
+  top: 99%;
+  opacity: 0;
+}
+
+.popup-block .ava-block:after {
+  content: "";
+  width: 14px;
+  height: 12px;
+  background-color: #838383;
+  margin-left: 15px;
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+}
+
+.popup-block .ava-block:hover {
+  background-color: #393939;
+  background-image: url("../img/ava-default-white.png");
+}
+
+.popup-block .ava-block:hover:after {
+  background-color: #ffffff;
+}
+
+.popup-block .ava-block.active {
+  background-color: #393939;
+  background-image: url("../img/ava-default-white.png");
+  overflow: visible;
+}
+
+.popup-block .ava-block.active:after {
+  background: #ffffff;
+  transform: rotate(180deg);
+}
+
+.popup-block .ava-block.active:before {
+  opacity: 1;
+}
+
+.popup-block .ava-block .ava {
+  width: 40px;
+  height: 40px;
+}
+
+.select-ava {
+  background: #ffffff;
+  width: 382px;
+  position: absolute;
+  right: -1px;
+  top: calc(100% + 12px);
+  padding: 10px;
+  z-index: 8;
+  border: 1px solid #848484;
+  border-radius: 10px;
+  opacity: 0;
+  cursor: default;
+}
+
+.select-ava.visible {
+  opacity: 1;
+}
+
+.select-ava img {
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.select-ava img:hover {
+  filter: drop-shadow(0 0 4px rgba(0, 0, 0, 1));
 }
 
 .border-box { //для видимости границ основных блоков
