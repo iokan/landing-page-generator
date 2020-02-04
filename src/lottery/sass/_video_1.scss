@@ -1,0 +1,41 @@
+//video_1
+.video_1 {
+  margin-bottom: 120px;
+
+  .container {
+    padding: 0 150px;
+  }
+  .video-block {
+    background-color: #2c2c2c;
+    position: relative;
+    background-image: url("../img/play.png");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+
+  h3 {
+    font-family: "MontHeavy", sans-serif;
+    font-size: 4.2rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 54px;
+    margin-bottom: 80px;
+  }
+
+  video {
+    width: 100%;
+    height: 720px;
+  }
+
+  p {
+    color: #ffffff;
+    position: absolute;
+    left: 0;
+    top: 12%;
+    font-size: 3.6rem;
+    width: 100%;
+    text-align: center;
+  }
+}

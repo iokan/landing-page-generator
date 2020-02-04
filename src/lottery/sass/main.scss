@@ -1,11 +1,13 @@
 @import "fonts";
 @import "header_3";
+@import "nav_1";
 @import "firstwiev_2";
-@import "catalog_10";
+@import "video_1";
+@import "popup_1";
 @import "footer_2";
 
 //bg main block
-$bg_body: #000000;
+$bg_body: #080808;
 $bg_header: #000000;
 $bg_firstwiev: #080808;
 $bg_advantages: #ffffff;
@@ -23,7 +25,7 @@ $txt_color: #9b9b9b;
 
 //button
 $btn_color: #ffffff;
-$btn_bg: #0ae980;
+$btn_bg: #19bb2d ;
 $btn_color_hover: #ffffff;
 $btn_bg_hover: #0adc7f;
 $btn_color_active: #ffffff;
@@ -75,39 +77,7 @@ h1, h2, h3, h4, h5, h6, p, a, span {
 }
 
 h1 {
-  position: absolute;
-  left: -200px;
-  top: 50%;
-  font-size: 8rem;
-  font-family: "MontHeavy", sans-serif;
-  text-transform: uppercase;
-  background: radial-gradient(55.61% 937.5% at 45.7% 121.63%, #03DCFE 0%, #8B94FF 13.62%, #ECB1FF 33.33%, #00EFFE 45.31%, #009AF3 61.46%, #FF6E13 74.48%, #A0000B 81.77%, #FF1573 89.58%, #8C2981 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  white-space: nowrap;
-  transform: translateY(-50%) rotate(-90deg);
-  transform-origin: 50% 50%;
-  letter-spacing: 5px;
-}
 
-h1:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 50%;
-  bottom: 0;
-  height: 15px;
-  background: linear-gradient(to left, #03DCFE 0.13%, #8B94FF 13.75%, #ECB1FF 33.47%, #00EFFE 45.45%, #009AF3 61.6%, #FF6E13 74.62%, #A0000B 81.92%, #FF1573 89.73%, #8C2981 100.15%);
-}
-
-h1:after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  right: 0;
-  bottom: 0;
-  height: 15px;
-  background: linear-gradient(to right, #03DCFE 0.13%, #8A94FF 13.74%, #8B94FF 13.75%, #ECB1FF 33.47%, #00EFFE 45.45%, #009AF3 61.6%, #FF6E13 74.62%, #A0000B 81.92%, #FF1573 89.73%, #8C2981 100.15%);
 }
 
 h2 {
@@ -126,29 +96,8 @@ h4 {
   line-height: 120px;
 }
 
-h4 span {
-  position: relative;
-  font-family: "MontHeavy", sans-serif;
-  font-size: 2.6rem;
-  color: rgba(255, 146, 19, 0.6);
-  text-shadow: 0 -7px 0 rgba(11, 237, 255, 0.3);
-  margin-left: 25px;
-  white-space: nowrap;
-}
-
-h4 span:after {
-  content: "IPHONE 11 PRO";
-  color: #F81B52;
-  position: absolute;
-  left: 0;
-  top: 7px;
-  text-shadow: none;
-}
-
 h5 {
-  font-size: 2rem;
-  color: rgba(255, 255, 252, 0.7);
-  text-align: center;
+
 }
 
 h6 {
@@ -305,7 +254,7 @@ header {
 .winner p {
   font-family: "OswaldLight", sans-serif;
   font-style: normal;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   line-height: 18px;
   color: #FFFFFF;
   opacity: 0.5;
@@ -358,172 +307,6 @@ header {
 
 footer {
   background: $bg_footer;
-}
-
-.popup {
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.8);
-  opacity: 0;
-  transition: 1s;
-  z-index: 9;
-}
-
-.popup.visible {
-  opacity: 1;
-  transition: 1s;
-}
-
-.popup-block {
-  width: 100%;
-  max-width: 540px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  background: #ffffff;
-  padding: 40px 50px;
-  border: 2px solid #f81b52;
-  border-radius: 24px;
-}
-
-.popup-block h4 {
-  font-family: "MontHeavy", sans-serif;
-  text-transform: uppercase;
-  font-size: 2.4rem;
-  color: #000000;
-  line-height: 100%;
-  letter-spacing: 0;
-  text-align: center;
-  padding: 0;
-}
-
-.popup-block p {
-  font-family: "MontExtraLight", sans-serif;
-  font-size: 1.6rem;
-  color: #000000;
-  text-align: center;
-  padding: 0;
-}
-
-.popup-block .id {
-  font-family: "MontHeavy", sans-serif;
-  font-size: 4rem;
-  text-transform: uppercase;
-  color: #ffffff;
-  background: #ff9213;
-  text-align: center;
-  border-radius: 10px;
-  margin: 20px 0;
-}
-
-.popup-block label {
-  font-family: "MontHeavy", sans-serif;
-  font-size: 1.8rem;
-  text-transform: uppercase;
-  color: #000000;
-}
-
-.popup-block > form > div:first-of-type {
-  flex: 1;
-  margin-right: 30px;
-}
-
-.popup-block .ava-block {
-  position: relative;
-  width: 95px;
-  height: 60px;
-  border: $inp_border;
-  border-radius: $inp_radius;
-  cursor: pointer;
-  overflow: hidden;
-  padding: 10px 15px 10px 10px;
-  background-image: url("../img/ava-default-gray.png");
-  background-position: 10px 10px;
-  background-repeat: no-repeat;
-  background-size: 39px 39px;
-}
-
-.popup-block .ava-block:before {
-  content: "";
-  width: 14px;
-  height: 12px;
-  background: #393939;
-  clip-path: polygon(0 0, 100% 0, 50% 100%);
-  position: absolute;
-  right: 15px;
-  top: 99%;
-  opacity: 0;
-}
-
-.popup-block .ava-block:after {
-  content: "";
-  width: 14px;
-  height: 12px;
-  background-color: #838383;
-  margin-left: 15px;
-  clip-path: polygon(0 0, 100% 0, 50% 100%);
-}
-
-.popup-block .ava-block:hover {
-  background-color: #393939;
-  background-image: url("../img/ava-default-white.png");
-}
-
-.popup-block .ava-block:hover:after {
-  background-color: #ffffff;
-}
-
-.popup-block .ava-block.active {
-  background-color: #393939;
-  background-image: url("../img/ava-default-white.png");
-  overflow: visible;
-}
-
-.popup-block .ava-block.active:after {
-  background: #ffffff;
-  transform: rotate(180deg);
-}
-
-.popup-block .ava-block.active:before {
-  opacity: 1;
-}
-
-.popup-block .ava-block .ava {
-  width: 40px;
-  height: 40px;
-}
-
-.select-ava {
-  background: #ffffff;
-  width: 382px;
-  position: absolute;
-  right: -1px;
-  top: calc(100% + 12px);
-  padding: 10px;
-  z-index: 8;
-  border: 1px solid #848484;
-  border-radius: 10px;
-  opacity: 0;
-  cursor: default;
-}
-
-.select-ava.visible {
-  opacity: 1;
-}
-
-.select-ava img {
-  margin: 5px;
-  width: 50px;
-  height: 50px;
-  cursor: pointer;
-}
-
-.select-ava img:hover {
-  filter: drop-shadow(0 0 4px rgba(0, 0, 0, 1));
 }
 
 .border-box { //для видимости границ основных блоков

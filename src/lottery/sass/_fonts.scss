@@ -8,6 +8,25 @@
 }
 
 @font-face{
+  font-family: 'MontLight';
+  src: url('../fonts/Mont-Light.woff2') format('woff2'),
+  url('../fonts/Mont-Light.woff') format('woff'),
+  url('../fonts/Mont-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face{
+  font-family: 'MontRegular';
+  src: url('../fonts/Mont-Regular.woff2') format('woff2'),
+  url('../fonts/Mont-Regular.woff') format('woff'),
+  url('../fonts/Mont-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
   font-family: 'MontHeavy';
   src: url('../fonts/Mont-Heavy.woff2') format('woff2'),
   url('../fonts/Mont-Heavy.woff') format('woff'),

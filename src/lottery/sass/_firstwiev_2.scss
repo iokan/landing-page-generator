@@ -10,18 +10,136 @@
 
   .congratulations {
     width: 100%;
-    max-width: 550px;
+    max-width: 1000px;
   }
 
   .img{
-    width: auto;
-    height: 850px;
-    margin-left: 150px;
+    width: 100%;
+    height: auto;
+  }
+
+  h1 {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-left: -250px;
+    transform: translateY(-50%) rotate(-90deg);
+    transform-origin: 50% 50%;
+    font-size: 14.4rem;
+    font-family: "MontHeavy", sans-serif;
+    text-transform: uppercase;
+    background: radial-gradient(55.61% 937.5% at 45.7% 121.63%, #03DCFE 0%, #8B94FF 13.62%, #ECB1FF 33.33%, #00EFFE 45.31%, #009AF3 61.46%, #FF6E13 74.48%, #A0000B 81.77%, #FF1573 89.58%, #8C2981 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+    letter-spacing: 5px;
+  }
+
+  h1:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 50%;
+    bottom: 0;
+    height: 15px;
+    background: linear-gradient(to left, #03DCFE 0.13%, #8B94FF 13.75%, #ECB1FF 33.47%, #00EFFE 45.45%, #009AF3 61.6%, #FF6E13 74.62%, #A0000B 81.92%, #FF1573 89.73%, #8C2981 100.15%);
+  }
+
+  h1:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    height: 15px;
+    background: linear-gradient(to right, #03DCFE 0.13%, #8A94FF 13.74%, #8B94FF 13.75%, #ECB1FF 33.47%, #00EFFE 45.45%, #009AF3 61.6%, #FF6E13 74.62%, #A0000B 81.92%, #FF1573 89.73%, #8C2981 100.15%);
+  }
+
+  h3 {
+    font-family: "MontHeavy", sans-serif;
+    font-size: 4.2rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 54px;
+    margin-bottom: 40px;
+  }
+
+  h4 {
+    position: relative;
+    font-family: "MontHeavy", sans-serif;
+    font-size: 6.4rem;
+    color: #F81B52;
+    padding-top: 26px;
+    text-shadow: 0 -13px 0 rgba(255, 146, 19, 0.6), 0 -26px 0 rgba(11, 237, 255, 0.3);
+    white-space: nowrap;
+    text-transform: uppercase;
+    line-height: 100%;
+    margin-top: 30px;
+    margin-bottom: 70px;
+  }
+
+  h5 {
+    font-size: 2.4rem;
+    color: rgba(255, 255, 252, 0.7);
+    text-align: center;
+  }
+
+  h6{
+    font-family: "MontHeavy", sans-serif;
+    font-size: 4.2rem;
+    line-height: 54px;
+  }
+
+  h6.one {
+    color: #0BEDFF;
+  }
+
+  h6.two {
+    color: #ff9213;
+  }
+
+  h6.three {
+    color: #f81b52;
+  }
+
+  .steps {
+    padding: 0 150px;
+  }
+
+  .steps-number > span {
+    height: 2px;
+    background: #0adc7f;
+    flex: 1;
+    margin: 0 15px;
+  }
+
+  .steps-number > span:first-of-type{
+    background: linear-gradient(90deg, #0BEDFF 0%, #FF9213 100%);
+  }
+
+  .steps-number > span:last-of-type{
+    background: linear-gradient(-90deg, #F81B52 0%, #FF9213 100%);
+  }
+
+  .steps-image {
+    margin-top: 30px;
+  }
+
+  .steps-image > div {
+
+  }
+
+  .steps-image p {
+    color: #ffffff;
+    font-size: 2.4rem;
+    text-align: center;
+    margin-top: 40px;
   }
 
   ul.countdown {
     list-style: none;
-    margin: 25px 0;
+    margin: 30px 0;
     padding: 0;
     display: block;
     text-align: center;
@@ -30,7 +148,7 @@
     position: relative;
   }
   ul.countdown li span {
-    font-size: 7.0rem;
+    font-size: 8.0rem;
     font-weight: 300;
     line-height: 80px;
     font-family: "MontHeavy", sans-serif;
@@ -45,10 +163,30 @@
   }
   ul.countdown li p {
     color: rgba(255,255,255,0.5);
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     position: absolute;
-    right: 5px;
+    right: 0;
     top: 100%;
+  }
+
+  button {
+    width: 280px;
+    height: 60px;
+    font-size: 1.8rem;
+    border-radius: 30px;
+    background: #f81b52;
+    margin-top: 60px;
+    margin-bottom: 100px;
+  }
+
+  button:after {
+    display: none;
+  }
+
+  #menu3 {
+    position: absolute;
+    left: 0;
+    top: 0;
   }
 }
 

@@ -1,12 +1,12 @@
 $( document ).ready(function() {
     $("body").css("overflow", "hidden");
-    $('.popup').addClass('visible');
+    $('.popup_1').addClass('visible');
 });
 
 $(".continue").click(function () {
     event.preventDefault()
     $("body").css("overflow", "auto");
-    $('.popup').removeClass('visible');
+    $('.popup_1').removeClass('visible');
 });
 
 $(".ava-block").click(function () {

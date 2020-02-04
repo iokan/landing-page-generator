@@ -93,6 +93,7 @@ gulp.task('watch', function (){
     gulp.watch(['src/' + project + '/*.html', 'src/' + project + '/_*.html'], gulp.series('html'));
     gulp.watch('src/' + project + '/sass/*.scss', gulp.series('sass'));
     gulp.watch('src/' + project + '/js/*.js', gulp.series('vendor'));
+    gulp.watch('src/' + project + '/include/*.js', gulp.series('include'));
     gulp.watch('src/' + project + '/fonts/*', gulp.series('fonts'));
     gulp.watch('src/' + project + '/img/*', gulp.series('img'));
 });
