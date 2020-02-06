@@ -72,11 +72,16 @@
     color: #F81B52;
     padding-top: 26px;
     text-shadow: 0 -13px 0 rgba(255, 146, 19, 0.6), 0 -26px 0 rgba(11, 237, 255, 0.3);
-    white-space: nowrap;
     text-transform: uppercase;
     line-height: 100%;
     margin-top: 30px;
     margin-bottom: 70px;
+  }
+
+  h4 span {
+    font-family: inherit;
+    color: inherit;
+    white-space: nowrap;
   }
 
   h5 {

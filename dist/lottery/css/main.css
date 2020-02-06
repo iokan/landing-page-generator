@@ -242,11 +242,14 @@
     color: #F81B52;
     padding-top: 26px;
     text-shadow: 0 -13px 0 rgba(255, 146, 19, 0.6), 0 -26px 0 rgba(11, 237, 255, 0.3);
-    white-space: nowrap;
     text-transform: uppercase;
     line-height: 100%;
     margin-top: 30px;
     margin-bottom: 70px; }
+  .firstwiev_2 h4 span {
+    font-family: inherit;
+    color: inherit;
+    white-space: nowrap; }
   .firstwiev_2 h5 {
     font-size: 2.4rem;
     color: rgba(255, 255, 252, 0.7);
@@ -823,7 +826,9 @@ footer, .footer-2 {
   .firstwiev_2 ul.countdown li span {
     font-size: 7.0rem; }
   .firstwiev_2 h4 {
-    font-size: 5rem; }
+    font-size: 5rem;
+    padding-top: 22px;
+    text-shadow: 0 -11px 0 rgba(255, 146, 19, 0.6), 0 -22px 0 rgba(11, 237, 255, 0.3); }
   .firstwiev_2 h3 {
     font-size: 3rem; }
   .steps-image img {
@@ -849,7 +854,9 @@ footer, .footer-2 {
 
 @media only screen and (max-width: 991px) {
   .firstwiev_2 h4 {
-    font-size: 4rem; }
+    font-size: 4rem;
+    padding-top: 18px;
+    text-shadow: 0 -9px 0 rgba(255, 146, 19, 0.6), 0 -18px 0 rgba(11, 237, 255, 0.3); }
   .firstwiev_2 h5 {
     font-size: 2rem; }
   .firstwiev_2 ul.countdown li span {
@@ -915,7 +922,9 @@ footer, .footer-2 {
   .firstwiev_2 .congratulations {
     max-width: 640px; }
   .firstwiev_2 h4 {
-    font-size: 3.6rem; }
+    font-size: 3.6rem;
+    padding-top: 16px;
+    text-shadow: 0 -8px 0 rgba(255, 146, 19, 0.6), 0 -16px 0 rgba(11, 237, 255, 0.3); }
   .firstwiev_2 ul.countdown li span {
     font-size: 4.6rem; } }
 
@@ -944,9 +953,11 @@ footer, .footer-2 {
     width: 100%; }
   .firstwiev_2 h4 {
     font-size: 3rem;
-    margin-bottom: 30px;
-    padding-top: 18px;
-    text-shadow: 0 -9px 0 rgba(255, 146, 19, 0.6), 0 -18px 0 rgba(11, 237, 255, 0.3); }
+    padding-top: 14px;
+    text-shadow: 0 -7px 0 rgba(255, 146, 19, 0.6), 0 -14px 0 rgba(11, 237, 255, 0.3);
+    line-height: 1.4;
+    margin-bottom: 25px;
+    margin-top: 25px; }
   .firstwiev_2 h5 {
     font-size: 1.8rem; }
   .firstwiev_2 ul.countdown li.seperator {
@@ -1026,7 +1037,6 @@ footer, .footer-2 {
   .firstwiev_2 h3 {
     font-size: 2rem; }
   .firstwiev_2 h4 {
-    font-size: 2.8rem;
     margin-bottom: 30px; }
   .firstwiev_2 h5 {
     font-size: 1.7rem; }
@@ -1091,10 +1101,6 @@ footer, .footer-2 {
     right: -5px; } }
 
 @media only screen and (max-width: 450px) {
-  .firstwiev_2 h4 {
-    font-size: 2.4rem;
-    padding-top: 14px;
-    text-shadow: 0 -7px 0 rgba(255, 146, 19, 0.6), 0 -14px 0 rgba(11, 237, 255, 0.3); }
   .popup-block {
     width: 90%; }
   .popup-block h4 {
@@ -1128,8 +1134,6 @@ footer, .footer-2 {
     height: 5px; }
   .steps-image img {
     height: 70px; }
-  .firstwiev_2 h4 {
-    font-size: 2.2rem; }
   .firstwiev_2 h5 {
     font-size: 1.6rem; }
   .firstwiev_2 ul.countdown li span {
@@ -1151,9 +1155,7 @@ footer, .footer-2 {
 
 @media only screen and (max-width: 359px) {
   .firstwiev_2 h4 {
-    font-size: 2rem;
-    margin-left: -15px;
-    margin-right: -15px; }
+    font-size: 2.8rem; }
   .firstwiev_2 .steps-image p {
     font-size: 1rem;
     margin-top: 15px; }
