@@ -88,7 +88,7 @@
             // ref_days
             var ref_days;
 
-            if((days === 1) || (days === 21) || (days === 31) || (days === 41) || (days === 51)){
+            if((days == 1) || (days === 21) || (days === 31) || (days === 41) || (days === 51)){
                 ref_days = 'день';
             }
 
@@ -103,7 +103,7 @@
             //ref_hours
             var ref_hours;
 
-            if((hours === 1) || (hours === 21) || (hours === 31) || (hours === 41) || (hours === 51)){
+            if((hours == 1) || (hours === 21) || (hours === 31) || (hours === 41) || (hours === 51)){
                 ref_hours = 'час';
             } else if (((1 < hours) && (hours < 5)) || ((21 < hours) && (hours < 25)) || ((31 < hours) && (hours < 35)) || ((41 < hours) && (hours < 45)) || ((51 < hours) && (hours < 55))){
                 ref_hours = 'часа';
@@ -114,8 +114,8 @@
             //ref_minutes
             var ref_minutes;
 
-            if((minutes === 1) || (minutes === 21) || (minutes === 31) || (minutes === 41) || (minutes === 51)){
-                ref_minutes = 'минута';
+            if((minutes == 1) || (minutes === 21) || (minutes === 31) || (minutes === 41) || (minutes === 51)){
+                ref_minutes = 'минуту';
             } else if (((minutes > 1) && (minutes < 5)) || ((minutes > 21) && (minutes < 25)) || ((minutes > 31) && (minutes < 35)) || ((minutes > 41) && (minutes < 45)) || ((minutes > 51) && (minutes < 55))){
                 ref_minutes = 'минуты';
             } else {
@@ -125,8 +125,8 @@
             //ref_seconds
             var ref_seconds;
 
-            if((seconds === 1) || (seconds === 21) || (seconds === 31) || (seconds === 41) || (seconds === 51)){
-                ref_seconds = 'секунда';
+            if((seconds == 1) || (seconds === 21) || (seconds === 31) || (seconds === 41) || (seconds === 51)){
+                ref_seconds = 'секунду';
             } else if (((seconds > 1) && (seconds < 5)) || ((seconds > 21) && (seconds < 25)) || ((seconds > 31) && (seconds < 35)) || ((seconds > 41) && (seconds < 45)) || ((seconds > 51) && (seconds < 55))){
                 ref_seconds = 'секунды';
             } else {

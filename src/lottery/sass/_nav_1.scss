@@ -4,12 +4,15 @@
   left: 0;
   top: 50%;
   transform: translateY(-50%);
+  z-index: 9;
   .navbar-brand {
     font-size: 2rem;
   }
 
   .nav-item {
     padding-left: 15px;
+    height: 34px;
+    transition: 500ms;
     &:last-child {
       margin-right: 0;
     }
@@ -17,8 +20,8 @@
       padding-left: 10px;
       position: relative;
       font-size: 1.6rem;
-      transition: 500ms;
       color: rgba(255,255,255,0.7);
+      text-shadow: 0 0 3px rgba(0,0,0,1);
       &:hover {
         color: rgba(255,255,255,0.9);
       }
@@ -55,13 +58,16 @@
   }
 
   .nav-item.active {
+    height: 76px;
+    transition: 500ms;
+    display: flex;
+    align-items: center;
     a.nav-link {
       font-family: "MontRegular", sans-serif;
       background: radial-gradient(55.61% 937.5% at 45.7% 121.63%, #03DCFE 0%, #8B94FF 13.62%, #ECB1FF 33.33%, #00EFFE 45.31%, #009AF3 61.46%, #FF6E13 74.48%, #F22E3C 81.77%, #FF1573 89.58%, #F35FE3 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       transition: 500ms;
-      line-height: 58px;
 
       &:before {
         height: 58px;
@@ -82,22 +88,27 @@
     .navbar-toggler {
       position: relative;
       border: none;
-      width: 25px;
-      height: 25px;
+      width: 24px;
+      height: 24px;
       margin: 0;
+      padding: 5px;
+
+      &:after {
+        display: none;
+      }
       &:hover, &:focus, &:active{
         background: none;
       }
 
       .navbar-icon {
         width: 100%;
-        height: 2px;
-        background: #000000;
+        height: 1px;
+        background: rgba(255,255,255,0.7);
         position: absolute;
         top: 50%;
         left: 50%;
         transform-origin: 50% 50%;
-        transition: 250ms;
+        transition: 500ms;
         &:first-child {
           transform: translate(-50%, -50%) rotate(135deg);
         }
@@ -114,8 +125,8 @@
       &.collapsed {
         .navbar-icon {
           width: 100%;
-          height: 2px;
-          background: #000000;
+          height: 1px;
+          background: rgba(255,255,255,0.7);
           position: absolute;
           left: 0;
           transform: none;
@@ -126,7 +137,6 @@
 
           &:nth-child(2) {
             top: 50%;
-            transform: translateY(-50%);
             display: block;
           }
 

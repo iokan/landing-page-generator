@@ -11,6 +11,11 @@
   z-index: -1;
 }
 
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
 .popup_1.visible {
   opacity: 1;
   transition: 1s;
