@@ -5,10 +5,8 @@
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.8);
-  opacity: 0;
   transition: 1s;
-  z-index: -1;
+  background: rgba(0,0,0,0);
 }
 
 .row {
@@ -17,9 +15,9 @@
 }
 
 .popup_1.visible {
-  opacity: 1;
   transition: 1s;
   z-index: 9;
+  background: rgba(0,0,0,0.7);
 }
 
 .popup-block {
@@ -28,11 +26,17 @@
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scale(0);
   background: #ffffff;
   padding: 40px 50px;
   border: 2px solid #f81b52;
   border-radius: 24px;
+  transition: 0.5s;
+}
+
+.visible .popup-block {
+  transform: translate(-50%, -50%) scale(1);
+  transition: 0.5s;
 }
 
 .popup-block h4 {

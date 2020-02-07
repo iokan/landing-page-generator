@@ -41,7 +41,7 @@
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  z-index: 9; }
+  z-index: 1; }
   .nav_1 .navbar-brand {
     font-size: 2rem; }
   .nav_1 .nav-item {
@@ -334,12 +334,12 @@
   .video_1 .container {
     padding: 0 150px; }
   .video_1 .video-block {
-    background-color: #2c2c2c;
+    background-color: #191919;
     position: relative;
     background-image: url("../img/play.png");
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-size: 22% auto; }
+    background-size: 25% auto; }
   .video_1 h3 {
     font-family: "MontHeavy", sans-serif;
     font-size: 4.2rem;
@@ -351,14 +351,51 @@
   .video_1 video {
     width: 100%;
     height: 720px; }
-  .video_1 p {
-    color: #ffffff;
+  .video_1 .countdown > p {
     position: absolute;
-    left: 0;
-    top: 12%;
-    font-size: 3.6rem;
+    left: 50%;
+    bottom: 100%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    color: #ffffff;
+    font-size: 2.4rem;
     width: 100%;
-    text-align: center; }
+    text-align: center;
+    white-space: nowrap; }
+  .video_1 ul.countdown {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    list-style: none;
+    padding: 30px 0;
+    margin: 0;
+    display: block;
+    text-align: center;
+    width: 100%; }
+  .video_1 ul.countdown li {
+    position: relative; }
+  .video_1 ul.countdown li span {
+    font-size: 7.0rem;
+    font-weight: 300;
+    line-height: 80px;
+    font-family: "MontHeavy", sans-serif;
+    color: #ffffff; }
+  .video_1 ul.countdown li.seperator {
+    width: 15px;
+    height: 5px;
+    border-radius: 3px;
+    background: #ffffff;
+    margin: 0 25px; }
+  .video_1 ul.countdown li p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.6rem;
+    position: absolute;
+    right: 0;
+    top: 100%; }
 
 .popup_1 {
   position: fixed;
@@ -366,23 +403,21 @@
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.8);
-  opacity: 0;
   -webkit-transition: 1s;
   -o-transition: 1s;
   transition: 1s;
-  z-index: -1; }
+  background: rgba(0, 0, 0, 0); }
 
 .row {
   margin-right: 0;
   margin-left: 0; }
 
 .popup_1.visible {
-  opacity: 1;
   -webkit-transition: 1s;
   -o-transition: 1s;
   transition: 1s;
-  z-index: 9; }
+  z-index: 9;
+  background: rgba(0, 0, 0, 0.7); }
 
 .popup-block {
   width: 100%;
@@ -390,13 +425,24 @@
   position: absolute;
   left: 50%;
   top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%) scale(0);
+  -ms-transform: translate(-50%, -50%) scale(0);
+  transform: translate(-50%, -50%) scale(0);
   background: #ffffff;
   padding: 40px 50px;
   border: 2px solid #f81b52;
-  border-radius: 24px; }
+  border-radius: 24px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
+
+.visible .popup-block {
+  -webkit-transform: translate(-50%, -50%) scale(1);
+  -ms-transform: translate(-50%, -50%) scale(1);
+  transform: translate(-50%, -50%) scale(1);
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
 
 .popup-block h4 {
   font-family: "MontHeavy", sans-serif;
@@ -730,7 +776,7 @@ header {
   top: 0;
   right: 0;
   background: #000000;
-  z-index: 9;
+  z-index: 1;
   width: 100px;
   -webkit-box-shadow: 0px 0px 10px rgba(11, 237, 255, 0.2);
   box-shadow: 0px 0px 10px rgba(11, 237, 255, 0.2);
@@ -810,8 +856,6 @@ footer, .footer-2 {
     height: 180px; }
   .video_1 h3 {
     font-size: 3.7rem; }
-  .video_1 p {
-    font-size: 3rem; }
   .firstwiev_2 .steps {
     padding: 0 100px; }
   .video_1 .container {
@@ -823,7 +867,7 @@ footer, .footer-2 {
     margin-left: -150px; }
   .firstwiev_2 .steps-image p {
     font-size: 1.6rem; }
-  .firstwiev_2 ul.countdown li span {
+  .firstwiev_2 ul.countdown li span, .video_1 ul.countdown li span {
     font-size: 7.0rem; }
   .firstwiev_2 h4 {
     font-size: 5rem;
@@ -835,12 +879,10 @@ footer, .footer-2 {
     height: 150px; }
   .video_1 h3 {
     font-size: 3rem; }
-  .video_1 p {
-    font-size: 2.4rem; }
   header {
     width: 85px;
     padding: 5px; }
-  .firstwiev_2 ul.countdown li span {
+  .firstwiev_2 ul.countdown li span, .video_1 ul.countdown li span {
     font-size: 6rem;
     line-height: 64px; }
   .video_1 video {
@@ -859,10 +901,12 @@ footer, .footer-2 {
     text-shadow: 0 -9px 0 rgba(255, 146, 19, 0.6), 0 -18px 0 rgba(11, 237, 255, 0.3); }
   .firstwiev_2 h5 {
     font-size: 2rem; }
-  .firstwiev_2 ul.countdown li span {
+  .video_1 .countdown > p {
+    font-size: 2rem; }
+  .firstwiev_2 ul.countdown li span, .video_1 ul.countdown li span {
     font-size: 5rem;
     line-height: 54px; }
-  .firstwiev_2 ul.countdown li p {
+  .firstwiev_2 ul.countdown li p, .video_1 ul.countdown li p {
     font-size: 1.3rem; }
   .firstwiev_2 h3 {
     font-size: 2.8rem;
@@ -871,8 +915,6 @@ footer, .footer-2 {
     font-size: 2.8rem;
     line-height: 1.4;
     margin-bottom: 40px; }
-  .video_1 p {
-    font-size: 2rem; }
   .firstwiev_2 .steps {
     padding: 0 50px; }
   .video_1 .container {
@@ -925,7 +967,7 @@ footer, .footer-2 {
     font-size: 3.6rem;
     padding-top: 16px;
     text-shadow: 0 -8px 0 rgba(255, 146, 19, 0.6), 0 -16px 0 rgba(11, 237, 255, 0.3); }
-  .firstwiev_2 ul.countdown li span {
+  .firstwiev_2 ul.countdown li span, .video_1 ul.countdown li span {
     font-size: 4.6rem; } }
 
 @media only screen and (max-width: 767px) {
@@ -960,12 +1002,14 @@ footer, .footer-2 {
     margin-top: 25px; }
   .firstwiev_2 h5 {
     font-size: 1.8rem; }
-  .firstwiev_2 ul.countdown li.seperator {
+  .video_1 .countdown > p {
+    font-size: 1.8rem; }
+  .firstwiev_2 ul.countdown li.seperator, .video_1 ul.countdown li.seperator {
     margin: 0 18px; }
-  .firstwiev_2 ul.countdown li span {
+  .firstwiev_2 ul.countdown li span, .video_1 ul.countdown li span {
     font-size: 3.8rem;
     line-height: 45px; }
-  .firstwiev_2 ul.countdown li p {
+  .firstwiev_2 ul.countdown li p, .video_1 ul.countdown li p {
     font-size: 1.1rem; }
   .firstwiev_2 h3 {
     font-size: 2.2rem; }
@@ -990,8 +1034,6 @@ footer, .footer-2 {
   .firstwiev_2 button {
     margin-bottom: 40px;
     margin-top: 40px; }
-  .video_1 p {
-    font-size: 1.8rem; }
   .navbar {
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
@@ -1012,12 +1054,12 @@ footer, .footer-2 {
     -webkit-text-fill-color: inherit; }
   .congratulaton {
     padding: 0; }
-  .popup-block {
+  .visible .popup-block {
     max-width: 500px;
     top: 20px;
-    -webkit-transform: translate(-50%, 0);
-    -ms-transform: translate(-50%, 0);
-    transform: translate(-50%, 0); }
+    -webkit-transform: translate(-50%, 0) scale(1);
+    -ms-transform: translate(-50%, 0) scale(1);
+    transform: translate(-50%, 0) scale(1); }
   .popup-block h4 {
     font-size: 2.2rem; }
   .popup-block .id {
@@ -1040,14 +1082,14 @@ footer, .footer-2 {
     margin-bottom: 30px; }
   .firstwiev_2 h5 {
     font-size: 1.7rem; }
-  .firstwiev_2 ul.countdown li span {
+  .video_1 .countdown > p {
+    font-size: 1.7rem; }
+  .firstwiev_2 ul.countdown li span, .video_1 ul.countdown li span {
     font-size: 3.6rem; }
   .firstwiev_2 .steps-image {
     margin-top: 10px; }
   .firstwiev_2 h6 {
     font-size: 2.8rem; }
-  .video_1 p {
-    font-size: 1.6rem; }
   .video_1 h3 {
     font-size: 2rem;
     margin-bottom: 20px; }
@@ -1136,12 +1178,14 @@ footer, .footer-2 {
     height: 70px; }
   .firstwiev_2 h5 {
     font-size: 1.6rem; }
-  .firstwiev_2 ul.countdown li span {
+  .video_1 .countdown > p {
+    font-size: 1.6rem; }
+  .firstwiev_2 ul.countdown li span, .video_1 ul.countdown li span {
     font-size: 3.2rem;
     line-height: 35px; }
-  .firstwiev_2 ul.countdown li p {
+  .firstwiev_2 ul.countdown li p, .video_1 ul.countdown li p {
     font-size: 1rem; }
-  .firstwiev_2 ul.countdown li.seperator {
+  .firstwiev_2 ul.countdown li.seperator, .video_1 ul.countdown li.seperator {
     width: 11px;
     height: 4px;
     margin: 0 15px; }
@@ -1169,9 +1213,7 @@ footer, .footer-2 {
     margin-left: -75px; }
   .video_1 video {
     height: 200px; }
-  .video_1 p {
-    font-size: 1.4rem; }
-  .firstwiev_2 ul.countdown li span {
+  .firstwiev_2 ul.countdown li span, .video_1 ul.countdown li span {
     font-size: 3rem; }
   .steps-number {
     padding: 0px 15px; }

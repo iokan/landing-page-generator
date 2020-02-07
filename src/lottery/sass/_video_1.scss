@@ -6,12 +6,12 @@
     padding: 0 150px;
   }
   .video-block {
-    background-color: #2c2c2c;
+    background-color: #191919;
     position: relative;
     background-image: url("../img/play.png");
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-size: 22% auto;
+    background-size: 25% auto;
   }
 
   h3 {
@@ -29,13 +29,52 @@
     height: 720px;
   }
 
-  p {
-    color: #ffffff;
+  .countdown > p {
     position: absolute;
-    left: 0;
-    top: 12%;
-    font-size: 3.6rem;
+    left: 50%;
+    bottom: 100%;
+    transform: translateX(-50%);
+    color: #ffffff;
+    font-size: 2.4rem;
     width: 100%;
     text-align: center;
+    white-space: nowrap;
+  }
+
+  ul.countdown {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    padding: 30px 0;
+    margin: 0;
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  ul.countdown li {
+    position: relative;
+  }
+  ul.countdown li span {
+    font-size: 7.0rem;
+    font-weight: 300;
+    line-height: 80px;
+    font-family: "MontHeavy", sans-serif;
+    color: #ffffff;
+  }
+  ul.countdown li.seperator {
+    width: 15px;
+    height: 5px;
+    border-radius: 3px;
+    background: #ffffff;
+    margin: 0 25px;
+  }
+  ul.countdown li p {
+    color: rgba(255,255,255,0.8);
+    font-size: 1.6rem;
+    position: absolute;
+    right: 0;
+    top: 100%;
   }
 }
