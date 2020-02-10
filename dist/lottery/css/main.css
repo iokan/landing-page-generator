@@ -252,7 +252,7 @@
   right: 0; }
 
 .firstwiev_2 {
-  padding-top: 55px;
+  padding-top: 110px;
   overflow: hidden; }
   .firstwiev_2 .congratulations {
     width: 95%;
@@ -348,7 +348,7 @@
     background: -o-linear-gradient(left, #03DCFE 0.13%, #8A94FF 13.74%, #8B94FF 13.75%, #ECB1FF 33.47%, #00EFFE 45.45%, #009AF3 61.6%, #FF6E13 74.62%, #A0000B 81.92%, #FF1573 89.73%, #8C2981 100.15%);
     background: linear-gradient(to right, #03DCFE 0.13%, #8A94FF 13.74%, #8B94FF 13.75%, #ECB1FF 33.47%, #00EFFE 45.45%, #009AF3 61.6%, #FF6E13 74.62%, #A0000B 81.92%, #FF1573 89.73%, #8C2981 100.15%); }
   .firstwiev_2 h2 {
-    font-size: 7.4rem;
+    font-size: 6.4rem;
     font-family: "MontHeavy", sans-serif;
     text-transform: uppercase;
     background: -o-radial-gradient(45.7% 121.63%, 55.61% 937.5%, #03DCFE 0%, #8B94FF 13.62%, #ECB1FF 33.33%, #00EFFE 45.31%, #009AF3 61.46%, #FF6E13 74.48%, #A0000B 81.77%, #FF1573 89.58%, #8C2981 100%);
@@ -356,7 +356,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
-    letter-spacing: 5px; }
+    margin: 0 5px; }
   .firstwiev_2 h3 {
     font-family: "MontHeavy", sans-serif;
     font-size: 4.2rem;
@@ -397,7 +397,7 @@
     -webkit-background-clip: text;
     text-shadow: none; }
   .firstwiev_2 h4:first-of-type:after {
-    content: "Розыгрыш";
+    content: "В розыгрыше";
     position: absolute;
     left: 50%;
     top: 50%;
@@ -411,7 +411,8 @@
     background: transparent;
     color: transparent;
     -webkit-background-clip: text;
-    text-shadow: none; }
+    text-shadow: none;
+    white-space: nowrap; }
   .firstwiev_2 h4 span {
     position: relative;
     font-family: inherit;
@@ -1095,7 +1096,7 @@ footer, .footer-2 {
   .firstwiev_2 h4 {
     font-size: 6.2rem; }
   .firstwiev_2 h2 {
-    font-size: 7.2rem; }
+    font-size: 6.2rem; }
   .firstwiev_2 h5 {
     font-size: 2.2rem; }
   .firstwiev_2 h3, .houx_1 h3 {
@@ -1120,7 +1121,7 @@ footer, .footer-2 {
   .firstwiev_2 h4 {
     font-size: 5rem; }
   .firstwiev_2 h2 {
-    font-size: 6rem; }
+    font-size: 5rem; }
   .firstwiev_2 h3, .houx_1 h3 {
     font-size: 3rem; }
   .steps-image img {
@@ -1148,8 +1149,7 @@ footer, .footer-2 {
   .firstwiev_2 h4 {
     font-size: 4rem; }
   .firstwiev_2 h2 {
-    font-size: 5rem;
-    letter-spacing: 4px; }
+    font-size: 4rem; }
   .firstwiev_2 h5 {
     font-size: 2rem; }
   .video_1 .countdown > p {
@@ -1225,7 +1225,7 @@ footer, .footer-2 {
   .firstwiev_2 h4 {
     font-size: 3.6rem; }
   .firstwiev_2 h2 {
-    font-size: 4.6rem; }
+    font-size: 3.6rem; }
   .firstwiev_2 ul.countdown li span, .video_1 ul.countdown li span {
     font-size: 4.6rem; }
   .nav_2 p {
@@ -1263,8 +1263,7 @@ footer, .footer-2 {
   .firstwiev_2 h4 {
     font-size: 3rem; }
   .firstwiev_2 h2 {
-    font-size: 4rem;
-    letter-spacing: 3px; }
+    font-size: 3rem; }
   .firstwiev_2 h5 {
     font-size: 1.8rem; }
   .video_1 .countdown > p {
@@ -1467,7 +1466,9 @@ footer, .footer-2 {
   .nav_2 a {
     padding: 3px 0 3px 5px; }
   .houx_1 h6, .houx_1 p, .houx_1 h5, .houx_1 h5 q {
-    font-size: 1.5rem; } }
+    font-size: 1.5rem; }
+  .firstwiev_2 {
+    padding-top: 55px; } }
 
 @media only screen and (max-width: 400px) {
   .video_1 video {
@@ -1517,8 +1518,7 @@ footer, .footer-2 {
   .firstwiev_2 h4 {
     font-size: 2.8rem; }
   .firstwiev_2 h2 {
-    font-size: 3.8rem;
-    letter-spacing: 2px; }
+    font-size: 2.8rem; }
   .firstwiev_2 .steps-image p {
     font-size: 1rem;
     margin-top: 15px; }

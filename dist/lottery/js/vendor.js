@@ -50,7 +50,9 @@ $(window).scroll(function () {
         anchor3 = $('#menu3').offset().top,
         anchor4 = $('#menu4').offset().top,
         anchor5 = $('.header-end').offset().top,
-        positionNav = $(window).scrollTop();
+        anchor6 = $('#our-houxs').offset().top,
+        positionNav = $(window).scrollTop(),
+        positionBottom = $(window).scrollTop() + ($(window).height());
 
     if (position >= anchor1 && position < anchor2) {
         $('.target-1').addClass('active');
@@ -71,7 +73,7 @@ $(window).scroll(function () {
         $('.target-3').removeClass('active');
     }
 
-    if (position > anchor4) {
+    if (position > anchor4 && positionBottom < anchor6) {
         $('.target-4').addClass('active');
     } else {
         $('.target-4').removeClass('active');

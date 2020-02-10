@@ -6,7 +6,7 @@
   $firstwiev_bg_repeat: no-repeat;
   @extend .firstwiev;
 
-  padding-top: 55px;
+  padding-top: 110px;
   overflow: hidden;
 
   .congratulations {
@@ -93,14 +93,14 @@
   }
 
   h2 {
-    font-size: 7.4rem;
+    font-size: 6.4rem;
     font-family: "MontHeavy", sans-serif;
     text-transform: uppercase;
     background: radial-gradient(55.61% 937.5% at 45.7% 121.63%, #03DCFE 0%, #8B94FF 13.62%, #ECB1FF 33.33%, #00EFFE 45.31%, #009AF3 61.46%, #FF6E13 74.48%, #A0000B 81.77%, #FF1573 89.58%, #8C2981 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
-    letter-spacing: 5px;
+    margin: 0 5px;
   }
 
   h3 {
@@ -149,7 +149,7 @@
   }
 
   h4:first-of-type:after {
-    content: "Розыгрыш";
+    content: "В розыгрыше";
     position: absolute;
     left: 50%;
     top: 50%;
@@ -162,6 +162,7 @@
     color: transparent;
     -webkit-background-clip: text;
     text-shadow: none;
+    white-space: nowrap;
   }
 
   h4 span {
