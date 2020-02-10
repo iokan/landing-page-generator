@@ -7,6 +7,7 @@ $(".continue").click(function () {
     event.preventDefault()
     $("body").css("overflow", "auto");
     $('.popup_1').removeClass('visible');
+    $('.nav_2').addClass('visible')
 });
 
 $(".ava-block").click(function () {

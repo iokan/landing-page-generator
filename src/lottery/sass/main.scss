@@ -1,8 +1,10 @@
 @import "fonts";
 @import "header_3";
 @import "nav_1";
+@import "nav_2";
 @import "firstwiev_2";
 @import "video_1";
+@import "houx_1";
 @import "popup_1";
 @import "footer_2";
 
@@ -67,6 +69,7 @@ body {
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6, p, a, span {
@@ -333,11 +336,15 @@ footer {
     font-size: 6.2rem;
   }
 
+  .firstwiev_2 h2 {
+    font-size: 7.2rem;
+  }
+
   .firstwiev_2 h5 {
     font-size: 2.2rem;
   }
 
-  .firstwiev_2 h3 {
+  .firstwiev_2 h3, .houx_1 h3 {
     font-size: 3.7rem;
   }
 
@@ -353,7 +360,7 @@ footer {
     padding: 0 100px;
   }
 
-  .video_1 .container {
+  .video_1 .container, .houx_1 .container {
     padding: 0 100px;
   }
 }
@@ -374,11 +381,13 @@ footer {
 
   .firstwiev_2 h4 {
     font-size: 5rem;
-    padding-top: 22px;
-    text-shadow: 0 -11px 0 rgba(255, 146, 19, 0.6), 0 -22px 0 rgba(11, 237, 255, 0.3);
   }
 
-  .firstwiev_2 h3 {
+  .firstwiev_2 h2 {
+    font-size: 6rem;
+  }
+
+  .firstwiev_2 h3, .houx_1 h3 {
     font-size: 3rem;
   }
 
@@ -388,6 +397,10 @@ footer {
 
   .video_1 h3 {
     font-size: 3rem;
+  }
+
+  .nav_2 {
+    right: 85px;
   }
 
   header {
@@ -408,7 +421,7 @@ footer {
     padding: 0px 115px;
   }
 
-  .video_1 .container {
+  .video_1 .container, .houx_1 .container {
     padding: 0px 115px;
   }
 
@@ -420,8 +433,11 @@ footer {
 @media only screen and (max-width: 991px) {
   .firstwiev_2 h4 {
     font-size: 4rem;
-    padding-top: 18px;
-    text-shadow: 0 -9px 0 rgba(255, 146, 19, 0.6), 0 -18px 0 rgba(11, 237, 255, 0.3);
+  }
+
+  .firstwiev_2 h2 {
+    font-size: 5rem;
+    letter-spacing: 4px;
   }
 
   .firstwiev_2 h5 {
@@ -432,7 +448,7 @@ footer {
     font-size: 2rem;
   }
 
-  .firstwiev_2 ul.countdown li span, .video_1 ul.countdown li span{
+  .firstwiev_2 ul.countdown li span, .video_1 ul.countdown li span {
     font-size: 5rem;
     line-height: 54px;
   }
@@ -441,7 +457,7 @@ footer {
     font-size: 1.3rem;
   }
 
-  .firstwiev_2 h3 {
+  .firstwiev_2 h3, .houx_1 h3 {
     font-size: 2.8rem;
     margin-bottom: 20px;
   }
@@ -456,7 +472,7 @@ footer {
     padding: 0 50px;
   }
 
-  .video_1 .container {
+  .video_1 .container, .houx_1 .container {
     padding: 0 50px;
   }
 
@@ -481,7 +497,7 @@ footer {
   }
 
   .firstwiev_2 button {
-    margin-bottom: 60px;
+    margin-top: 80px;
   }
 
   .firstwiev_2 h1:before {
@@ -491,11 +507,27 @@ footer {
   .firstwiev_2 h1:after {
     height: 10px;
   }
+
+  .firstwiev_2 ul.countdown:after {
+    top: -70px;
+  }
+
+  .houx_1 h6, .houx_1 p, .houx_1 h5, .houx_1 h5 q {
+    font-size: 1.8rem;
+  }
+
+  .houx_1 h5 {
+    margin-top: 20px;
+  }
 }
 
 @media only screen and (max-width: 900px) {
   .nav_1 .container {
     padding: 0 5px;
+  }
+
+  .nav_2 {
+    right: 65px;
   }
 
   header {
@@ -524,7 +556,7 @@ footer {
     font-size: 2.4rem;
   }
 
-  .firstwiev_2 h3 {
+  .firstwiev_2 h3, .houx_1 h3 {
     font-size: 2.6rem;
   }
 
@@ -536,7 +568,7 @@ footer {
     padding: 0 100px;
   }
 
-  .video_1 .container {
+  .video_1 .container, .houx_1 .container {
     padding: 0 100px;
   }
 
@@ -546,16 +578,35 @@ footer {
 
   .firstwiev_2 h4 {
     font-size: 3.6rem;
-    padding-top: 16px;
-    text-shadow: 0 -8px 0 rgba(255, 146, 19, 0.6), 0 -16px 0 rgba(11, 237, 255, 0.3);
+  }
+
+  .firstwiev_2 h2 {
+    font-size: 4.6rem;
+
   }
 
   .firstwiev_2 ul.countdown li span, .video_1 ul.countdown li span {
     font-size: 4.6rem;
   }
+
+  .nav_2 p {
+    font-size: 1.6rem;
+  }
+
+  .nav_2 a > p {
+    font-size: 1.5rem;
+  }
+
+  .nav_2 p span {
+    font-size: 2.2rem;
+  }
 }
 
 @media only screen and (max-width: 767px) {
+  .nav_2 {
+    right: 0px;
+  }
+
   header {
     display: none;
   }
@@ -564,7 +615,7 @@ footer {
     padding: 0 15px;
   }
 
-  .video_1 .container {
+  .video_1 .container, .houx_1 .container {
     padding: 0 15px;
   }
 
@@ -577,8 +628,8 @@ footer {
   }
 
   .nav_1 {
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     transform: translateY(0);
   }
 
@@ -596,11 +647,11 @@ footer {
 
   .firstwiev_2 h4 {
     font-size: 3rem;
-    padding-top: 14px;
-    text-shadow: 0 -7px 0 rgba(255, 146, 19, 0.6), 0 -14px 0 rgba(11, 237, 255, 0.3);
-    line-height: 1.4;
-    margin-bottom: 25px;
-    margin-top: 25px;
+  }
+
+  .firstwiev_2 h2 {
+    font-size: 4rem;
+    letter-spacing: 3px;
   }
 
   .firstwiev_2 h5 {
@@ -624,7 +675,7 @@ footer {
     font-size: 1.1rem;
   }
 
-  .firstwiev_2 h3 {
+  .firstwiev_2 h3, .houx_1 h3 {
     font-size: 2.2rem;
   }
 
@@ -699,12 +750,14 @@ footer {
 
   .visible .popup-block {
     max-width: 500px;
-    top: 20px;
-    transform: translate(-50%, 0) scale(1);
+  }
+
+  .popup-block h3 {
+    font-size: 2.2rem;
   }
 
   .popup-block h4 {
-    font-size: 2.2rem;
+    font-size: 1.9rem;
   }
 
   .popup-block .id {
@@ -713,6 +766,10 @@ footer {
 
   .popup-block p {
     font-size: 1.5rem;
+  }
+
+  .houx_1 h6, .houx_1 p, .houx_1 h5, .houx_1 h5 q {
+    font-size: 1.7rem;
   }
 }
 
@@ -731,12 +788,8 @@ footer {
     margin-top: 20px;
   }
 
-  .firstwiev_2 h3 {
+  .firstwiev_2 h3, .houx_1 h3 {
     font-size: 2rem;
-  }
-
-  .firstwiev_2 h4 {
-    margin-bottom: 30px;
   }
 
   .firstwiev_2 h5 {
@@ -749,6 +802,7 @@ footer {
 
   .firstwiev_2 ul.countdown li span, .video_1 ul.countdown li span {
     font-size: 3.6rem;
+    line-height: 40px;
   }
 
   .firstwiev_2 .steps-image {
@@ -773,13 +827,36 @@ footer {
     font-size: 1.4rem;
   }
 
-  .popup-block h4 {
-    font-size: 2rem;
-  }
-
   .popup-block .id {
     font-size: 3.5rem;
   }
+
+  .firstwiev_2 ul.countdown:after {
+    top: -65px;
+  }
+
+  .firstwiev_2 h5 {
+    margin-bottom: 0;
+  }
+
+  .firstwiev_2 .h4 {
+    margin-bottom: 40px;
+  }
+
+  .firstwiev_2 ul.countdown:after {
+    width: 200vw;
+    height: 230px;
+    transform: translate(0);
+    left: -20px;
+    top: -110px;
+  }
+
+  .firstwiev_2 h5 {
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0 0 3px rgba(0,0,0,0.7);
+  }
+
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -812,6 +889,11 @@ footer {
     padding: 0 5px;
   }
 
+  .firstwiev_2 h6 {
+    width: 12px;
+    text-align: center;
+  }
+
   .firstwiev_2 .steps {
     padding: 5px;
   }
@@ -838,7 +920,7 @@ footer {
   }
 
   .mt-5 {
-    margin-top: 2rem!important;
+    margin-top: 2rem !important;
   }
 
   .select-ava {
@@ -849,12 +931,16 @@ footer {
 
 @media only screen and (max-width: 450px) {
   .popup-block {
-    width: 90%;
+    width: 94%;
+  }
+
+  .popup-block h3 {
+    font-size: 2rem;
+    margin-bottom: 5px;
   }
 
   .popup-block h4 {
-    font-size: 1.8rem;
-    line-height: 1.4;
+    font-size: 1.7rem;
   }
 
   .popup-block .id {
@@ -877,6 +963,47 @@ footer {
     margin: 4px;
     width: 40px;
     height: 40px;
+  }
+
+  .nav_2 {
+    padding: 5px 10px;
+  }
+
+  .nav_2 .exit {
+    position: absolute;
+    right: 6px;
+    top: 4px;
+    height: 26px;
+    backdrop-filter: none;
+  }
+
+  .nav_2 > p:first-of-type {
+    padding-right: 25px;
+  }
+
+  .nav_2 .exit > p {
+    display: none;
+  }
+
+  .nav_2 a {
+    margin-top: 0px;
+  }
+
+  .firstwiev_2 ul.countdown:after {
+    top: -105px;
+  }
+
+  .nav_2 p span {
+    line-height: 1.2;
+    margin-top: -1px;
+  }
+
+  .nav_2 a {
+    padding: 3px 0 3px 5px;
+  }
+
+  .houx_1 h6, .houx_1 p, .houx_1 h5, .houx_1 h5 q {
+    font-size: 1.5rem;
   }
 }
 
@@ -920,7 +1047,7 @@ footer {
     line-height: 35px;
   }
 
-  .firstwiev_2 ul.countdown li p, .video_1 ul.countdown li p{
+  .firstwiev_2 ul.countdown li p, .video_1 ul.countdown li p {
     font-size: 1rem;
   }
 
@@ -942,11 +1069,32 @@ footer {
     font-size: 1.8rem;
     margin-bottom: 0;
   }
+
+  .houx_1 h3 {
+    font-size: 1.8rem;
+  }
+
+  .popup-block h3 {
+    font-size: 1.9rem;
+  }
+
+  .popup-block h4 {
+    font-size: 1.6rem;
+  }
+
+  .houx_1 h6, .houx_1 p, .houx_1 h5, .houx_1 h5 q {
+    font-size: 1.4rem;
+  }
 }
 
 @media only screen and (max-width: 359px) {
   .firstwiev_2 h4 {
     font-size: 2.8rem;
+  }
+
+  .firstwiev_2 h2 {
+    font-size: 3.8rem;
+    letter-spacing: 2px;
   }
 
   .firstwiev_2 .steps-image p {
@@ -959,8 +1107,7 @@ footer {
   }
 
   .firstwiev_2 button {
-    margin-bottom: 25px;
-    margin-top: 25px;
+    margin-bottom: 20px;
   }
 
   .firstwiev_2 h1 {
@@ -989,7 +1136,7 @@ footer {
     font-size: 1.5rem;
   }
 
-  .firstwiev_2 h3 {
+  .firstwiev_2 h3, .houx_1 h3 {
     font-size: 1.7rem;
   }
 
@@ -1010,8 +1157,8 @@ footer {
   .popup-block .ava-block {
     width: 90px;
     height: 50px;
-    background-position: 8px 8px;
-    background-size: 34px 34px;
+    background-position: 9px 9px;
+    background-size: 30px 30px;
     padding: 10px 15px 10px 8px;
   }
 
@@ -1021,11 +1168,16 @@ footer {
   }
 
   .popup-block .id {
-    font-size: 3rem;
+    font-size: 2.8rem;
+    margin: 5px 0 10px 0;
+  }
+
+  .popup-block h3 {
+    font-size: 1.8rem;
   }
 
   .popup-block h4 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   .popup-block p {
@@ -1037,7 +1189,7 @@ footer {
   }
 
   .popup-block {
-    padding: 15px 15px;
+    padding: 10px 15px 15px;
   }
 
   .popup-block > form > div:first-of-type {
@@ -1045,6 +1197,70 @@ footer {
   }
 
   .select-ava {
-    right: -24px;
+    right: -17px;
   }
+
+  button {
+    height: 50px;
+  }
+
+  .mt-5 {
+    margin-top: 0.5rem !important;
+  }
+
+  .firstwiev_2 ul.countdown:after {
+    top: -100px;
+    left: -30px;
+  }
+
+  .houx_1 h6, .houx_1 p, .houx_1 h5, .houx_1 h5 q {
+    font-size: 1.3rem;
+  }
+}
+
+/* iPhone 4 */
+@media screen and (device-aspect-ratio: 320/480) and (orientation: portrait) {
+  .popup-block {
+    top: 10px;
+    -webkit-transform: translate(-50%, 0) scale(0);
+    -ms-transform: translate(-50%, 0) scale(0);
+    transform: translate(-50%, 0) scale(0);
+  }
+
+  .visible .popup-block {
+    -webkit-transform: translate(-50%, 0) scale(1);
+    -ms-transform: translate(-50%, 0) scale(1);
+    transform: translate(-50%, 0) scale(1);
+  }
+}
+
+@media screen and (device-aspect-ratio: 320/480) and (orientation: landscape) {
+
+}
+
+/*iPhone 5:*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orientation: portrait) {
+
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71) and (orientation: landscape) {
+
+}
+
+/*iPhone 6,7,8:*/
+@media screen and (device-aspect-ratio: 375/667) and (orientation: portrait) {
+
+}
+
+@media screen and (device-aspect-ratio: 375/667) and (orientation: landscape) {
+
+}
+
+/*iPhone 6,7,8 Plus:*/
+@media screen and (device-aspect-ratio: 414/736) and (orientation: portrait) {
+
+}
+
+@media screen and (device-aspect-ratio: 414/736) and (orientation: landscape) {
+
 }

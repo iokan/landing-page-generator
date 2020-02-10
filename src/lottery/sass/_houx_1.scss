@@ -1,0 +1,48 @@
+//houx
+.houx_1 {
+  text-align: center;
+  padding-bottom: 50px;
+  .container {
+    padding: 0 150px;
+  }
+   h3 {
+    font-family: "MontHeavy", sans-serif;
+    font-size: 4.2rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+
+  h6 {
+    font-family: 'MontExtraLight', sans-serif;
+    color: #ffffff;
+    font-size: 2rem;
+    display: inline-block;
+  }
+
+  h5 {
+    font-family: 'MontExtraLight', sans-serif;
+    color: #ffffff;
+    font-size: 2rem;
+    margin-top: 30px;
+    q {
+      font-family: 'MontExtraLight', sans-serif;
+      color: #ffffff;
+      font-size: 2rem;
+    }
+  }
+
+  p {
+    font-family: 'MontHeavy', sans-serif;
+    display: inline-block;
+    font-size: 2rem;
+  }
+
+  .win {
+    color: #19c32d;
+  }
+
+  .losing {
+    color: #f81b52;
+  }
+}

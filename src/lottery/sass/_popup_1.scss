@@ -7,6 +7,7 @@
   bottom: 0;
   transition: 1s;
   background: rgba(0,0,0,0);
+  z-index: -1;
 }
 
 .row {
@@ -39,10 +40,20 @@
   transition: 0.5s;
 }
 
+.popup-block h3 {
+  font-family: "MontHeavy",sans-serif;
+  font-size: 2.4rem;
+  color: #F81B52;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
 .popup-block h4 {
   font-family: "MontHeavy", sans-serif;
   text-transform: uppercase;
-  font-size: 2.4rem;
+  font-size: 2rem;
   color: #000000;
   line-height: 100%;
   letter-spacing: 0;
@@ -91,9 +102,9 @@
   overflow: hidden;
   padding: 10px 15px 10px 10px;
   background-image: url("../img/ava-default-gray.png");
-  background-position: 10px 10px;
+  background-position: 11px 11px;
   background-repeat: no-repeat;
-  background-size: 39px 39px;
+  background-size: 35px 35px;
 }
 
 .popup-block .ava-block:before {

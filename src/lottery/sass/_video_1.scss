@@ -1,6 +1,8 @@
 //video_1
 .video_1 {
-  margin-bottom: 120px;
+  margin-bottom: 60px;
+  padding-top: 30px;
+  box-shadow: 0 -30px 30px 0 rgb(8, 8, 8);
 
   .container {
     padding: 0 150px;
@@ -21,7 +23,7 @@
     text-transform: uppercase;
     text-align: center;
     line-height: 54px;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
   }
 
   video {

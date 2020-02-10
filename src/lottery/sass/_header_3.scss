@@ -2,3 +2,12 @@
 .header_3 {
 
 }
+
+.header-end {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  width: 0;
+  height: 0;
+  z-index: -1;
+}

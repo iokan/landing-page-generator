@@ -6,11 +6,48 @@
   $firstwiev_bg_repeat: no-repeat;
   @extend .firstwiev;
 
-  padding-top: 50px;
+  padding-top: 55px;
+  overflow: hidden;
 
   .congratulations {
     width: 95%;
     max-width: 1000px;
+  }
+
+  .completed {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%) rotate(35deg);
+    background: url("../img/completed.png") 50% 50% no-repeat;
+    background-size: contain;
+    width: 120%;
+    height: 50px;
+    z-index: 1;
+    filter: drop-shadow(0 0 3px rgba(0,0,0,1));
+    display: none;
+  }
+
+  .completed.seal {
+    display: block;
+    animation-name: seal;
+    animation-duration: 500ms;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+  }
+
+  @keyframes seal {
+    0% {
+      transform: translate(-50%, -50%) rotate(35deg) scale(10);
+    }
+
+    90% {
+      transform: translate(-50%, -50%) rotate(35deg) scale(0.95);
+    }
+
+    100% {
+      transform: translate(-50%, -50%) rotate(35deg) scale(1);
+    }
   }
 
   .img{
@@ -55,6 +92,17 @@
     background: linear-gradient(to right, #03DCFE 0.13%, #8A94FF 13.74%, #8B94FF 13.75%, #ECB1FF 33.47%, #00EFFE 45.45%, #009AF3 61.6%, #FF6E13 74.62%, #A0000B 81.92%, #FF1573 89.73%, #8C2981 100.15%);
   }
 
+  h2 {
+    font-size: 7.4rem;
+    font-family: "MontHeavy", sans-serif;
+    text-transform: uppercase;
+    background: radial-gradient(55.61% 937.5% at 45.7% 121.63%, #03DCFE 0%, #8B94FF 13.62%, #ECB1FF 33.33%, #00EFFE 45.31%, #009AF3 61.46%, #FF6E13 74.48%, #A0000B 81.77%, #FF1573 89.58%, #8C2981 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    letter-spacing: 5px;
+  }
+
   h3 {
     font-family: "MontHeavy", sans-serif;
     font-size: 4.2rem;
@@ -65,29 +113,75 @@
     margin-bottom: 40px;
   }
 
+  .h4 {
+    margin-top: 30px;
+    margin-bottom: 70px;
+  }
+
   h4 {
     position: relative;
     font-family: "MontHeavy", sans-serif;
     font-size: 6.4rem;
     color: #F81B52;
-    padding-top: 26px;
-    text-shadow: 0 -13px 0 rgba(255, 146, 19, 0.6), 0 -26px 0 rgba(11, 237, 255, 0.3);
     text-transform: uppercase;
     line-height: 100%;
-    margin-top: 30px;
-    margin-bottom: 70px;
+    display: inline-block;
+    margin: 0 5px;
+    text-shadow: 0 0 10px rgba(0,0,0,1);
+    line-height: 1.2;
+  }
+
+  h4:last-of-type:after {
+    content: "iphone 11 pro";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: auto;
+    transform: translate(-50%, -50%);
+    margin-top: 5%;
+    white-space: nowrap;
+    -webkit-text-stroke: 1px rgba(255, 146, 19, 0.3);
+    font-size: 1.2em;
+    background: transparent;
+    color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: none;
+  }
+
+  h4:first-of-type:after {
+    content: "Розыгрыш";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: auto;
+    transform: translate(-50%, -50%);
+    margin-top: -5%;
+    -webkit-text-stroke: 1px rgba(11, 237, 255, 0.15);
+    font-size: 1.2em;
+    background: transparent;
+    color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: none;
   }
 
   h4 span {
+    position: relative;
     font-family: inherit;
     color: inherit;
     white-space: nowrap;
+    z-index: 1;
   }
 
   h5 {
     font-size: 2.4rem;
     color: rgba(255, 255, 252, 0.7);
     text-align: center;
+    text-shadow: 0 0 3px rgba(0,0,0,0.7);
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+    display: inline-block;
+    width: 100%;
   }
 
   h6{
@@ -132,6 +226,7 @@
   }
 
   .steps-image > div {
+    position: relative;
 
   }
 
@@ -143,14 +238,28 @@
   }
 
   ul.countdown {
+    position: relative;
     list-style: none;
     margin: 30px 0;
     padding: 0;
     display: block;
     text-align: center;
+    &:after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      top: -50px;
+      transform: translateX(-50%);
+      background: url("../img/bg-phone-hirizontal.png") 50% 50% no-repeat;
+      background-size: contain;
+      width: 80vw;
+      height: 225px;
+      z-index: 0;
+    }
   }
   ul.countdown li {
     position: relative;
+    z-index: 1;
   }
   ul.countdown li span {
     font-size: 8.0rem;
@@ -158,6 +267,7 @@
     line-height: 80px;
     font-family: "MontHeavy", sans-serif;
     color: #ffffff;
+    text-shadow: 0 0 3px rgba(0,0,0,0.7);
   }
   ul.countdown li.seperator {
     width: 15px;
@@ -167,11 +277,16 @@
     margin: 0 25px;
   }
   ul.countdown li p {
-    color: rgba(255,255,255,0.5);
+    color: rgba(255,255,255,1);
     font-size: 1.6rem;
     position: absolute;
     right: 0;
     top: 100%;
+    text-shadow: 0 0 3px rgba(0,0,0,0.7);
+  }
+
+  a {
+    z-index: 1;
   }
 
   button {
@@ -180,8 +295,13 @@
     font-size: 1.8rem;
     border-radius: 30px;
     background: #f81b52;
-    margin-top: 60px;
-    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+  }
+
+  button:hover, button:active, button:focus {
+    background: #f81b52;
+    border: 0;
   }
 
   button:after {

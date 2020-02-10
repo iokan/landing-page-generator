@@ -5,6 +5,13 @@ $("body").on('click', '[href*="#"]', function (e) {
     e.preventDefault();
 });
 
+//при перезагрузки страницы переместить в самый верх
+$(document).ready(function(){
+    setTimeout(function(){
+        window.scrollTo(0, 0);
+    });
+});
+
 //добавление классов при скроле
 $(window).scroll(function () {
     var winTarget = ($(window).height())/3,
@@ -12,7 +19,9 @@ $(window).scroll(function () {
         anchor1 = $('#menu1').offset().top,
         anchor2 = $('#menu2').offset().top ,
         anchor3 = $('#menu3').offset().top,
-        anchor4 = $('#menu4').offset().top;
+        anchor4 = $('#menu4').offset().top,
+        anchor5 = $('.header-end').offset().top,
+        positionNav = $(window).scrollTop();
 
     if (position >= anchor1 && position < anchor2) {
         $('.target-1').addClass('active');
@@ -22,6 +31,7 @@ $(window).scroll(function () {
 
     if (position > anchor2 && position < anchor3) {
         $('.target-2').addClass('active');
+        $('.completed').addClass('seal');
     } else {
         $('.target-2').removeClass('active');
     }
@@ -36,5 +46,11 @@ $(window).scroll(function () {
         $('.target-4').addClass('active');
     } else {
         $('.target-4').removeClass('active');
+    }
+
+    if (positionNav >= anchor5) {
+        $('.nav_2').addClass('right');
+    } else {
+        $('.nav_2').removeClass('right');
     }
 });
