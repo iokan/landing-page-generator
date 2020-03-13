@@ -1,0 +1,191 @@
+.popup-entrance {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(29, 28, 61, 0.8);
+  z-index: 8;
+  display: none;
+
+  &.active {
+    display: block;
+  }
+
+  .popup-window {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 550px;
+    background: #5756B8;
+    border-radius: 25px;
+    padding: 50px;
+
+    h2 {
+      color: #ffffff;
+    }
+
+    > form {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    button, input {
+      width: 100%;
+      max-width: 300px;
+      height: 54px;
+      border-radius: 27px;
+      outline: 0;
+      margin-top: 30px;
+      padding: 0 15px;
+    }
+
+    button {
+      font-size: 1.8rem;
+      border: none;
+    }
+
+    input {
+      font-size: 1.8rem;
+      text-align: center;
+      color: #ffffff;
+      background: transparent;
+      border: 1px solid #ffffff;
+    }
+
+    input::placeholder {
+      font-size: 1.6rem;
+      color: rgba(255, 255, 255, 1);
+    }
+
+    .step-back {
+      position: absolute;
+      left: -25px;
+      top: -25px;
+      width: 50px;
+      height: 50px;
+      border: 1px solid #ffffff;
+      border-radius: 50%;
+      cursor: pointer;
+      overflow: hidden;
+      background-color: #5756b8;
+      background-image: url("../img/back.png");
+      background-position: 50% 50%;
+      background-size: 80% auto;
+      background-repeat: no-repeat;
+      display: block;
+
+      &.hidden {
+        display: none;
+      }
+
+    }
+
+    .step-choiсe {
+      display: flex;
+
+      &.hidden {
+        display: none;
+      }
+
+      .btn-sigh-up {
+        background: #ffffff;
+        color: #5756b8;
+        font-family: "MontRegular", sans-serif;
+      }
+
+      .btn-sigh-in {
+        background: #5756b8;
+        color: #ffffff;
+        border: 1px solid #ffffff;
+        font-family: "MontLight", sans-serif;
+      }
+    }
+
+    .step-sigh-up {
+      display: flex;
+
+      &.hidden {
+        display: none;
+      }
+
+      p {
+        color: #FFFFFF;
+        margin-top: 30px;
+        margin-bottom: 15px;
+      }
+
+      .payment {
+        position: relative;
+        width: 100%;
+        input {
+          position: absolute;
+          margin-top: 0;
+          z-index: -1;
+          visibility: hidden;
+          &:checked + label {
+            font-family: "MontRegular", sans-serif;
+            background: #ffffff;
+            color: #5756b8;
+          }
+        }
+
+        label{
+          height: 66px;
+          width: 33.333333%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-family: "MontLight", sans-serif;
+          font-size: 1.6rem;
+          line-height: 1.2;
+          color: #FFFFFF;
+          margin-top: 0;
+          border: 1px solid #ffffff;
+          margin-bottom: 0;
+          text-align: center;
+          cursor: pointer;
+          &.by-phone {
+            border-radius: 20px 0 0 20px;
+          }
+
+          &.by-card {
+            border-radius: 0;
+            margin-left: -1px;
+            margin-right: -1px;
+          }
+
+          &.by-wallet {
+            border-radius: 0 20px 20px 0;
+          }
+        }
+      }
+
+      .btn-step-sign-in {
+        background: #ffffff;
+        color: #5756b8;
+        font-family: "MontRegular", sans-serif;
+      }
+    }
+
+    .step-sigh-in {
+      display: flex;
+
+      &.hidden {
+        display: none;
+      }
+
+      .btn-step-sign-in {
+        background: #ffffff;
+        color: #5756b8;
+        font-family: "MontRegular", sans-serif;
+      }
+    }
+
+  }
+}

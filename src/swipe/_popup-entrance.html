@@ -1,0 +1,27 @@
+<div class="popup-entrance">
+    <div class="popup-window d-flex flex-column align-items-center justify-content-center">
+        <h2>ВХОД</h2>
+        <div class="step-back hidden"></div>
+        <form class="step-choiсe" novalidate>
+            <button class="btn-step-choiсe btn-sigh-up">Хочу получить доступ</button>
+            <button class="btn-step-choiсe btn-sigh-in">У меня есть аккаунт</button>
+        </form>
+        <form action="" class="step-sigh-up hidden">
+            <p>Выберите удобный способ оплаты</p>
+            <div class="payment d-flex align-items-center justify-content-center">
+                <input type="radio" name="pay" id="by-phone" value="phone" checked>
+                <label for="by-phone" class="by-phone">По номеру телефона</label>
+                <input type="radio" name="pay" id="by-card" value="card">
+                <label for="by-card" class="by-card">Банковской картой</label>
+                <input type="radio" name="pay" id="by-wallet" value="wallet">
+                <label for="by-wallet" class="by-wallet">Электронным кошельком</label>
+            </div>
+            <input type="text" placeholder="Введите свой номер телефона">
+            <button class="btn-step-sign-in">Получить доступ</button>
+        </form>
+        <form action="" class="step-sigh-in hidden">
+            <input type="text" placeholder="Введите свой номер телефона">
+            <button class="btn-step-sign-in">Войти</button>
+        </form>
+    </div>
+</div>

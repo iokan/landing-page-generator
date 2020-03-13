@@ -1,5 +1,5 @@
 'use strict';
-var project = 'lottery', //project name
+var project = 'swipe', //project name
     gulp = require('gulp'),
     gutil = require('gulp-util'),
     clean = require('gulp-clean'),
