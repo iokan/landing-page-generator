@@ -78,6 +78,20 @@ gulp.task('img', () =>
         .pipe(filesize())
 );
 
+// Optimized img доп
+gulp.task('img+', () =>
+    gulp.src('src/' + project + '/img/page-swipe/*')
+        .pipe(changed('dist/' + project + '/img/page-swipe'))
+        .pipe(filesize())
+        .pipe(imagemin({
+            optimizationLevel: 5,
+            progressive: true,
+            interlaced: true
+        }))
+        .pipe(gulp.dest('dist/' + project + '/img/page-swipe'))
+        .pipe(filesize())
+);
+
 //included files
 gulp.task('include', () =>
     gulp.src('src/'+ project + '/include/*.css')
@@ -96,6 +110,7 @@ gulp.task('watch', function (){
     gulp.watch('src/' + project + '/include/*.js', gulp.series('include'));
     gulp.watch('src/' + project + '/fonts/*', gulp.series('fonts'));
     gulp.watch('src/' + project + '/img/*', gulp.series('img'));
+    gulp.watch('src/' + project + '/img/page-swipe/*', gulp.series('img+'));
 });
 
-gulp.task('build', gulp.series('html', 'sass', 'fonts', 'vendor', 'img', 'include'));
+gulp.task('build', gulp.series('html', 'sass', 'fonts', 'vendor', 'img', 'img+', 'include'));

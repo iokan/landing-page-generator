@@ -74,6 +74,7 @@ p {
 
 a {
   font-size: 1.6rem;
+
   &:hover {
     text-decoration: none;
   }
@@ -86,13 +87,11 @@ span {
 }
 
 main {
-}
 
-.row {
-  width: 100%;
 }
 
 .origin {
+  padding: 20px 0;
   .container {
     min-height: 100vh;
 
@@ -103,12 +102,13 @@ main {
     > a {
       position: relative;
       margin-bottom: 20px;
+      padding-top: 57px;
 
       &:before {
         content: "";
         position: absolute;
         left: 50%;
-        bottom: 100%;
+        top: 0;
         transform: translateX(-50%);
         background-image: url("../img/logo.png");
         background-position: 50% 50%;
@@ -127,6 +127,8 @@ main {
 
     .row {
       margin-top: 40px;
+      width: 100%;
+      justify-content: center;
 
       .col-5th {
         height: 400px;
@@ -211,6 +213,375 @@ main {
   }
 }
 
+.page {
+  padding-left: 180px;
+
+  .container-fluid {
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .show-all {
+    font-family: 'MontRegular', sans-serif;
+    font-size: 1.6rem;
+
+    &:hover, &:focus {
+      color: #ffffff;
+    }
+  }
+}
+
+.page-music {
+  padding-bottom: 30px;
+
+  h3 {
+    font-size: 2.4rem;
+    font-family: "MontBold", sans-serif;
+    margin-bottom: 5px;
+  }
+
+  .group-title {
+    border-bottom: 1px solid #5756B8;
+    padding-bottom: 5px;
+    padding-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .music-block {
+    border: 1px solid #5756B8;
+    border-radius: 24px 0 24px 24px;
+
+    > a:first-child {
+      width: 100%;
+      background: url("../img/music-cover.png") 50% 50% no-repeat;
+      background-size: cover;
+      border-radius: 22px 0 22px 22px;
+      position: relative;
+      padding-bottom: 100%;
+
+      &:hover, &:active {
+        &:before {
+          content: "";
+          width: 92px;
+          height: 92px;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          border-radius: 10px;
+          background-color: #7A78FF;
+          background-image: url(../img/play.png);
+          background-position: 55% 50%;
+          background-size: 40% auto;
+          background-repeat: no-repeat;
+          opacity: 0.8;
+        }
+      }
+      .time {
+        position: absolute;
+        right: 0;
+        top: 0;
+        font-size: 1.6rem;
+        color: #F4F3FE;
+        background: #5756B8;
+        border-radius: 0px 0px 0px 24px;
+        padding: 5px 15px;
+      }
+    }
+
+    > div:last-child {
+      padding: 10px 15px 15px 15px;
+    }
+
+    h4 {
+      font-family: "MontBold", sans-serif;
+      font-size: 1.6rem;
+    }
+  }
+
+  .music-list {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #5756B8;
+    margin-bottom: 10px;
+
+    .music-item {
+      border-radius: 24px;
+      padding: 15px;
+      height: 124px;
+
+      &:hover, &:focus {
+        background: #191836;
+        .cover:before {
+          content: "";
+          width: 46px;
+          height: 46px;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          border-radius: 10px;
+          background-color: #7A78FF;
+          background-image: url("../img/play.png");
+          background-position: 55% 50%;
+          background-size: 22px auto;
+          background-repeat: no-repeat;
+          opacity: 0.8;
+        }
+      }
+
+      .number {
+        padding-right: 15px;
+        height: 100%;
+        border-right: 1px solid rgba(87, 86, 184, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p{
+          font-family: "MontRegular", sans-serif;
+        }
+      }
+
+      .description {
+        h4 {
+          font-family: "MontBold", sans-serif;
+          font-size: 1.6rem;
+        }
+      }
+
+      .cover {
+        position: relative;
+        width: 94px;
+        height: 100%;
+        border-radius: 8px;
+        margin: 0 20px;
+        background: url("../img/music-cover.png") 50% 50%;
+        background-size: cover;
+      }
+
+      .time {
+        margin-left: 20px;
+      }
+    }
+
+  }
+}
+
+.page-video {
+  .categories {
+    .title {
+      border-bottom: 1px solid #5756B8;
+      padding-bottom: 5px;
+      margin-bottom: 30px;
+      margin-top: 20px;
+
+      h3 {
+        font-family: "MontBold", sans-serif;
+        font-size: 2.4rem;
+      }
+    }
+
+    .row {
+      > div {
+        padding-bottom: 30px;
+      }
+    }
+
+    .video-block {
+      height: 380px;
+      border: 1px solid #5756B8;
+      border-radius: 24px;
+
+      > div:first-child {
+        width: 100%;
+        background: #5756b8;
+        border-radius: 22px;
+        position: relative;
+
+        .play {
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          width: 76px;
+          height: 76px;
+          background-color: #7A78FF;
+          background-image: url("../img/play.png");
+          background-position: 55% 50%;
+          background-repeat: no-repeat;
+          background-size: 28px auto;
+          opacity: 0.8;
+          border-radius: 10px;
+
+          &:hover, &:active {
+            opacity: 1;
+          }
+        }
+
+        .time {
+          position: absolute;
+          right: 15px;
+          bottom: 15px;
+          color: #ffffff;
+          font-size: 1.6rem;
+          padding: 7px 15px;
+          border-radius: 10px;
+          background: rgba(1, 10, 41, 0.4);
+        }
+      }
+
+      > div:last-child {
+        padding: 10px 20px 20px 20px;
+
+        .rating {
+          display: inline-block;
+          margin-left: auto;
+          font-size: 1.6rem;
+          color: #5756B8;
+          border: 1px solid #5756B8;
+          border-radius: 10px;
+          padding: 4px 12px;
+          margin-top: 5px;
+          float: right;
+          cursor: pointer;
+
+          svg {
+            color: inherit;
+            margin-right: 10px;
+            width: auto;
+            height: 19px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.page-files {
+  .categories {
+    .title {
+      border-bottom: 1px solid #5756B8;
+      padding-bottom: 5px;
+      margin-bottom: 30px;
+      margin-top: 20px;
+
+      h3 {
+        font-family: "MontBold", sans-serif;
+        font-size: 2.4rem;
+      }
+    }
+
+    .row > div {
+      padding-bottom: 30px;
+
+      > .show-all {
+
+      }
+    }
+
+    .file-block {
+      position: relative;
+      height: 380px;
+      border: 1px solid #5756B8;
+      border-radius: 25px;
+      overflow: hidden;
+
+      .file-title {
+        font-family: "MontRegular", sans-serif;
+        font-size: 1.8rem;
+        text-transform: uppercase;
+        width: 100%;
+        color: #1E1D40;
+        background: #5756B8;
+        opacity: 0.9;
+        height: 50px;
+
+        span {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          padding: 10px;
+        }
+      }
+
+      .file {
+        background-image: url("../img/file.png");
+        background-position: 50% 50%;
+        background-size: 60% auto;
+        background-repeat: no-repeat;
+      }
+
+      .description {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(82, 80, 172, 0.9);
+        padding: 30px;
+        opacity: 0;
+
+        &:hover, &:focus {
+          opacity: 1;
+        }
+
+        h4 {
+          text-transform: uppercase;
+          color: #ffffff;
+          font-family: "MontRegular", sans-serif;
+          font-size: 1.8rem;
+          margin-bottom: 15px;
+        }
+
+        p {
+          color: #ffffff;
+          font-size: 1.6rem;
+
+          span {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}
+
+.page-horoscope {
+  height: 100vh;
+
+  .container-fluid {
+    position: relative;
+    height: 100%;
+    padding-bottom: 30px;
+  }
+
+  .not-found {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    h1 {
+      font-family: "MontHeavy", sans-serif;
+      font-size: 25.6rem;
+      color: #26254F;
+      line-height: 1;
+    }
+
+    h2 {
+      font-family: "MontExtraLight", sans-serif;
+      font-size: 4.4rem;
+      color: #5756B8;
+      text-transform: none;
+      white-space: nowrap;
+      line-height: 1;
+      opacity: 0.9;
+    }
+  }
+}
+
 /* MEDIA QUERIES */
 /* width */
 @media only screen and (min-width: 1440px) {
@@ -220,15 +591,52 @@ main {
 }
 
 @media only screen and (max-width: 1439px) {
-
+  .origin .container .row .col-5th {
+    height: 340px;
+  }
 }
 
 @media only screen and (max-width: 1199px) {
+  .origin .container .row .col-5th > div p {
+    font-size: 1.8rem;
+  }
 
+  .origin .container .row .col-5th {
+    height: 290px;
+  }
+
+  h4 {
+    font-size: 2rem;
+  }
+
+  h1 {
+    font-size: 4.2rem;
+  }
+
+  .page .container-fluid {
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 
 @media only screen and (max-width: 991px) {
+  .origin .container .row .col-5th {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
 
+  .origin .container .row {
+    margin-top: 20px;
+  }
+
+  .origin .container .row .col-5th > div:hover, .origin .container .row .col-5th > div:focus {
+    -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
 }
 
 @media only screen and (max-width: 900px) {
@@ -236,7 +644,13 @@ main {
 }
 
 @media only screen and (max-width: 767px) {
-
+  .origin .container .row .col-5th {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    height: 320px;
+  }
 }
 
 @media only screen and (max-width: 550px) {
@@ -244,19 +658,80 @@ main {
 }
 
 @media only screen and (max-width: 500px) {
+  .origin .container .row .col-5th {
+    height: 300px;
+  }
 
+  h1 {
+    font-size: 3.8rem;
+  }
+
+  h4 {
+    font-size: 1.8rem;
+  }
+
+  .origin .container > a {
+    margin-bottom: 10px;
+    padding-top: 49px;
+  }
+
+  .origin .container > a:before {
+    width: 120px;
+    height: 44px
+  }
 }
 
 @media only screen and (max-width: 450px) {
+  .origin {
+    padding: 10px 0;
+  }
 
+  .origin .container .row .col-5th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .container {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .row {
+    margin-right: -10px;
+    margin-left: -10px;
+  }
+
+  .origin .container .row .col-5th > div:hover, .origin .container .row .col-5th > div:focus {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
 }
 
 @media only screen and (max-width: 400px) {
+  .origin .container .row .col-5th {
+    height: 250px;
+  }
 
+  .origin .container .row .col-5th > div a {
+    padding-bottom: 20px;
+  }
+
+  h4 {
+    font-size: 1.6rem;
+  }
+
+  .origin .container .row .col-5th > div p {
+    font-size: 1.6rem;
+  }
 }
 
 @media only screen and (max-width: 359px) {
-
+  .origin .container .row .col-5th {
+    height: 230px;
+  }
 }
 
 /* iPhone 4 */

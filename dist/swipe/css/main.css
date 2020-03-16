@@ -24,6 +24,12 @@
   font-style: normal; }
 
 @font-face {
+  font-family: 'MontBold';
+  src: url("../fonts/Mont-Bold.woff2") format("woff2"), url("../fonts/Mont-Bold.woff") format("woff"), url("../fonts/Mont-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
   font-family: 'OswaldRegular';
   src: url("../fonts/Oswald-Regular.ttf") format("truetype");
   font-weight: normal;
@@ -348,112 +354,477 @@ span {
   font-size: 1em;
   color: inherit; }
 
-.row {
-  width: 100%; }
-
-.origin .container {
-  min-height: 100vh; }
-  .origin .container a {
-    text-decoration: none; }
-  .origin .container > a {
-    position: relative;
-    margin-bottom: 20px; }
-    .origin .container > a:before {
-      content: "";
-      position: absolute;
-      left: 50%;
-      bottom: 100%;
-      -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-      transform: translateX(-50%);
-      background-image: url("../img/logo.png");
-      background-position: 50% 50%;
-      background-repeat: no-repeat;
-      background-size: contain;
-      width: 140px;
-      height: 52px;
-      margin-bottom: 5px;
-      border-radius: 25px; }
-  .origin .container .row {
-    margin-top: 40px; }
-    .origin .container .row .col-5th {
-      height: 400px;
-      -webkit-box-flex: 0;
-      -ms-flex: 0 0 20%;
-      flex: 0 0 20%;
-      max-width: 20%;
-      padding-top: 15px;
-      padding-bottom: 15px; }
-      .origin .container .row .col-5th > div {
-        width: 100%;
-        height: 100%;
-        border-radius: 25px;
-        overflow: hidden;
-        background-position: 50% 25%;
-        background-size: 85% auto, auto;
-        background-repeat: no-repeat; }
-        .origin .container .row .col-5th > div:hover, .origin .container .row .col-5th > div:focus {
-          -webkit-transform: translateY(-30px);
-          -ms-transform: translateY(-30px);
-          transform: translateY(-30px); }
-        .origin .container .row .col-5th > div a {
+.origin {
+  padding: 20px 0; }
+  .origin .container {
+    min-height: 100vh; }
+    .origin .container a {
+      text-decoration: none; }
+    .origin .container > a {
+      position: relative;
+      margin-bottom: 20px;
+      padding-top: 57px; }
+      .origin .container > a:before {
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 0;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        background-image: url("../img/logo.png");
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 140px;
+        height: 52px;
+        margin-bottom: 5px;
+        border-radius: 25px; }
+    .origin .container .row {
+      margin-top: 40px;
+      width: 100%;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+      .origin .container .row .col-5th {
+        height: 400px;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+        padding-top: 15px;
+        padding-bottom: 15px; }
+        .origin .container .row .col-5th > div {
           width: 100%;
           height: 100%;
-          padding-bottom: 30px;
-          display: -webkit-box;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-box-align: end;
-          -ms-flex-align: end;
-          align-items: flex-end;
-          -webkit-box-pack: center;
-          -ms-flex-pack: center;
-          justify-content: center; }
-        .origin .container .row .col-5th > div p {
-          font-family: 'MontRegular', sans-serif;
-          color: #ffffff;
-          font-size: 2.1rem; }
-    .origin .container .row .col-5th:first-child > div {
-      background-image: url("../img/icon-music.png"), -webkit-gradient(linear, left top, left bottom, from(#B85EFF), to(#E32138));
-      background-image: url("../img/icon-music.png"), -o-linear-gradient(#B85EFF, #E32138);
-      background-image: url("../img/icon-music.png"), linear-gradient(#B85EFF, #E32138); }
-      .origin .container .row .col-5th:first-child > div:hover, .origin .container .row .col-5th:first-child > div:focus {
-        -webkit-box-shadow: 0 30px 30px 0 rgba(227, 33, 56, 0.3);
-        box-shadow: 0 30px 30px 0 rgba(227, 33, 56, 0.3); }
-    .origin .container .row .col-5th:nth-child(2) > div {
-      background-image: url("../img/icon-video.png"), -webkit-gradient(linear, left top, left bottom, from(#FFFE72), to(#12D22C));
-      background-image: url("../img/icon-video.png"), -o-linear-gradient(#FFFE72, #12D22C);
-      background-image: url("../img/icon-video.png"), linear-gradient(#FFFE72, #12D22C); }
-      .origin .container .row .col-5th:nth-child(2) > div:hover, .origin .container .row .col-5th:nth-child(2) > div:focus {
-        -webkit-box-shadow: 0 30px 30px 0 rgba(18, 210, 44, 0.2);
-        box-shadow: 0 30px 30px 0 rgba(18, 210, 44, 0.2); }
-    .origin .container .row .col-5th:nth-child(3) > div {
-      background-image: url("../img/icon-files.png"), -webkit-gradient(linear, left top, left bottom, from(#52D5FF), to(#3749EF));
-      background-image: url("../img/icon-files.png"), -o-linear-gradient(#52D5FF, #3749EF);
-      background-image: url("../img/icon-files.png"), linear-gradient(#52D5FF, #3749EF); }
-      .origin .container .row .col-5th:nth-child(3) > div:hover, .origin .container .row .col-5th:nth-child(3) > div:focus {
-        -webkit-box-shadow: 0 30px 30px 0 rgba(55, 73, 239, 0.3);
-        box-shadow: 0 30px 30px 0 rgba(55, 73, 239, 0.3); }
-    .origin .container .row .col-5th:nth-child(4) > div {
-      background-image: url("../img/icon-horoscope.png"), -webkit-gradient(linear, left top, left bottom, from(#7E48F2), to(#6E0DA9));
-      background-image: url("../img/icon-horoscope.png"), -o-linear-gradient(#7E48F2, #6E0DA9);
-      background-image: url("../img/icon-horoscope.png"), linear-gradient(#7E48F2, #6E0DA9); }
-      .origin .container .row .col-5th:nth-child(4) > div:hover, .origin .container .row .col-5th:nth-child(4) > div:focus {
-        -webkit-box-shadow: 0 30px 30px 0 rgba(110, 13, 169, 0.4);
-        box-shadow: 0 30px 30px 0 rgba(110, 13, 169, 0.4); }
-    .origin .container .row .col-5th:last-child > div {
-      background-image: url("../img/icon-swipe.png"), -webkit-gradient(linear, left top, left bottom, from(#FFCB13), to(#FF3216));
-      background-image: url("../img/icon-swipe.png"), -o-linear-gradient(#FFCB13, #FF3216);
-      background-image: url("../img/icon-swipe.png"), linear-gradient(#FFCB13, #FF3216); }
-      .origin .container .row .col-5th:last-child > div:hover, .origin .container .row .col-5th:last-child > div:focus {
-        -webkit-box-shadow: 0 30px 30px 0 rgba(255, 50, 22, 0.3);
-        box-shadow: 0 30px 30px 0 rgba(255, 50, 22, 0.3); }
+          border-radius: 25px;
+          overflow: hidden;
+          background-position: 50% 25%;
+          background-size: 85% auto, auto;
+          background-repeat: no-repeat; }
+          .origin .container .row .col-5th > div:hover, .origin .container .row .col-5th > div:focus {
+            -webkit-transform: translateY(-30px);
+            -ms-transform: translateY(-30px);
+            transform: translateY(-30px); }
+          .origin .container .row .col-5th > div a {
+            width: 100%;
+            height: 100%;
+            padding-bottom: 30px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: end;
+            -ms-flex-align: end;
+            align-items: flex-end;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center; }
+          .origin .container .row .col-5th > div p {
+            font-family: 'MontRegular', sans-serif;
+            color: #ffffff;
+            font-size: 2.1rem; }
+      .origin .container .row .col-5th:first-child > div {
+        background-image: url("../img/icon-music.png"), -webkit-gradient(linear, left top, left bottom, from(#B85EFF), to(#E32138));
+        background-image: url("../img/icon-music.png"), -o-linear-gradient(#B85EFF, #E32138);
+        background-image: url("../img/icon-music.png"), linear-gradient(#B85EFF, #E32138); }
+        .origin .container .row .col-5th:first-child > div:hover, .origin .container .row .col-5th:first-child > div:focus {
+          -webkit-box-shadow: 0 30px 30px 0 rgba(227, 33, 56, 0.3);
+          box-shadow: 0 30px 30px 0 rgba(227, 33, 56, 0.3); }
+      .origin .container .row .col-5th:nth-child(2) > div {
+        background-image: url("../img/icon-video.png"), -webkit-gradient(linear, left top, left bottom, from(#FFFE72), to(#12D22C));
+        background-image: url("../img/icon-video.png"), -o-linear-gradient(#FFFE72, #12D22C);
+        background-image: url("../img/icon-video.png"), linear-gradient(#FFFE72, #12D22C); }
+        .origin .container .row .col-5th:nth-child(2) > div:hover, .origin .container .row .col-5th:nth-child(2) > div:focus {
+          -webkit-box-shadow: 0 30px 30px 0 rgba(18, 210, 44, 0.2);
+          box-shadow: 0 30px 30px 0 rgba(18, 210, 44, 0.2); }
+      .origin .container .row .col-5th:nth-child(3) > div {
+        background-image: url("../img/icon-files.png"), -webkit-gradient(linear, left top, left bottom, from(#52D5FF), to(#3749EF));
+        background-image: url("../img/icon-files.png"), -o-linear-gradient(#52D5FF, #3749EF);
+        background-image: url("../img/icon-files.png"), linear-gradient(#52D5FF, #3749EF); }
+        .origin .container .row .col-5th:nth-child(3) > div:hover, .origin .container .row .col-5th:nth-child(3) > div:focus {
+          -webkit-box-shadow: 0 30px 30px 0 rgba(55, 73, 239, 0.3);
+          box-shadow: 0 30px 30px 0 rgba(55, 73, 239, 0.3); }
+      .origin .container .row .col-5th:nth-child(4) > div {
+        background-image: url("../img/icon-horoscope.png"), -webkit-gradient(linear, left top, left bottom, from(#7E48F2), to(#6E0DA9));
+        background-image: url("../img/icon-horoscope.png"), -o-linear-gradient(#7E48F2, #6E0DA9);
+        background-image: url("../img/icon-horoscope.png"), linear-gradient(#7E48F2, #6E0DA9); }
+        .origin .container .row .col-5th:nth-child(4) > div:hover, .origin .container .row .col-5th:nth-child(4) > div:focus {
+          -webkit-box-shadow: 0 30px 30px 0 rgba(110, 13, 169, 0.4);
+          box-shadow: 0 30px 30px 0 rgba(110, 13, 169, 0.4); }
+      .origin .container .row .col-5th:last-child > div {
+        background-image: url("../img/icon-swipe.png"), -webkit-gradient(linear, left top, left bottom, from(#FFCB13), to(#FF3216));
+        background-image: url("../img/icon-swipe.png"), -o-linear-gradient(#FFCB13, #FF3216);
+        background-image: url("../img/icon-swipe.png"), linear-gradient(#FFCB13, #FF3216); }
+        .origin .container .row .col-5th:last-child > div:hover, .origin .container .row .col-5th:last-child > div:focus {
+          -webkit-box-shadow: 0 30px 30px 0 rgba(255, 50, 22, 0.3);
+          box-shadow: 0 30px 30px 0 rgba(255, 50, 22, 0.3); }
+
+.page {
+  padding-left: 180px; }
+  .page .container-fluid {
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px; }
+  .page .show-all {
+    font-family: 'MontRegular', sans-serif;
+    font-size: 1.6rem; }
+    .page .show-all:hover, .page .show-all:focus {
+      color: #ffffff; }
+
+.page-music {
+  padding-bottom: 30px; }
+  .page-music h3 {
+    font-size: 2.4rem;
+    font-family: "MontBold", sans-serif;
+    margin-bottom: 5px; }
+  .page-music .group-title {
+    border-bottom: 1px solid #5756B8;
+    padding-bottom: 5px;
+    padding-top: 50px;
+    margin-bottom: 20px; }
+  .page-music .music-block {
+    border: 1px solid #5756B8;
+    border-radius: 24px 0 24px 24px; }
+    .page-music .music-block > a:first-child {
+      width: 100%;
+      background: url("../img/music-cover.png") 50% 50% no-repeat;
+      background-size: cover;
+      border-radius: 22px 0 22px 22px;
+      position: relative;
+      padding-bottom: 100%; }
+      .page-music .music-block > a:first-child:hover:before, .page-music .music-block > a:first-child:active:before {
+        content: "";
+        width: 92px;
+        height: 92px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+        background-color: #7A78FF;
+        background-image: url(../img/play.png);
+        background-position: 55% 50%;
+        background-size: 40% auto;
+        background-repeat: no-repeat;
+        opacity: 0.8; }
+      .page-music .music-block > a:first-child .time {
+        position: absolute;
+        right: 0;
+        top: 0;
+        font-size: 1.6rem;
+        color: #F4F3FE;
+        background: #5756B8;
+        border-radius: 0px 0px 0px 24px;
+        padding: 5px 15px; }
+    .page-music .music-block > div:last-child {
+      padding: 10px 15px 15px 15px; }
+    .page-music .music-block h4 {
+      font-family: "MontBold", sans-serif;
+      font-size: 1.6rem; }
+  .page-music .music-list {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #5756B8;
+    margin-bottom: 10px; }
+    .page-music .music-list .music-item {
+      border-radius: 24px;
+      padding: 15px;
+      height: 124px; }
+      .page-music .music-list .music-item:hover, .page-music .music-list .music-item:focus {
+        background: #191836; }
+        .page-music .music-list .music-item:hover .cover:before, .page-music .music-list .music-item:focus .cover:before {
+          content: "";
+          width: 46px;
+          height: 46px;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          border-radius: 10px;
+          background-color: #7A78FF;
+          background-image: url("../img/play.png");
+          background-position: 55% 50%;
+          background-size: 22px auto;
+          background-repeat: no-repeat;
+          opacity: 0.8; }
+      .page-music .music-list .music-item .number {
+        padding-right: 15px;
+        height: 100%;
+        border-right: 1px solid rgba(87, 86, 184, 0.5);
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center; }
+        .page-music .music-list .music-item .number p {
+          font-family: "MontRegular", sans-serif; }
+      .page-music .music-list .music-item .description h4 {
+        font-family: "MontBold", sans-serif;
+        font-size: 1.6rem; }
+      .page-music .music-list .music-item .cover {
+        position: relative;
+        width: 94px;
+        height: 100%;
+        border-radius: 8px;
+        margin: 0 20px;
+        background: url("../img/music-cover.png") 50% 50%;
+        background-size: cover; }
+      .page-music .music-list .music-item .time {
+        margin-left: 20px; }
+
+.page-video .categories .title {
+  border-bottom: 1px solid #5756B8;
+  padding-bottom: 5px;
+  margin-bottom: 30px;
+  margin-top: 20px; }
+  .page-video .categories .title h3 {
+    font-family: "MontBold", sans-serif;
+    font-size: 2.4rem; }
+
+.page-video .categories .row > div {
+  padding-bottom: 30px; }
+
+.page-video .categories .video-block {
+  height: 380px;
+  border: 1px solid #5756B8;
+  border-radius: 24px; }
+  .page-video .categories .video-block > div:first-child {
+    width: 100%;
+    background: #5756b8;
+    border-radius: 22px;
+    position: relative; }
+    .page-video .categories .video-block > div:first-child .play {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      width: 76px;
+      height: 76px;
+      background-color: #7A78FF;
+      background-image: url("../img/play.png");
+      background-position: 55% 50%;
+      background-repeat: no-repeat;
+      background-size: 28px auto;
+      opacity: 0.8;
+      border-radius: 10px; }
+      .page-video .categories .video-block > div:first-child .play:hover, .page-video .categories .video-block > div:first-child .play:active {
+        opacity: 1; }
+    .page-video .categories .video-block > div:first-child .time {
+      position: absolute;
+      right: 15px;
+      bottom: 15px;
+      color: #ffffff;
+      font-size: 1.6rem;
+      padding: 7px 15px;
+      border-radius: 10px;
+      background: rgba(1, 10, 41, 0.4); }
+  .page-video .categories .video-block > div:last-child {
+    padding: 10px 20px 20px 20px; }
+    .page-video .categories .video-block > div:last-child .rating {
+      display: inline-block;
+      margin-left: auto;
+      font-size: 1.6rem;
+      color: #5756B8;
+      border: 1px solid #5756B8;
+      border-radius: 10px;
+      padding: 4px 12px;
+      margin-top: 5px;
+      float: right;
+      cursor: pointer; }
+      .page-video .categories .video-block > div:last-child .rating svg {
+        color: inherit;
+        margin-right: 10px;
+        width: auto;
+        height: 19px; }
+
+.page-files .categories .title {
+  border-bottom: 1px solid #5756B8;
+  padding-bottom: 5px;
+  margin-bottom: 30px;
+  margin-top: 20px; }
+  .page-files .categories .title h3 {
+    font-family: "MontBold", sans-serif;
+    font-size: 2.4rem; }
+
+.page-files .categories .row > div {
+  padding-bottom: 30px; }
+
+.page-files .categories .file-block {
+  position: relative;
+  height: 380px;
+  border: 1px solid #5756B8;
+  border-radius: 25px;
+  overflow: hidden; }
+  .page-files .categories .file-block .file-title {
+    font-family: "MontRegular", sans-serif;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    width: 100%;
+    color: #1E1D40;
+    background: #5756B8;
+    opacity: 0.9;
+    height: 50px; }
+    .page-files .categories .file-block .file-title span {
+      overflow: hidden;
+      -o-text-overflow: ellipsis;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      padding: 10px; }
+  .page-files .categories .file-block .file {
+    background-image: url("../img/file.png");
+    background-position: 50% 50%;
+    background-size: 60% auto;
+    background-repeat: no-repeat; }
+  .page-files .categories .file-block .description {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(82, 80, 172, 0.9);
+    padding: 30px;
+    opacity: 0; }
+    .page-files .categories .file-block .description:hover, .page-files .categories .file-block .description:focus {
+      opacity: 1; }
+    .page-files .categories .file-block .description h4 {
+      text-transform: uppercase;
+      color: #ffffff;
+      font-family: "MontRegular", sans-serif;
+      font-size: 1.8rem;
+      margin-bottom: 15px; }
+    .page-files .categories .file-block .description p {
+      color: #ffffff;
+      font-size: 1.6rem; }
+      .page-files .categories .file-block .description p span {
+        display: block; }
+
+.page-horoscope {
+  height: 100vh; }
+  .page-horoscope .container-fluid {
+    position: relative;
+    height: 100%;
+    padding-bottom: 30px; }
+  .page-horoscope .not-found {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+    .page-horoscope .not-found h1 {
+      font-family: "MontHeavy", sans-serif;
+      font-size: 25.6rem;
+      color: #26254F;
+      line-height: 1; }
+    .page-horoscope .not-found h2 {
+      font-family: "MontExtraLight", sans-serif;
+      font-size: 4.4rem;
+      color: #5756B8;
+      text-transform: none;
+      white-space: nowrap;
+      line-height: 1;
+      opacity: 0.9; }
 
 /* MEDIA QUERIES */
 /* width */
 @media only screen and (min-width: 1440px) {
   .container {
     max-width: 1380px; } }
+
+@media only screen and (max-width: 1439px) {
+  .origin .container .row .col-5th {
+    height: 340px; } }
+
+@media only screen and (max-width: 1199px) {
+  .origin .container .row .col-5th > div p {
+    font-size: 1.8rem; }
+  .origin .container .row .col-5th {
+    height: 290px; }
+  h4 {
+    font-size: 2rem; }
+  h1 {
+    font-size: 4.2rem; }
+  .page .container-fluid {
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px; } }
+
+@media only screen and (max-width: 991px) {
+  .origin .container .row .col-5th {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%; }
+  .origin .container .row {
+    margin-top: 20px; }
+  .origin .container .row .col-5th > div:hover, .origin .container .row .col-5th > div:focus {
+    -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px); } }
+
+@media only screen and (max-width: 767px) {
+  .origin .container .row .col-5th {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    height: 320px; } }
+
+@media only screen and (max-width: 500px) {
+  .origin .container .row .col-5th {
+    height: 300px; }
+  h1 {
+    font-size: 3.8rem; }
+  h4 {
+    font-size: 1.8rem; }
+  .origin .container > a {
+    margin-bottom: 10px;
+    padding-top: 49px; }
+  .origin .container > a:before {
+    width: 120px;
+    height: 44px; } }
+
+@media only screen and (max-width: 450px) {
+  .origin {
+    padding: 10px 0; }
+  .origin .container .row .col-5th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px; }
+  .container {
+    padding-right: 10px;
+    padding-left: 10px; }
+  .row {
+    margin-right: -10px;
+    margin-left: -10px; }
+  .origin .container .row .col-5th > div:hover, .origin .container .row .col-5th > div:focus {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px); } }
+
+@media only screen and (max-width: 400px) {
+  .origin .container .row .col-5th {
+    height: 250px; }
+  .origin .container .row .col-5th > div a {
+    padding-bottom: 20px; }
+  h4 {
+    font-size: 1.6rem; }
+  .origin .container .row .col-5th > div p {
+    font-size: 1.6rem; } }
+
+@media only screen and (max-width: 359px) {
+  .origin .container .row .col-5th {
+    height: 230px; } }
 
 /* iPhone 4 */
 /* iPhone 5 */
