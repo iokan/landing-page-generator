@@ -1,3 +1,13 @@
+//выезжание хедера
+$(".burger").click(function () {
+    if ($(this).hasClass('active')) {
+        $(this).removeClass('active');
+        $('header').removeClass('header-in');
+    } else {
+        $(this).addClass('active');
+        $('header').addClass('header-in');
+    }
+});
 //показ и скрытие popup окна по клику
 $(".btn-entrance").click(function () {
     if ($('.popup-entrance').hasClass('active')) {
@@ -15,25 +25,25 @@ $(".nav-item").click(function () {
     $('.popup-entrance').removeClass('active');
 });
 
+//кнопка вперед
+$(".close-popap").click(function () {
+    $("body").css("overflow", "auto");
+    $('.popup-entrance').removeClass('active');
+});
+
 //шаг выбор вход/рестрация
 $(".btn-step-choiсe").click(function () {
     if ($(this).hasClass('btn-sigh-up')) {
-        $(".step-choiсe").addClass('hidden');
         $(".step-sigh-up").removeClass('hidden');
-        $(".step-back").removeClass('hidden');
     }
     else if ($(this).hasClass('btn-sigh-in')){
-        $(".step-choiсe").addClass('hidden');
         $(".step-sigh-in").removeClass('hidden');
-        $(".step-back").removeClass('hidden');
     }
+    $(".step-choiсe").addClass('hidden');
+    $(".step-back").removeClass('hidden');
 });
 
-//шаг регистрация
-
-//шаг вход
-
-//шаг назад
+//кнопка назад
 $(".step-back").click(function () {
     $(this).addClass('hidden');
     $(".step-choiсe").removeClass('hidden');

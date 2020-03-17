@@ -92,6 +92,7 @@ main {
 
 .origin {
   padding: 20px 0;
+
   .container {
     min-height: 100vh;
 
@@ -245,12 +246,12 @@ main {
     border-bottom: 1px solid #5756B8;
     padding-bottom: 5px;
     padding-top: 50px;
-    margin-bottom: 20px;
   }
 
   .music-block {
     border: 1px solid #5756B8;
     border-radius: 24px 0 24px 24px;
+    margin-top: 30px;
 
     > a:first-child {
       width: 100%;
@@ -280,6 +281,7 @@ main {
           opacity: 0.8;
         }
       }
+
       .time {
         position: absolute;
         right: 0;
@@ -293,7 +295,7 @@ main {
     }
 
     > div:last-child {
-      padding: 10px 15px 15px 15px;
+      padding: 8px 10px 8px 10px;
     }
 
     h4 {
@@ -314,6 +316,7 @@ main {
 
       &:hover, &:focus {
         background: #191836;
+
         .cover:before {
           content: "";
           width: 46px;
@@ -339,12 +342,16 @@ main {
         display: flex;
         align-items: center;
         justify-content: center;
-        p{
+
+        p {
           font-family: "MontRegular", sans-serif;
+          width: 20px;
         }
       }
 
       .description {
+        flex: 1;
+
         h4 {
           font-family: "MontBold", sans-serif;
           font-size: 1.6rem;
@@ -594,6 +601,11 @@ main {
   .origin .container .row .col-5th {
     height: 340px;
   }
+
+  .page .container-fluid {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 }
 
 @media only screen and (max-width: 1199px) {
@@ -611,12 +623,6 @@ main {
 
   h1 {
     font-size: 4.2rem;
-  }
-
-  .page .container-fluid {
-    padding-top: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
   }
 }
 
@@ -644,6 +650,10 @@ main {
 }
 
 @media only screen and (max-width: 767px) {
+  * {
+    font-size: 9px;
+  }
+
   .origin .container .row .col-5th {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 50%;
@@ -651,10 +661,46 @@ main {
     max-width: 50%;
     height: 320px;
   }
+
+  .page {
+    padding-left: 0;
+  }
+
+  .page-horoscope .not-found h1 {
+    font-size: 20.6rem;
+  }
+  .page-horoscope .not-found h2 {
+    font-size: 3.4rem;
+  }
 }
 
 @media only screen and (max-width: 550px) {
+  .page .container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 
+  .page-music h3 {
+    font-size: 2.2rem;
+    padding-top: 20px;
+  }
+
+  .page-music .music-list .music-item {
+    height: 105px;
+  }
+
+  .page-music .music-list .music-item .cover {
+    width: 75px;
+    margin: 0 15px;
+  }
+
+  .page-music .music-list .music-item .number {
+    padding-right: 10px;
+  }
+
+  .page-music .music-list .music-item .time {
+    margin-left: 10px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -678,6 +724,57 @@ main {
   .origin .container > a:before {
     width: 120px;
     height: 44px
+  }
+
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-left: -10px;
+  }
+
+  .page .container-fluid {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .page-music {
+    padding-bottom: 20px;
+  }
+
+  .page-music h3 {
+    padding-left: 0;
+  }
+
+  .page-music .music-block {
+    margin-top: 20px;
+  }
+
+  .col-6 {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .page-horoscope .not-found h1 {
+    font-size: 15.6rem;
+  }
+
+  .page-horoscope .not-found h2 {
+    font-size: 2.4rem;
+  }
+
+  .popup-entrance .popup-window {
+    padding: 50px 25px;
+  }
+
+  .popup-entrance .popup-window .step-sigh-up .payment label {
+    font-size: 1.5rem;
+  }
+
+  .popup-entrance .popup-window .step-sigh-up p {
+    font-size: 1.5rem;
   }
 }
 
@@ -726,11 +823,66 @@ main {
   .origin .container .row .col-5th > div p {
     font-size: 1.6rem;
   }
+
+  .page-music .music-list .music-item {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+  .page-music .music-list .music-item .number {
+    border-right: none;
+    padding-right: 0;
+  }
+
+  .page-music .music-list .music-item .cover {
+    margin: 0 10px;
+  }
+
+  .popup-entrance .popup-window .step-sigh-up .payment label {
+    font-size: 1.35rem;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  .popup-entrance .popup-window .step-sigh-up .payment label {
+    font-size: 1.2rem;
+  }
 }
 
 @media only screen and (max-width: 359px) {
   .origin .container .row .col-5th {
     height: 230px;
+  }
+
+  .page-music .music-list .music-item .time {
+    display: none;
+  }
+
+  .col-6 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .popup-entrance .popup-window {
+    padding: 25px 15px;
+  }
+
+  .popup-entrance .popup-window .step-sigh-up .payment label {
+    font-size: 1.2rem;
+  }
+
+  .popup-entrance .popup-window .step-sigh-up p {
+    font-size: 1.4rem;
+  }
+
+  .popup-entrance .popup-window button {
+    font-size: 1.6rem;
+    border: none;
+  }
+
+  input::placeholder {
+    font-size: 1.4rem !important;
   }
 }
 

@@ -1,5 +1,6 @@
 @import "fonts";
 @import "header";
+@import "popup-entrance";
 
 .header-end {
   position: absolute;
@@ -1083,9 +1084,9 @@ footer, .footer-2 {
   .firstwiev_2 .steps-image p {
     font-size: 2rem; }
   .firstwiev_2 h4 {
-    font-size: 6.2rem; }
+    font-size: 5rem; }
   .firstwiev_2 h2 {
-    font-size: 6.2rem; }
+    font-size: 5rem; }
   .firstwiev_2 h5 {
     font-size: 2.2rem; }
   .firstwiev_2 h3, .houx_1 h3 {
@@ -1108,9 +1109,9 @@ footer, .footer-2 {
   .firstwiev_2 ul.countdown li span, .video_1 ul.countdown li span {
     font-size: 7.0rem; }
   .firstwiev_2 h4 {
-    font-size: 5rem; }
+    font-size: 4rem; }
   .firstwiev_2 h2 {
-    font-size: 5rem; }
+    font-size: 4rem; }
   .firstwiev_2 h3, .houx_1 h3 {
     font-size: 3rem; }
   .steps-image img {
@@ -1136,9 +1137,9 @@ footer, .footer-2 {
 
 @media only screen and (max-width: 991px) {
   .firstwiev_2 h4 {
-    font-size: 4rem; }
+    font-size: 3.6rem; }
   .firstwiev_2 h2 {
-    font-size: 4rem; }
+    font-size: 3.6rem; }
   .firstwiev_2 h5 {
     font-size: 2rem; }
   .video_1 .countdown > p {
@@ -1222,13 +1223,26 @@ footer, .footer-2 {
   .nav_2 a > p {
     font-size: 1.5rem; }
   .nav_2 p span {
-    font-size: 2.2rem; } }
-
-@media only screen and (max-width: 767px) {
-  .nav_2 {
-    right: 0px; }
+    font-size: 2.2rem; }
   aside {
     display: none; }
+  .nav_2 {
+    right: 0px; }
+}
+
+@media only screen and (max-width: 767px) {
+  .firstwiev, .firstwiev_2 {
+    padding-left: 0;
+  }
+
+  .video_1 {
+    padding-left: 0;
+  }
+
+  .houx_1 {
+    padding-left: 0;
+  }
+
   .firstwiev_2 .steps {
     padding: 0 15px; }
   .video_1 .container, .houx_1 .container {

@@ -12,13 +12,18 @@
     <meta name="HandheldFriendly" content="true"/>
     <title>Розыгрыш!!!</title>
     <title>Title</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/ico.png"/>
     <link rel="stylesheet" href="include/bootstrap.min.css">
     <link rel="stylesheet" href="include/font-awesome.min.css">
     <link rel="stylesheet" href="css/page-swipe.css">
-
 </head>
 <body>
 <header class="d-flex flex-column align-items-start justify-content-between">
+    <div class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
     <a class="align-self-center" href="index.html">
         <img src="img/logo.png" alt=""/>
     </a>
@@ -82,36 +87,64 @@
     </div>
 </aside>
 <main>
-    <div class="nav_1">
-        <div class="container">
-            <nav class="navbar navbar-expand-md navbar-light">
-
-                <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="navbar-icon"></span>
-                    <span class="navbar-icon"></span>
-                    <span class="navbar-icon"></span>
-                </button>
-
-                <div class="navbar-collapse collapse justify-content-end">
-                    <ul class="navbar-nav flex-column">
-                        <li class="target-1 nav-item active">
-                            <a class="nav-link" href="#menu1">Главная</a>
-                        </li>
-                        <li class="target-2 nav-item">
-                            <a class="nav-link" href="#menu2">Условия</a>
-                        </li>
-                        <li class="target-3 nav-item">
-                            <a class="nav-link" href="#menu3">Приз</a>
-                        </li>
-                        <li class="target-4 nav-item">
-                            <a class="nav-link" href="#menu4">Трансляция</a>
-                        </li>
-                    </ul>
+    <div class="popup-entrance">
+        <div class="popup-window d-flex flex-column align-items-center justify-content-center">
+            <h2>ВХОД</h2>
+            <div class="step-back hidden"><span><span></span><span></span></span></div>
+            <div class="close-popap"><span></span><span></span></div>
+            <form class="step-choiсe" novalidate>
+                <button class="btn-step-choiсe btn-sigh-up">Хочу получить доступ</button>
+                <button class="btn-step-choiсe btn-sigh-in">У меня есть аккаунт</button>
+            </form>
+            <form action="" class="step-sigh-up hidden">
+                <p>Выберите удобный способ оплаты</p>
+                <div class="payment d-flex align-items-center justify-content-center">
+                    <input type="radio" name="pay" id="by-phone" value="phone" checked>
+                    <label for="by-phone" class="by-phone">По номеру телефона</label>
+                    <input type="radio" name="pay" id="by-card" value="card">
+                    <label for="by-card" class="by-card">Банковской картой</label>
+                    <input type="radio" name="pay" id="by-wallet" value="wallet">
+                    <label for="by-wallet" class="by-wallet">Электронным кошельком</label>
                 </div>
-
-            </nav>
+                <input type="text" placeholder="Введите свой номер телефона">
+                <button class="btn-step-sign-in">Получить доступ</button>
+            </form>
+            <form action="" class="step-sigh-in hidden">
+                <input type="text" placeholder="Введите свой номер телефона">
+                <button class="btn-step-sign-in">Войти</button>
+            </form>
         </div>
     </div>
+<!--    <div class="nav_1">-->
+<!--        <div class="container">-->
+<!--            <nav class="navbar navbar-expand-md navbar-light">-->
+
+<!--                <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target=".navbar-collapse">-->
+<!--                    <span class="navbar-icon"></span>-->
+<!--                    <span class="navbar-icon"></span>-->
+<!--                    <span class="navbar-icon"></span>-->
+<!--                </button>-->
+
+<!--                <div class="navbar-collapse collapse justify-content-end">-->
+<!--                    <ul class="navbar-nav flex-column">-->
+<!--                        <li class="target-1 nav-item active">-->
+<!--                            <a class="nav-link" href="#menu1">Главная</a>-->
+<!--                        </li>-->
+<!--                        <li class="target-2 nav-item">-->
+<!--                            <a class="nav-link" href="#menu2">Условия</a>-->
+<!--                        </li>-->
+<!--                        <li class="target-3 nav-item">-->
+<!--                            <a class="nav-link" href="#menu3">Приз</a>-->
+<!--                        </li>-->
+<!--                        <li class="target-4 nav-item">-->
+<!--                            <a class="nav-link" href="#menu4">Трансляция</a>-->
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+
+<!--            </nav>-->
+<!--        </div>-->
+<!--    </div>-->
     <div class="nav_2 d-flex flex-column align-items-end">
         <p>Ваш ID: <span>123456789</span></p>
         <a href="#our-houxs"><p>Ваши розыгрыши</p></a>

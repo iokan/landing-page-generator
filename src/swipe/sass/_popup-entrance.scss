@@ -17,7 +17,7 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 80%;
+    width: 90%;
     max-width: 550px;
     background: #5756B8;
     border-radius: 25px;
@@ -25,6 +25,7 @@
 
     h2 {
       color: #ffffff;
+      font-family: "MontHeavy", sans-serif;
     }
 
     > form {
@@ -43,11 +44,20 @@
       outline: 0;
       margin-top: 30px;
       padding: 0 15px;
+      text-transform: none;
     }
 
     button {
       font-size: 1.8rem;
       border: none;
+
+      &:after {
+        display: none;
+      }
+
+      &:before {
+        display: none;
+      }
     }
 
     input {
@@ -65,25 +75,78 @@
 
     .step-back {
       position: absolute;
-      left: -25px;
-      top: -25px;
+      left: 0;
+      top: 0;
       width: 50px;
       height: 50px;
-      border: 1px solid #ffffff;
       border-radius: 50%;
       cursor: pointer;
       overflow: hidden;
-      background-color: #5756b8;
-      background-image: url("../img/back.png");
-      background-position: 50% 50%;
-      background-size: 80% auto;
-      background-repeat: no-repeat;
       display: block;
+      box-shadow: inset 0 0 4px 0 rgba(255, 255, 255, 0.3);
 
       &.hidden {
         display: none;
       }
 
+      span {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 22px;
+        height: 2px;
+        background: #ffffff;
+        transform: translate(-50%, -50%);
+
+        span {
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 15px;
+          height: 100%;
+
+          &:first-child {
+            transform: rotate(-50deg);
+            transform-origin: 0 100%;
+          }
+
+          &:last-child {
+            transform: rotate(50deg);
+            transform-origin: 0 0;
+          }
+        }
+      }
+    }
+
+    .close-popap {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      cursor: pointer;
+      overflow: hidden;
+      display: block;
+      box-shadow: inset 0 0 4px 0 rgba(255, 255, 255, 0.3);
+
+      span {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 25px;
+        height: 2px;
+        background: #ffffff;
+        transform-origin: 50% 50%;
+
+        &:first-child {
+          transform: translate(-50%, -50%) rotate(45deg);
+        }
+
+        &:last-child {
+          transform: translate(-50%, -50%) rotate(-45deg);
+        }
+      }
     }
 
     .step-choiсe {
@@ -118,16 +181,19 @@
         color: #FFFFFF;
         margin-top: 30px;
         margin-bottom: 15px;
+        font-size: 1.6rem;
       }
 
       .payment {
         position: relative;
         width: 100%;
+
         input {
           position: absolute;
           margin-top: 0;
           z-index: -1;
           visibility: hidden;
+
           &:checked + label {
             font-family: "MontRegular", sans-serif;
             background: #ffffff;
@@ -135,7 +201,7 @@
           }
         }
 
-        label{
+        label {
           height: 66px;
           width: 33.333333%;
           display: flex;
@@ -150,6 +216,7 @@
           margin-bottom: 0;
           text-align: center;
           cursor: pointer;
+
           &.by-phone {
             border-radius: 20px 0 0 20px;
           }
