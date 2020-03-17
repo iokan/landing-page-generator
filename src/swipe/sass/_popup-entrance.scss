@@ -184,6 +184,13 @@
         font-size: 1.6rem;
       }
 
+      .phone-number {
+
+        &.hidden {
+          display: none;
+        }
+      }
+
       .payment {
         position: relative;
         width: 100%;
@@ -198,6 +205,11 @@
             font-family: "MontRegular", sans-serif;
             background: #ffffff;
             color: #5756b8;
+          }
+
+          &:disabled + label {
+            opacity: 0.5;
+            cursor: not-allowed;
           }
         }
 
@@ -216,6 +228,7 @@
           margin-bottom: 0;
           text-align: center;
           cursor: pointer;
+          transition: 0ms;
 
           &.by-phone {
             border-radius: 20px 0 0 20px;
@@ -229,6 +242,65 @@
 
           &.by-wallet {
             border-radius: 0 20px 20px 0;
+          }
+        }
+      }
+
+      .payment-card {
+        position: relative;
+        width: 100%;
+        border-radius: 27px;
+        margin-top: 30px;
+        padding: 0 30px 30px;
+        border: 1px solid #ffffff;
+        background: rgba(255,255,255,0.1);
+
+        &.hidden {
+          display: none;
+        }
+
+        input, select {
+          border-radius: 11px;
+        }
+
+        input {
+          max-width: 100%;
+        }
+
+        > div {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-direction: row;
+          margin-right: -15px;
+          margin-left: -15px;
+
+          input, select {
+            margin-right: 15px;
+            margin-left: 15px;
+            font-size: 1.6rem;
+          }
+
+          select {
+            height: 54px;
+            text-align: center;
+            color: #ffffff;
+            background: transparent;
+            border: 1px solid #ffffff;
+            margin-top: 30px;
+            outline: 0;
+            width: 150px;
+            padding: 0 15px;
+            flex: 1;
+
+            option {
+              font-size: 1em;
+              color: #000000;
+            }
+          }
+
+          #card-cvc {
+            width: 110px !important;
           }
         }
       }
@@ -253,6 +325,7 @@
         font-family: "MontRegular", sans-serif;
       }
     }
+
 
   }
 }

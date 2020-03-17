@@ -362,6 +362,8 @@ header {
         margin-top: 30px;
         margin-bottom: 15px;
         font-size: 1.6rem; }
+      .popup-entrance .popup-window .step-sigh-up .phone-number.hidden {
+        display: none; }
       .popup-entrance .popup-window .step-sigh-up .payment {
         position: relative;
         width: 100%; }
@@ -374,6 +376,9 @@ header {
             font-family: "MontRegular", sans-serif;
             background: #ffffff;
             color: #5756b8; }
+          .popup-entrance .popup-window .step-sigh-up .payment input:disabled + label {
+            opacity: 0.5;
+            cursor: not-allowed; }
         .popup-entrance .popup-window .step-sigh-up .payment label {
           height: 66px;
           width: 33.333333%;
@@ -394,7 +399,10 @@ header {
           border: 1px solid #ffffff;
           margin-bottom: 0;
           text-align: center;
-          cursor: pointer; }
+          cursor: pointer;
+          -webkit-transition: 0ms;
+          -o-transition: 0ms;
+          transition: 0ms; }
           .popup-entrance .popup-window .step-sigh-up .payment label.by-phone {
             border-radius: 20px 0 0 20px; }
           .popup-entrance .popup-window .step-sigh-up .payment label.by-card {
@@ -403,6 +411,58 @@ header {
             margin-right: -1px; }
           .popup-entrance .popup-window .step-sigh-up .payment label.by-wallet {
             border-radius: 0 20px 20px 0; }
+      .popup-entrance .popup-window .step-sigh-up .payment-card {
+        position: relative;
+        width: 100%;
+        border-radius: 27px;
+        margin-top: 30px;
+        padding: 0 30px 30px;
+        border: 1px solid #ffffff;
+        background: rgba(255, 255, 255, 0.1); }
+        .popup-entrance .popup-window .step-sigh-up .payment-card.hidden {
+          display: none; }
+        .popup-entrance .popup-window .step-sigh-up .payment-card input, .popup-entrance .popup-window .step-sigh-up .payment-card select {
+          border-radius: 11px; }
+        .popup-entrance .popup-window .step-sigh-up .payment-card input {
+          max-width: 100%; }
+        .popup-entrance .popup-window .step-sigh-up .payment-card > div {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+          justify-content: space-between;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+          flex-direction: row;
+          margin-right: -15px;
+          margin-left: -15px; }
+          .popup-entrance .popup-window .step-sigh-up .payment-card > div input, .popup-entrance .popup-window .step-sigh-up .payment-card > div select {
+            margin-right: 15px;
+            margin-left: 15px;
+            font-size: 1.6rem; }
+          .popup-entrance .popup-window .step-sigh-up .payment-card > div select {
+            height: 54px;
+            text-align: center;
+            color: #ffffff;
+            background: transparent;
+            border: 1px solid #ffffff;
+            margin-top: 30px;
+            outline: 0;
+            width: 150px;
+            padding: 0 15px;
+            -webkit-box-flex: 1;
+            -ms-flex: 1;
+            flex: 1; }
+            .popup-entrance .popup-window .step-sigh-up .payment-card > div select option {
+              font-size: 1em;
+              color: #000000; }
+          .popup-entrance .popup-window .step-sigh-up .payment-card > div #card-cvc {
+            width: 110px !important; }
       .popup-entrance .popup-window .step-sigh-up .btn-step-sign-in {
         background: #ffffff;
         color: #5756b8;

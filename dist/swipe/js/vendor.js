@@ -45,6 +45,17 @@ $(".btn-step-choiсe").click(function () {
     $(".step-back").removeClass('hidden');
 });
 
+//Выбор способа оплаты
+$(".by-phone").click(function () {
+    $('.phone-number').removeClass('hidden');
+    $('.payment-card').addClass('hidden');
+});
+
+$(".by-card").click(function () {
+    $('.payment-card').removeClass('hidden');
+    $('.phone-number').addClass('hidden');
+});
+
 //кнопка назад
 $(".step-back").click(function () {
     $(this).addClass('hidden');

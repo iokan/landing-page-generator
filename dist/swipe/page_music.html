@@ -51,14 +51,48 @@
             <form action="" class="step-sigh-up hidden">
                 <p>Выберите удобный способ оплаты</p>
                 <div class="payment d-flex align-items-center justify-content-center">
-                    <input type="radio" name="pay" id="by-phone" value="phone" checked>
+                    <input type="radio" name="pay" id="by-phone" value="phone">
                     <label for="by-phone" class="by-phone">По номеру телефона</label>
-                    <input type="radio" name="pay" id="by-card" value="card">
+                    <input type="radio" name="pay" id="by-card" value="card" checked>
                     <label for="by-card" class="by-card">Банковской картой</label>
-                    <input type="radio" name="pay" id="by-wallet" value="wallet">
+                    <input type="radio" name="pay" id="by-wallet" value="wallet" disabled>
                     <label for="by-wallet" class="by-wallet">Электронным кошельком</label>
                 </div>
-                <input type="text" placeholder="Введите свой номер телефона">
+                <div class="payment-card">
+                    <input type="text" class="cart-number" placeholder="Номер карты">
+                    <div>
+                        <select name="month" class="card-month">
+                            <option value="">Месяц</option>
+                            <option value="1">01</option>
+                            <option value="2">02</option>
+                            <option value="3">03</option>
+                            <option value="4">04</option>
+                            <option value="5">05</option>
+                            <option value="6">06</option>
+                            <option value="7">07</option>
+                            <option value="8">08</option>
+                            <option value="9">09</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                        <select name="year" class="card-year">
+                            <option value="">Год</option>
+                            <option value="2020">2020</option>
+                            <option value="2021">2021</option>
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                            <option value="2026">2026</option>
+                            <option value="2027">2027</option>
+                            <option value="2028">2028</option>
+                        </select>
+                        <input type="number" id="card-cvc" placeholder="CVC/CVV">
+                    </div>
+                    <input type="text" class="card-holder" placeholder="Владелец карты">
+                </div>
+                <input class="phone-number hidden" type="text" placeholder="Введите свой номер телефона">
                 <button class="btn-step-sign-in">Получить доступ</button>
             </form>
             <form action="" class="step-sigh-in hidden">
