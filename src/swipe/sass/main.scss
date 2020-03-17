@@ -134,10 +134,10 @@ main {
       .col-5th {
         height: 400px;
         -webkit-box-flex: 0;
-        -webkit-flex: 0 0 20%;
-        -ms-flex: 0 0 20%;
-        flex: 0 0 20%;
-        max-width: 20%;
+        -webkit-flex: 0 0 25%;
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
         padding-top: 15px;
         padding-bottom: 15px;
 
@@ -883,6 +883,29 @@ main {
 
   input::placeholder {
     font-size: 1.4rem !important;
+  }
+}
+
+@media only screen and (max-height: 700px) {
+  header ul li {
+    height: 90px !important;
+  }
+  header ul li.active:before {
+    border-radius: 0 0 15px 0;
+    height: 15px;
+  }
+
+  header ul li.active:after {
+    border-radius: 0 15px 0 0;
+    height: 15px;
+  }
+
+  header ul li {
+    position: relative;
+    height: 118px;
+    padding: 15px 0;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 }
 
