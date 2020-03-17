@@ -10,14 +10,21 @@ header {
   z-index: 8;
 
   &.header-in {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
     transform: translateX(0);
+    -webkit-box-shadow: 5px 0 15px 0 rgba(30, 29, 64, 0.9);
     box-shadow: 5px 0 15px 0 rgba(30, 29, 64, 0.9);
 
     .burger {
 
       span{
         &:nth-child(1){
+          -webkit-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
           transform: rotate(45deg);
         }
 
@@ -26,6 +33,8 @@ header {
         }
 
         &:nth-child(3){
+          -webkit-transform: rotate(-45deg);
+          -ms-transform: rotate(-45deg);
           transform: rotate(-45deg);
         }
       }
@@ -40,8 +49,15 @@ header {
     height: 44px;
     padding: 8px;
     display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     cursor: pointer;
     -webkit-backdrop-filter: blur(4px);
@@ -53,7 +69,11 @@ header {
       height: 2px;
       background: rgba(255,255,255,1);
       margin-bottom: 8px;
+      -webkit-transition: 250ms;
+      -o-transition: 250ms;
       transition: 250ms;
+      -webkit-transform-origin: 0 50%;
+      -ms-transform-origin: 0 50%;
       transform-origin: 0 50%;
 
       &:last-child {
@@ -109,8 +129,14 @@ header {
         width: 100%;
         height: 100%;
         border-radius: 35px 0 0 35px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
         justify-content: flex-start;
         padding-left: 15px;
 
@@ -123,6 +149,8 @@ header {
     }
 
     li.active {
+      background: -webkit-gradient(linear, left top, right top, color-stop(50%, #26254f), color-stop(50%, #1e1d40));
+      background: -o-linear-gradient(left, #26254f 50%, #1e1d40 50%);
       background: linear-gradient(to right, #26254f 50%, #1e1d40 50%);
 
       &:before {
@@ -156,8 +184,12 @@ header {
 
 @media only screen and (max-width: 767px) {
   header {
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
     transform: translateX(-100%);
     .burger {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
     }
   }

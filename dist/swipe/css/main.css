@@ -150,8 +150,8 @@ header {
           height: auto;
           margin-right: 15px; }
     header ul li.active {
-      background: -webkit-gradient(linear, left top, right top, color-stop(50%, #26254f), color-stop(50%, #1e1d40));
       background: -o-linear-gradient(left, #26254f 50%, #1e1d40 50%);
+      background: -webkit-gradient(linear, left top, right top, color-stop(50%, #26254f), color-stop(50%, #1e1d40));
       background: linear-gradient(to right, #26254f 50%, #1e1d40 50%); }
       header ul li.active:before {
         content: "";
@@ -551,36 +551,36 @@ span {
             color: #ffffff;
             font-size: 2.1rem; }
       .origin .container .row .col-5th:first-child > div {
-        background-image: url("../img/icon-music.png"), -webkit-gradient(linear, left top, left bottom, from(#B85EFF), to(#E32138));
         background-image: url("../img/icon-music.png"), -o-linear-gradient(#B85EFF, #E32138);
+        background-image: url("../img/icon-music.png"), -webkit-gradient(linear, left top, left bottom, from(#B85EFF), to(#E32138));
         background-image: url("../img/icon-music.png"), linear-gradient(#B85EFF, #E32138); }
         .origin .container .row .col-5th:first-child > div:hover, .origin .container .row .col-5th:first-child > div:focus {
           -webkit-box-shadow: 0 30px 30px 0 rgba(227, 33, 56, 0.3);
           box-shadow: 0 30px 30px 0 rgba(227, 33, 56, 0.3); }
       .origin .container .row .col-5th:nth-child(2) > div {
-        background-image: url("../img/icon-video.png"), -webkit-gradient(linear, left top, left bottom, from(#FFFE72), to(#12D22C));
         background-image: url("../img/icon-video.png"), -o-linear-gradient(#FFFE72, #12D22C);
+        background-image: url("../img/icon-video.png"), -webkit-gradient(linear, left top, left bottom, from(#FFFE72), to(#12D22C));
         background-image: url("../img/icon-video.png"), linear-gradient(#FFFE72, #12D22C); }
         .origin .container .row .col-5th:nth-child(2) > div:hover, .origin .container .row .col-5th:nth-child(2) > div:focus {
           -webkit-box-shadow: 0 30px 30px 0 rgba(18, 210, 44, 0.2);
           box-shadow: 0 30px 30px 0 rgba(18, 210, 44, 0.2); }
       .origin .container .row .col-5th:nth-child(3) > div {
-        background-image: url("../img/icon-files.png"), -webkit-gradient(linear, left top, left bottom, from(#52D5FF), to(#3749EF));
         background-image: url("../img/icon-files.png"), -o-linear-gradient(#52D5FF, #3749EF);
+        background-image: url("../img/icon-files.png"), -webkit-gradient(linear, left top, left bottom, from(#52D5FF), to(#3749EF));
         background-image: url("../img/icon-files.png"), linear-gradient(#52D5FF, #3749EF); }
         .origin .container .row .col-5th:nth-child(3) > div:hover, .origin .container .row .col-5th:nth-child(3) > div:focus {
           -webkit-box-shadow: 0 30px 30px 0 rgba(55, 73, 239, 0.3);
           box-shadow: 0 30px 30px 0 rgba(55, 73, 239, 0.3); }
       .origin .container .row .col-5th:nth-child(4) > div {
-        background-image: url("../img/icon-horoscope.png"), -webkit-gradient(linear, left top, left bottom, from(#7E48F2), to(#6E0DA9));
         background-image: url("../img/icon-horoscope.png"), -o-linear-gradient(#7E48F2, #6E0DA9);
+        background-image: url("../img/icon-horoscope.png"), -webkit-gradient(linear, left top, left bottom, from(#7E48F2), to(#6E0DA9));
         background-image: url("../img/icon-horoscope.png"), linear-gradient(#7E48F2, #6E0DA9); }
         .origin .container .row .col-5th:nth-child(4) > div:hover, .origin .container .row .col-5th:nth-child(4) > div:focus {
           -webkit-box-shadow: 0 30px 30px 0 rgba(110, 13, 169, 0.4);
           box-shadow: 0 30px 30px 0 rgba(110, 13, 169, 0.4); }
       .origin .container .row .col-5th:last-child > div {
-        background-image: url("../img/icon-swipe.png"), -webkit-gradient(linear, left top, left bottom, from(#FFCB13), to(#FF3216));
         background-image: url("../img/icon-swipe.png"), -o-linear-gradient(#FFCB13, #FF3216);
+        background-image: url("../img/icon-swipe.png"), -webkit-gradient(linear, left top, left bottom, from(#FFCB13), to(#FF3216));
         background-image: url("../img/icon-swipe.png"), linear-gradient(#FFCB13, #FF3216); }
         .origin .container .row .col-5th:last-child > div:hover, .origin .container .row .col-5th:last-child > div:focus {
           -webkit-box-shadow: 0 30px 30px 0 rgba(255, 50, 22, 0.3);

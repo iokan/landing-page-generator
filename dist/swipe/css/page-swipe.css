@@ -150,8 +150,8 @@ header {
           height: auto;
           margin-right: 15px; }
     header ul li.active {
-      background: -webkit-gradient(linear, left top, right top, color-stop(50%, #26254f), color-stop(50%, #1e1d40));
       background: -o-linear-gradient(left, #26254f 50%, #1e1d40 50%);
+      background: -webkit-gradient(linear, left top, right top, color-stop(50%, #26254f), color-stop(50%, #1e1d40));
       background: linear-gradient(to right, #26254f 50%, #1e1d40 50%); }
       header ul li.active:before {
         content: "";
@@ -2134,6 +2134,5 @@ footer, .footer-2 {
 /*iPhone 5:*/
 /*iPhone 6,7,8:*/
 /*iPhone 6,7,8 Plus:*/
-/*# sourceMappingURL=main.css.map */
 
 /*# sourceMappingURL=page-swipe.css.map */

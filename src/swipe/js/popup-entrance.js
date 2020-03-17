@@ -1,5 +1,6 @@
 //показ и скрытие popup окна по клику
 $(".btn-entrance").click(function () {
+
     if ($('.popup-entrance').hasClass('active')) {
         $("body").css("overflow", "auto");
         $('.popup-entrance').removeClass('active');
@@ -29,6 +30,7 @@ $(".btn-step-choiсe").click(function () {
     else if ($(this).hasClass('btn-sigh-in')){
         $(".step-sigh-in").removeClass('hidden');
     }
+    event.preventDefault()
     $(".step-choiсe").addClass('hidden');
     $(".step-back").removeClass('hidden');
 });
