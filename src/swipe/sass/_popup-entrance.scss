@@ -303,6 +303,14 @@
             width: 110px !important;
           }
         }
+
+        .card-holder {
+          text-transform: uppercase;
+
+          &::placeholder {
+            text-transform: none;
+          }
+        }
       }
 
       .btn-step-sign-in {

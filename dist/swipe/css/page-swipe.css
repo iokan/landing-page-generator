@@ -463,6 +463,18 @@ header {
               color: #000000; }
           .popup-entrance .popup-window .step-sigh-up .payment-card > div #card-cvc {
             width: 110px !important; }
+        .popup-entrance .popup-window .step-sigh-up .payment-card .card-holder {
+          text-transform: uppercase; }
+          .popup-entrance .popup-window .step-sigh-up .payment-card .card-holder::-webkit-input-placeholder {
+            text-transform: none; }
+          .popup-entrance .popup-window .step-sigh-up .payment-card .card-holder::-moz-placeholder {
+            text-transform: none; }
+          .popup-entrance .popup-window .step-sigh-up .payment-card .card-holder:-ms-input-placeholder {
+            text-transform: none; }
+          .popup-entrance .popup-window .step-sigh-up .payment-card .card-holder::-ms-input-placeholder {
+            text-transform: none; }
+          .popup-entrance .popup-window .step-sigh-up .payment-card .card-holder::placeholder {
+            text-transform: none; }
       .popup-entrance .popup-window .step-sigh-up .btn-step-sign-in {
         background: #ffffff;
         color: #5756b8;
