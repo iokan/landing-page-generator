@@ -1172,11 +1172,8 @@ span {
     -webkit-transform: translateY(-10px);
     -ms-transform: translateY(-10px);
     transform: translateY(-10px); }
-  .popup-entrance .popup-window .step-sigh-up .payment-card > div select {
-    -webkit-box-flex: 1;
-    -ms-flex: auto;
-    flex: auto;
-    width: calc(50% - 20px); } }
+  .popup-entrance .popup-window .step-sigh-up .payment-card > div #card-cvc {
+    width: 70px !important; } }
 
 @media only screen and (max-width: 400px) {
   .origin .container .row .col-5th {
@@ -1230,7 +1227,9 @@ span {
   input::-ms-input-placeholder {
     font-size: 1.4rem !important; }
   input::placeholder {
-    font-size: 1.4rem !important; } }
+    font-size: 1.4rem !important; }
+  .popup-entrance .popup-window .step-sigh-up .payment-card > div #card-cvc {
+    width: 55px !important; } }
 
 @media only screen and (max-height: 700px) {
   header ul li {

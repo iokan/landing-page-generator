@@ -1014,9 +1014,8 @@ main {
     transform: translateY(-10px);
   }
 
-  .popup-entrance .popup-window .step-sigh-up .payment-card > div select {
-    flex: auto;
-    width: calc(50% - 20px);
+  .popup-entrance .popup-window .step-sigh-up .payment-card > div #card-cvc {
+    width: 70px !important;
   }
 }
 
@@ -1113,6 +1112,10 @@ main {
 
   input::placeholder {
     font-size: 1.4rem !important;
+  }
+
+  .popup-entrance .popup-window .step-sigh-up .payment-card > div #card-cvc {
+    width: 55px !important;
   }
 }
 
