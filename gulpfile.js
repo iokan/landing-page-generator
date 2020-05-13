@@ -1,9 +1,36 @@
 'use strict';
-var project = '1', //project name
-    header = '1',
-    footer = '1';
+let project = '1'; //project name
 
-var gulp = require('gulp'),
+let block = { //block numbers, where 0 - do not use
+    header: '1',
+    firstScreen: '1',
+    advantages: '10',
+    team: '1',
+    catalog: '2',
+    blog: '1',
+    comment: '2',
+    form: '1',
+    gallery: '10',
+    info: '3',
+    footer: '1'
+};
+
+const path = {
+    template: 'template',
+    header: 'blocks/1_header/',
+    firstScreen: 'blocks/2_firstscreen/',
+    advantages: 'blocks/3_advantages/',
+    team: 'blocks/4_team/',
+    catalog: 'blocks/5_catalog/',
+    blog: 'blocks/6_blog/',
+    comment: 'blocks/7_comment/',
+    form: 'blocks/8_form/',
+    gallery: 'blocks/9_gallery/',
+    info: 'blocks/10_info/',
+    footer: 'blocks/11_footer/'
+};
+
+const gulp = require('gulp'),
     gutil = require('gulp-util'),
     clean = require('gulp-clean'),
     sass = require('gulp-sass'),
@@ -20,14 +47,27 @@ var gulp = require('gulp'),
 
 // Take
 gulp.task('take', function(){
-    return gulp.src(['blocks/2_header/' + header + '/*', 'blocks/11_footer/' + footer + '/*'])
+    return gulp.src([
+        path.template + '/**',
+        path.header + block.header + '/**',
+        path.firstScreen + block.firstScreen + '/**',
+        path.advantages + block.advantages + '/**',
+        path.team + block.team + '/**',
+        path.catalog + block.catalog + '/**',
+        path.blog + block.blog + '/**',
+        path.comment + block.comment + '/**',
+        path.form + block.form + '/**',
+        path.gallery + block.gallery + '/**',
+        path.info + block.info + '/**',
+        path.footer + block.footer + '/**'
+    ])
         .pipe(gulp.dest('src/' + project + '/' ))
 });
 
 // Cleangulp
 gulp.task('clean', function () {
     return gulp.src('dist/' + project , {read: false})
-        .pipe(clean());
+        .pipe(clean())
 });
 
 // Html

@@ -1,0 +1,16 @@
+//firstwiev
+.firstwiev {
+  $firstwiev_bg_img: url(../img/noimg.png);
+  $firstwiev_bg_size: cover;
+  $firstwiev_bg_position: 50% 50%;
+  $firstwiev_bg_repeat: no-repeat;
+  @extend .border-box;
+  @extend .firstwiev;
+
+  background-image: $firstwiev_bg_img;
+  background-size: $firstwiev_bg_size;
+  background-position: $firstwiev_bg_position;
+  background-repeat: $firstwiev_bg_repeat;
+  height: 100vh;
+}
+
