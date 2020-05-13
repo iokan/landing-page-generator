@@ -1,6 +1,9 @@
 'use strict';
-var project = 'swipe', //project name
-    gulp = require('gulp'),
+var project = '1', //project name
+    header = '1',
+    footer = '1';
+
+var gulp = require('gulp'),
     gutil = require('gulp-util'),
     clean = require('gulp-clean'),
     sass = require('gulp-sass'),
@@ -14,6 +17,12 @@ var project = 'swipe', //project name
     filesize = require('gulp-filesize'),
     rigger = require('gulp-rigger'),
     watch = require('gulp-watch');
+
+// Take
+gulp.task('take', function(){
+    return gulp.src(['blocks/2_header/' + header + '/*', 'blocks/11_footer/' + footer + '/*'])
+        .pipe(gulp.dest('src/' + project + '/' ))
+});
 
 // Cleangulp
 gulp.task('clean', function () {
